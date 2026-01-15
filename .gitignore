@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+# Large data (keep structure, not raw data)
+data/*
+!data/.gitkeep

@@ -1,0 +1,5 @@
+Please provide a clear and concise definition of the following concept.
+
+Concept: {concept}
+
+Definition:

@@ -1,0 +1,5 @@
+Based only on the definition you just provided, answer the following question.
+
+Question: {application_query}
+
+Answer with only "Yes" or "No".
