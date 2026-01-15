@@ -1,0 +1,101 @@
+domain,model_answer,expected_answer
+Scientific Concepts,no,no
+Scientific Concepts,no,no
+Common Nouns,yes,no
+Science,yes,yes
+Mathematics & Logic,no,no
+Mathematics & Logic,no,no
+Mathematics & Logic,yes,yes
+Common Nouns,no,no
+Procedural Concepts,yes,yes
+Scientific Concepts,yes,yes
+Scientific Concepts,yes,yes
+Common Nouns,yes,yes
+Abstract Properties,yes,yes
+Mathematics & Logic,no,no
+Procedural,no,no
+Mathematics & Logic,yes,yes
+Procedural Concepts,no,no
+Social & Ethical Concepts,no,no
+Mathematics & Logic,yes,yes
+Scientific Concepts,no,no
+Common Nouns,no,yes
+Everyday,no,no
+Common Nouns,yes,no
+Mathematics & Logic,no,no
+Scientific Concepts,yes,yes
+Mathematics & Logic,yes,yes
+Common Nouns,yes,yes
+Scientific Concepts,no,no
+Common Nouns,yes,yes
+Abstract Properties,yes,yes
+Social & Ethical Concepts,no,no
+Mathematics & Logic,yes,yes
+Social & Ethical Concepts,no,no
+Abstract Properties,yes,yes
+Common Nouns,yes,yes
+Common Nouns,no,no
+Abstract Properties,yes,yes
+Everyday,yes,yes
+Scientific Concepts,no,no
+Procedural Concepts,yes,yes
+Scientific Concepts,yes,yes
+Mathematics & Logic,yes,yes
+Procedural Concepts,no,yes
+Abstract Properties,no,no
+Social & Ethical Concepts,no,no
+Social & Ethical Concepts,no,no
+Scientific Concepts,no,no
+Scientific Concepts,yes,yes
+Social & Ethical Concepts,yes,yes
+Procedural Concepts,no,yes
+Mathematics & Logic,no,no
+Common Nouns,no,no
+Abstract Properties,yes,yes
+Mathematics & Logic,yes,yes
+Mathematics & Logic,no,yes
+Procedural Concepts,no,yes
+Scientific Concepts,no,no
+Mathematics & Logic,yes,yes
+Scientific Concepts,no,no
+Procedural Concepts,yes,yes
+Scientific Concepts,yes,yes
+Scientific Concepts,yes,yes
+Abstract,no,no
+Abstract Properties,no,no
+Social & Ethical Concepts,yes,yes
+Scientific Concepts,yes,yes
+Mathematics & Logic,no,no
+Procedural,no,no
+Mathematics & Logic,yes,yes
+Procedural Concepts,yes,yes
+Science,no,no
+Common Nouns,no,no
+Procedural Concepts,no,no
+Procedural Concepts,yes,yes
+Common Nouns,no,no
+Abstract Properties,yes,yes
+Social & Ethical Concepts,yes,yes
+Scientific Concepts,yes,yes
+Mathematics & Logic,no,no
+Abstract Properties,no,no
+Scientific Concepts,no,no
+Common Nouns,no,no
+Scientific Concepts,yes,yes
+Abstract Properties,yes,yes
+Common Nouns,no,no
+Abstract Properties,yes,yes
+Abstract Properties,yes,yes
+Procedural Concepts,no,no
+Scientific Concepts,yes,yes
+Science,yes,yes
+Procedural Concepts,no,no
+Procedural Concepts,no,no
+Abstract Properties,yes,yes
+Social & Ethical Concepts,no,no
+Mathematics & Logic,yes,yes
+Scientific Concepts,no,no
+Common Nouns,yes,yes
+Scientific Concepts,no,no
+Scientific Concepts,yes,yes
+Abstract,yes,yes

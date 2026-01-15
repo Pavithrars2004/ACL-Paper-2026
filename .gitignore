@@ -9,9 +9,8 @@ __pycache__/
 # Environment variables
 .env
 
-# Logs
-logs/
+# Logs (keep logs if you want reproducibility)
+# logs/
 
-# Large data (keep structure, not raw data)
-data/*
-!data/.gitkeep
+# ❌ DO NOT ignore data or figures
+

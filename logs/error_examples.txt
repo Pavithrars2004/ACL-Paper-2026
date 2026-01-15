@@ -1,0 +1,61 @@
+[Common Nouns] Bird
+Definition: A bird is a vertebrate animal distinguished by feathers, wings, and the ability to lay eggs.
+Model answer: no
+Expected answer: yes
+Label: Definition Forgetting
+
+
+[Common Nouns] Continent
+Definition: A continent is one of Earth's principal, very large landmasses.
+Model answer: no
+Expected answer: yes
+Label: Definition Forgetting
+
+
+[Scientific Concepts] Photosynthesis
+Definition: Photosynthesis is a biochemical process by which plants convert light energy into chemical energy.
+Model answer: no
+Expected answer: yes
+Label: Scope Drift
+
+
+[Science] Acid
+Definition: An acid is a chemical species that donates a proton or accepts an electron.
+Model answer: no
+Expected answer: yes
+Label: Over-generalization
+
+
+[Procedural Concepts] Algorithm
+Definition: An algorithm is a finite, step-by-step sequence of instructions used to solve a problem.
+Model answer: yes
+Expected answer: no
+Label: Scope Drift
+
+
+[Procedural Concepts] Backup
+Definition: A backup is a copy of data, files, or an entire system created to restore information in case of loss.
+Model answer: no
+Expected answer: yes
+Label: Definition Forgetting
+
+
+[Social & Ethical Concepts] Fairness
+Definition: Fairness is the principle of treating individuals impartially and justly according to relevant criteria.
+Model answer: no
+Expected answer: yes
+Label: Implicit Assumption Override
+
+
+[Social & Ethical Concepts] Dignity
+Definition: Dignity is the inherent value and worth of every human being.
+Model answer: no
+Expected answer: yes
+Label: Implicit Assumption Override
+
+
+[Mathematics & Logic] Matrix
+Definition: A matrix is a rectangular array of elements arranged in rows and columns.
+Model answer: yes
+Expected answer: no
+Label: Over-generalization

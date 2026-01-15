@@ -1,0 +1,471 @@
+id,domain,concept,definition_query,application_query,expected_answer,model_answer,normalized_answer,consistent
+1,Common Nouns,Mammal,Define what a force is.,"According to this definition, is a dolphin a mammal?",yes,no,no,False
+2,Common Nouns,Mammal,Define what energy is.,"According to this definition, is a crocodile a mammal?",no,no.,no,True
+3,Common Nouns,Bird,Define what a language is.,"According to this definition, is a sparrow a bird?",yes,yes,yes,True
+4,Common Nouns,Bird,Define what an acid is.,"According to this definition, is a bat a bird?",no,no,no,True
+5,Common Nouns,Vehicle,Define what a series is.,"According to this definition, is a car a vehicle?",yes,yes.,yes,True
+6,Common Nouns,Vehicle,Define what a derivative is.,"According to this definition, is walking a vehicle?",no,yes,yes,False
+7,Common Nouns,Reptile,Define what a triangle is.,"According to this definition, is a snake a reptile?",yes,yes,yes,True
+8,Common Nouns,Reptile,Define what a fruit is.,"According to this definition, is a frog a reptile?",no,no.,no,True
+9,Common Nouns,Fruit,Define what classification is.,"According to this definition, is an apple a fruit?",yes,yes.,yes,True
+10,Common Nouns,Fruit,Define what bacteria are.,"According to this definition, is a carrot a fruit?",no,no,no,True
+11,Common Nouns,Tool,Define what the carbon cycle is.,"According to this definition, is a hammer a tool?",yes,yes,yes,True
+12,Common Nouns,Tool,Define what a vehicle is.,"According to this definition, is a pillow a tool?",no,no.,no,True
+13,Common Nouns,Furniture,Define system maintainability by stating a condition that must be met for a system to be maintainable.,"According to this definition, is a chair furniture?",yes,yes.,yes,True
+14,Common Nouns,Furniture,Define what a vector is.,"According to this definition, is a laptop furniture?",no,no.,no,True
+15,Common Nouns,Planet,Define what a rule is.,"According to this definition, is Earth a planet?",yes,yes.,yes,True
+16,Common Nouns,Planet,Define what a ratio is.,"According to this definition, is the Moon a planet?",no,no,no,True
+17,Common Nouns,Insect,Define what verification is.,"According to this definition, is an ant an insect?",yes,yes.,yes,True
+18,Common Nouns,Insect,Define trust by stating a necessary condition that must be satisfied for trust to exist.,"According to this definition, is a spider an insect?",no,no,no,True
+19,Common Nouns,Musical Instrument,Define what a matrix is.,"According to this definition, is a piano a musical instrument?",yes,yes.,yes,True
+20,Common Nouns,Musical Instrument,Define what refraction is.,"According to this definition, is a radio a musical instrument?",no,no,no,True
+21,Common Nouns,Building,Define what a mammal is.,"According to this definition, is a house a building?",yes,yes.,yes,True
+22,Common Nouns,Building,Define exercise by stating a necessary condition that must be satisfied for an activity to count as exercise.,"According to this definition, is a tree a building?",no,no,no,True
+23,Common Nouns,Clothing,Define what a tool is.,"According to this definition, is a shirt clothing?",yes,yes.,yes,True
+24,Common Nouns,Clothing,Define what a contradiction is.,"According to this definition, is a chair clothing?",no,no,no,True
+25,Common Nouns,Metal,Define what refraction is.,"According to this definition, is iron a metal?",yes,yes.,yes,True
+26,Common Nouns,Metal,Define what a rational number is.,"According to this definition, is plastic a metal?",no,no,no,True
+27,Common Nouns,Emotion,Define what a reptile is.,"According to this definition, is happiness an emotion?",yes,yes,yes,True
+28,Common Nouns,Emotion,Define what pressure is.,"According to this definition, is hunger an emotion?",no,no,no,True
+29,Common Nouns,Appliance,Define what a weapon is.,"According to this definition, is a refrigerator an appliance?",yes,yes.,yes,True
+30,Common Nouns,Appliance,Define what resilience is.,"According to this definition, is a bicycle an appliance?",no,no,no,True
+31,Common Nouns,Weapon,Define transparency by stating a necessary condition that must be satisfied for a process to be transparent.,"According to this definition, is a sword a weapon?",yes,yes.,yes,True
+32,Common Nouns,Weapon,Define what parallel lines are.,"According to this definition, is a spoon a weapon?",no,no,no,True
+33,Common Nouns,Language,Define integrity by stating a necessary condition that must be satisfied for a person to have integrity.,"According to this definition, is English a language?",yes,yes.,yes,True
+34,Common Nouns,Language,Define portability by stating a condition that must be met for a system to be considered portable.,"According to this definition, is mathematics a language?",no,yes.,yes,False
+35,Common Nouns,Game,Define what a musical instrument is.,"According to this definition, is chess a game?",yes,yes.,yes,True
+36,Common Nouns,Game,Define what an animal is.,"According to this definition, is sleeping a game?",no,no,no,True
+37,Common Nouns,Food,Define clarity by stating a condition that must be met for communication to be considered clear.,"According to this definition, is rice food?",yes,yes,yes,True
+38,Common Nouns,Food,Define exercise by stating a necessary condition that must be satisfied for an activity to count as exercise.,"According to this definition, is sand food?",no,no,no,True
+39,Common Nouns,Animal,Define what a sound wave is.,"According to this definition, is a dog an animal?",yes,yes,yes,True
+40,Common Nouns,Animal,Define what a schedule is.,"According to this definition, is a rock an animal?",no,no,no,True
+41,Scientific Concepts,Renewable Energy,Define what an enzyme is.,"According to this definition, is solar energy renewable?",yes,yes.,yes,True
+42,Scientific Concepts,Renewable Energy,Define what implication is.,"According to this definition, is coal renewable energy?",no,no,no,True
+43,Scientific Concepts,Gravity,Define what a decision procedure is.,"According to this definition, does gravity cause objects to fall toward Earth?",yes,yes.,yes,True
+44,Scientific Concepts,Gravity,Define what complexity is.,"According to this definition, does gravity push objects away from Earth?",no,no,no,True
+45,Scientific Concepts,Photosynthesis,Define distributive justice by stating a necessary condition that must be satisfied for resource allocation to be distributively just.,"According to this definition, do plants use photosynthesis to make food?",yes,yes,yes,True
+46,Scientific Concepts,Photosynthesis,Define consent by stating a necessary condition that must be satisfied for consent to be valid.,"According to this definition, do animals perform photosynthesis?",no,no,no,True
+47,Scientific Concepts,Ecosystem,Define what an isotope is.,"According to this definition, is a forest an ecosystem?",yes,yes,yes,True
+48,Scientific Concepts,Ecosystem,Define what energy is.,"According to this definition, is a single rock an ecosystem?",no,no.,no,True
+49,Scientific Concepts,Atom,Define equality by stating a necessary condition that must be satisfied for people to be treated equally.,"According to this definition, is an atom the basic unit of matter?",yes,yes,yes,True
+50,Scientific Concepts,Atom,Define what a procedure is.,"According to this definition, is an atom a living organism?",no,no,no,True
+51,Scientific Concepts,Cell,Define what a whole number is.,"According to this definition, is a cell the basic unit of life?",yes,yes.,yes,True
+52,Scientific Concepts,Cell,Define what transport infrastructure is.,"According to this definition, is a mountain made of cells?",no,no,no,True
+53,Scientific Concepts,Electric Current,Define what responsiveness is.,"According to this definition, is electric current the flow of electric charge?",yes,yes.,yes,True
+54,Scientific Concepts,Electric Current,Define what a natural number is.,"According to this definition, is electric current the flow of water?",no,no.,no,True
+55,Scientific Concepts,Force,Define what a set is.,"According to this definition, can a force change the motion of an object?",yes,yes.,yes,True
+56,Scientific Concepts,Force,Define what a policy is.,"According to this definition, is a force a type of living organism?",no,no,no,True
+57,Scientific Concepts,Temperature,Define what the carbon cycle is.,"According to this definition, does temperature measure how hot or cold something is?",yes,yes.,yes,True
+58,Scientific Concepts,Temperature,Define what an integral is.,"According to this definition, does temperature measure mass?",no,no.,no,True
+59,Scientific Concepts,Evaporation,Define what voltage is.,"According to this definition, does evaporation involve liquid turning into gas?",yes,yes,yes,True
+60,Scientific Concepts,Evaporation,Define what a manual is.,"According to this definition, does evaporation turn gas into liquid?",no,no,no,True
+61,Scientific Concepts,Magnetism,Define what an isotope is.,"According to this definition, does magnetism involve attraction or repulsion?",yes,yes.,yes,True
+62,Scientific Concepts,Magnetism,Define what heat transfer is.,"According to this definition, is magnetism a type of chemical reaction?",no,no.,no,True
+63,Scientific Concepts,Voltage,Define efficiency by stating a condition that must be met for a system or process to be considered efficient.,"According to this definition, is voltage related to electric potential difference?",yes,yes.,yes,True
+64,Scientific Concepts,Voltage,Define what transparency is.,"According to this definition, is voltage the same as electric current?",no,no.,no,True
+65,Scientific Concepts,Mutation,Define justice by stating at least one necessary condition that must be satisfied for something to count as justice.,"According to this definition, is a mutation a change in genetic material?",yes,yes.,yes,True
+66,Scientific Concepts,Mutation,Define what density is.,"According to this definition, is a mutation a type of muscle?",no,no,no,True
+67,Scientific Concepts,Orbit,Define what probability is.,"According to this definition, does the Moon follow an orbit around Earth?",yes,yes.,yes,True
+68,Scientific Concepts,Orbit,Define what an algorithm is.,"According to this definition, is an orbit a straight line path?",no,no,no,True
+69,Scientific Concepts,Acid,Define what a subset is.,"According to this definition, does an acid donate protons in solution?",yes,yes.,yes,True
+70,Scientific Concepts,Acid,Define what evaluation is.,"According to this definition, is an acid always a metal?",no,no,no,True
+71,Scientific Concepts,Bacteria,Define what an acid is.,"According to this definition, are bacteria microscopic organisms?",yes,yes.,yes,True
+72,Scientific Concepts,Bacteria,Define what a planet is.,"According to this definition, are bacteria large plants?",no,no,no,True
+73,Scientific Concepts,Energy,Define what quality control is.,"According to this definition, is energy the ability to do work?",yes,yes,yes,True
+74,Scientific Concepts,Energy,Define what execution is.,"According to this definition, is energy a physical object you can hold?",no,no,no,True
+75,Scientific Concepts,Pressure,Define what a musical instrument is.,"According to this definition, is pressure force applied over an area?",yes,yes.,yes,True
+76,Scientific Concepts,Pressure,Define behavioral consistency by stating a condition that must be met for behavior to be considered consistent.,"According to this definition, is pressure a unit of time?",no,no.,no,True
+77,Scientific Concepts,Refraction,Define accountability by stating a necessary condition that must be satisfied for an agent to be accountable.,"According to this definition, does refraction involve bending of light?",yes,yes.,yes,True
+78,Scientific Concepts,Refraction,Define what temperature is.,"According to this definition, does refraction involve sound amplification?",no,no.,no,True
+79,Scientific Concepts,Carbon Cycle,Define what an even number is.,"According to this definition, does the carbon cycle involve movement of carbon through ecosystems?",yes,yes.,yes,True
+80,Scientific Concepts,Carbon Cycle,Define throughput by stating a condition that must be met for throughput to be measured.,"According to this definition, is the carbon cycle unrelated to living organisms?",no,no,no,True
+81,Social & Ethical Concepts,Fairness,Define what wave frequency is.,"According to this definition, is treating people equally a form of fairness?",yes,yes.,yes,True
+82,Social & Ethical Concepts,Fairness,Define what an electronic device is.,"According to this definition, is favoritism toward one person fairness?",no,no,no,True
+83,Social & Ethical Concepts,Justice,Define what velocity is.,"According to this definition, is punishing crimes according to law an aspect of justice?",yes,yes,yes,True
+84,Social & Ethical Concepts,Justice,Define security by stating a condition that must be met for a system to be considered secure.,"According to this definition, is arbitrary punishment justice?",no,no.,no,True
+85,Social & Ethical Concepts,Honesty,Define what a metal is.,"According to this definition, is telling the truth an example of honesty?",yes,yes.,yes,True
+86,Social & Ethical Concepts,Honesty,Define data privacy by stating a condition that must be met for data handling to be considered private.,"According to this definition, is deliberately lying honesty?",no,no.,no,True
+87,Social & Ethical Concepts,Responsibility,Define resource efficiency by stating a condition that must be met for resource use to be considered efficient.,"According to this definition, is being accountable for one’s actions responsibility?",yes,yes.,yes,True
+88,Social & Ethical Concepts,Responsibility,Define what a decision procedure is.,"According to this definition, is avoiding all obligations responsibility?",no,no,no,True
+89,Social & Ethical Concepts,Empathy,Define what gravity is.,"According to this definition, is understanding another person’s feelings empathy?",yes,yes.,yes,True
+90,Social & Ethical Concepts,Empathy,Define what a planet is.,"According to this definition, is ignoring others’ emotions empathy?",no,no,no,True
+91,Social & Ethical Concepts,Equality,Define what a checklist is.,"According to this definition, is giving everyone the same legal rights equality?",yes,no,no,False
+92,Social & Ethical Concepts,Equality,Define what a rule is.,"According to this definition, is discrimination equality?",no,no.,no,True
+93,Social & Ethical Concepts,Trust,Define fault tolerance by stating a condition that must be met for a system to be fault tolerant.,"According to this definition, is relying on someone’s honesty trust?",yes,no.,no,False
+94,Social & Ethical Concepts,Trust,Define coercion by stating a necessary condition that must be satisfied for an action to count as coercion.,"According to this definition, is constant suspicion trust?",no,no,no,True
+95,Social & Ethical Concepts,Freedom,Define what a whole number is.,"According to this definition, is the ability to make personal choices freedom?",yes,yes.,yes,True
+96,Social & Ethical Concepts,Freedom,Define what density is.,"According to this definition, is total imprisonment freedom?",no,no.,no,True
+97,Social & Ethical Concepts,Privacy,Define what clothing is.,"According to this definition, is control over personal information privacy?",yes,yes,yes,True
+98,Social & Ethical Concepts,Privacy,Define what a chromosome is.,"According to this definition, is public exposure of private data privacy?",no,no,no,True
+99,Social & Ethical Concepts,Respect,Define what an ecosystem is.,"According to this definition, is valuing another person respect?",yes,yes,yes,True
+100,Social & Ethical Concepts,Respect,Define efficiency by stating a condition that must be met for a system or process to be considered efficient.,"According to this definition, is insulting someone respect?",no,no,no,True
+101,Social & Ethical Concepts,Integrity,Define what a workflow is.,"According to this definition, is acting according to moral principles integrity?",yes,yes.,yes,True
+102,Social & Ethical Concepts,Integrity,Define what acceleration is.,"According to this definition, is cheating while pretending to be honest integrity?",no,no,no,True
+103,Social & Ethical Concepts,Compassion,Define what logging is.,"According to this definition, is showing concern for others’ suffering compassion?",yes,yes,yes,True
+104,Social & Ethical Concepts,Compassion,Define what temperature is.,"According to this definition, is indifference to suffering compassion?",no,no.,no,True
+105,Social & Ethical Concepts,Accountability,Define what scalability is.,"According to this definition, is accepting responsibility for outcomes accountability?",yes,yes.,yes,True
+106,Social & Ethical Concepts,Accountability,Define responsibility by stating a necessary condition that makes an agent responsible for an outcome.,"According to this definition, is denying responsibility accountability?",no,no.,no,True
+107,Social & Ethical Concepts,Altruism,Define system scalability by stating a condition that must be met for a system to be considered scalable.,"According to this definition, is helping others without expecting reward altruism?",yes,yes.,yes,True
+108,Social & Ethical Concepts,Altruism,Define what a metal is.,"According to this definition, is acting only for personal gain altruism?",no,no,no,True
+109,Social & Ethical Concepts,Discrimination,Define what an insect is.,"According to this definition, is unfair treatment based on group membership discrimination?",yes,yes,yes,True
+110,Social & Ethical Concepts,Discrimination,Define what an orbit is.,"According to this definition, is equal treatment of all groups discrimination?",no,no.,no,True
+111,Social & Ethical Concepts,Cooperation,Define what resilience is.,"According to this definition, is working together toward a goal cooperation?",yes,yes.,yes,True
+112,Social & Ethical Concepts,Cooperation,Define responsibility by stating a necessary condition that makes an agent responsible for an outcome.,"According to this definition, is refusing to collaborate cooperation?",no,no.,no,True
+113,Social & Ethical Concepts,Transparency,Define what a weapon is.,"According to this definition, is openness about processes transparency?",yes,yes,yes,True
+114,Social & Ethical Concepts,Transparency,Define honesty by stating a necessary condition that must be satisfied for a person to be considered honest.,"According to this definition, is hiding relevant information transparency?",no,no,no,True
+115,Social & Ethical Concepts,Ethical Behavior,Define dignity by stating a necessary condition that must be satisfied for a person to be treated with dignity.,"According to this definition, is acting according to moral norms ethical behavior?",yes,no,no,False
+116,Social & Ethical Concepts,Ethical Behavior,Define what a muscle is.,"According to this definition, is knowingly causing harm ethical behavior?",no,no,no,True
+117,Social & Ethical Concepts,Consent,Define what process efficiency is.,"According to this definition, is agreeing voluntarily consent?",yes,yes.,yes,True
+118,Social & Ethical Concepts,Consent,Define what a fossil fuel is.,"According to this definition, is forcing agreement consent?",no,no,no,True
+119,Social & Ethical Concepts,Human Rights,Define freedom by stating a condition that must be met for an agent to be considered free.,"According to this definition, are basic freedoms considered human rights?",yes,yes.,yes,True
+120,Social & Ethical Concepts,Human Rights,Define what a neuron is.,"According to this definition, is denying basic freedoms respecting human rights?",no,no,no,True
+121,Procedural Concepts,Algorithm,Define what iteration is.,"According to this definition, is a step-by-step procedure an algorithm?",yes,yes.,yes,True
+122,Procedural Concepts,Algorithm,Define exploitation by stating a necessary condition that must be satisfied for an action to count as exploitation.,"According to this definition, is a random guess without steps an algorithm?",no,no.,no,True
+123,Procedural Concepts,Protocol,Define autonomy by stating a necessary condition that must be satisfied for an agent to be autonomous.,"According to this definition, is a set of agreed rules a protocol?",yes,yes.,yes,True
+124,Procedural Concepts,Protocol,Define what an axiom is.,"According to this definition, is an unstructured action a protocol?",no,no,no,True
+125,Procedural Concepts,Procedure,Define what precision is.,"According to this definition, is a sequence of actions a procedure?",yes,yes.,yes,True
+126,Procedural Concepts,Procedure,Define accountability by stating a necessary condition that must be satisfied for an agent to be accountable.,"According to this definition, is a single unrelated action a procedure?",no,no.,no,True
+127,Procedural Concepts,Workflow,Define what the median is.,"According to this definition, is an ordered set of tasks a workflow?",yes,yes,yes,True
+128,Procedural Concepts,Workflow,Define what complexity is.,"According to this definition, is a random collection of tasks a workflow?",no,no.,no,True
+129,Procedural Concepts,Method,Define what a vehicle is.,"According to this definition, is a systematic way of doing something a method?",yes,yes.,yes,True
+130,Procedural Concepts,Method,Define consent by stating a necessary condition that must be satisfied for consent to be valid.,"According to this definition, is a completely unplanned action a method?",no,no,no,True
+131,Procedural Concepts,Rule,Define what photosynthesis is.,"According to this definition, is a guideline that governs behavior a rule?",yes,yes,yes,True
+132,Procedural Concepts,Rule,Define what an insect is.,"According to this definition, is a personal preference a rule?",no,no.,no,True
+133,Procedural Concepts,Policy,Define what an instruction is.,"According to this definition, is an official plan of action a policy?",yes,yes.,yes,True
+134,Procedural Concepts,Policy,Define reciprocity by stating a necessary condition that must be satisfied for reciprocity to occur.,"According to this definition, is an informal suggestion a policy?",no,no.,no,True
+135,Procedural Concepts,Standard,Define what a bird is.,"According to this definition, is an agreed level of quality a standard?",yes,yes.,yes,True
+136,Procedural Concepts,Standard,Define what an audit is.,"According to this definition, is a personal opinion a standard?",no,no,no,True
+137,Procedural Concepts,Checklist,Define what magnetism is.,"According to this definition, is a list of items to verify a checklist?",yes,yes.,yes,True
+138,Procedural Concepts,Checklist,Define cooperation by stating a necessary condition that must be satisfied for cooperation to occur.,"According to this definition, is a story without tasks a checklist?",no,no.,no,True
+139,Procedural Concepts,Plan,Define what velocity is.,"According to this definition, is a set of intended actions a plan?",yes,yes.,yes,True
+140,Procedural Concepts,Plan,Define charity by stating a necessary condition that must be satisfied for an action to count as charity.,"According to this definition, is acting without foresight a plan?",no,no.,no,True
+141,Procedural Concepts,Schedule,Define what an appliance is.,"According to this definition, is a timetable of activities a schedule?",yes,yes.,yes,True
+142,Procedural Concepts,Schedule,Define what precision is.,"According to this definition, is a spontaneous action a schedule?",no,no,no,True
+143,Procedural Concepts,Process,Define what implication is.,"According to this definition, is a series of steps leading to an outcome a process?",yes,yes.,yes,True
+144,Procedural Concepts,Process,Define what an emotion is.,"According to this definition, is a single isolated event a process?",no,no.,no,True
+145,Procedural Concepts,Guideline,Define what a reptile is.,"According to this definition, is a recommended practice a guideline?",yes,yes.,yes,True
+146,Procedural Concepts,Guideline,Define what a vector is.,"According to this definition, is a strict law a guideline?",no,no,no,True
+147,Procedural Concepts,Instruction,Define discrimination by stating a necessary condition that must be satisfied for an action to count as discrimination.,"According to this definition, is a directive telling how to do something an instruction?",yes,yes.,yes,True
+148,Procedural Concepts,Instruction,Define what an axiom is.,"According to this definition, is a random comment an instruction?",no,no,no,True
+149,Procedural Concepts,Manual,Define what logical OR is.,"According to this definition, is a written guide for using something a manual?",yes,yes.,yes,True
+150,Procedural Concepts,Manual,Define human rights by stating a necessary condition that must be satisfied for a right to be considered a human right.,"According to this definition, is an unrelated novel a manual?",no,no,no,True
+151,Procedural Concepts,Workflow Automation,Define ethical behavior by stating a necessary condition that must be satisfied for behavior to be considered ethical.,"According to this definition, is using software to automate tasks workflow automation?",yes,yes.,yes,True
+152,Procedural Concepts,Workflow Automation,Define redundancy by stating a condition that must be met for redundancy to be present.,"According to this definition, is performing tasks entirely by hand workflow automation?",no,no,no,True
+153,Procedural Concepts,Quality Control,Define what inspection is.,"According to this definition, is checking products for defects quality control?",yes,yes.,yes,True
+154,Procedural Concepts,Quality Control,Define what logical OR is.,"According to this definition, is ignoring defects quality control?",no,no,no,True
+155,Procedural Concepts,Decision Procedure,Define freedom by stating a condition that must be met for an agent to be considered free.,"According to this definition, is a systematic method for making decisions a decision procedure?",yes,yes.,yes,True
+156,Procedural Concepts,Decision Procedure,Define what debugging is.,"According to this definition, is choosing randomly without criteria a decision procedure?",no,no.,no,True
+157,Procedural Concepts,Verification,Define what flexibility is.,"According to this definition, is checking correctness against requirements verification?",yes,yes.,yes,True
+158,Procedural Concepts,Verification,Define what a function is.,"According to this definition, is guessing without checking verification?",no,no,no,True
+159,Procedural Concepts,Validation,Define what a profession is.,"According to this definition, is confirming that a system meets its intended use validation?",yes,no,no,False
+160,Procedural Concepts,Validation,Define what a proportion is.,"According to this definition, is ignoring user needs validation?",no,no,no,True
+161,Abstract Properties,Efficiency,Define what a schedule is.,"According to this definition, is efficiency about achieving results with minimal waste?",yes,yes.,yes,True
+162,Abstract Properties,Efficiency,Define what a matrix is.,"According to this definition, is inefficiency an example of efficiency?",no,no,no,True
+163,Abstract Properties,Reliability,Define what logging is.,"According to this definition, is reliability about consistent performance?",yes,yes,yes,True
+164,Abstract Properties,Reliability,Define what an amphibian is.,"According to this definition, is frequent failure reliability?",no,no,no,True
+165,Abstract Properties,Accuracy,Define what compilation is.,"According to this definition, is accuracy about correctness?",yes,yes,yes,True
+166,Abstract Properties,Accuracy,Define what a rational number is.,"According to this definition, is making frequent errors accuracy?",no,no,no,True
+167,Abstract Properties,Stability,Define what parallel lines are.,"According to this definition, is stability about resistance to change?",yes,no,no,False
+168,Abstract Properties,Stability,Define discrimination by stating a necessary condition that must be satisfied for an action to count as discrimination.,"According to this definition, is constant fluctuation stability?",no,no,no,True
+169,Abstract Properties,Flexibility,Define a social norm by stating a necessary condition that must be satisfied for a rule to count as a social norm.,"According to this definition, is flexibility about ability to adapt?",yes,no,no,False
+170,Abstract Properties,Flexibility,Define what a guideline is.,"According to this definition, is rigidity flexibility?",no,no.,no,True
+171,Abstract Properties,Robustness,Define what reflection is.,"According to this definition, is robustness about maintaining performance under stress?",yes,yes.,yes,True
+172,Abstract Properties,Robustness,Define what quality control is.,"According to this definition, is fragility robustness?",no,no,no,True
+173,Abstract Properties,Complexity,Define latency by stating a condition that must be met for latency to be present.,"According to this definition, is complexity related to having many interconnected parts?",yes,yes.,yes,True
+174,Abstract Properties,Complexity,Define what logical AND is.,"According to this definition, is simplicity complexity?",no,no,no,True
+175,Abstract Properties,Transparency,Define justice by stating at least one necessary condition that must be satisfied for something to count as justice.,"According to this definition, is transparency about openness?",yes,yes.,yes,True
+176,Abstract Properties,Transparency,Define what testing is.,"According to this definition, is secrecy transparency?",no,no,no,True
+177,Abstract Properties,Scalability,Define what accuracy is.,"According to this definition, is scalability about handling increased workload?",yes,yes,yes,True
+178,Abstract Properties,Scalability,Define obligation by stating a necessary condition that must be satisfied for a duty to count as an obligation.,"According to this definition, is inability to grow scalability?",no,yes.,yes,False
+179,Abstract Properties,Consistency,Define what a composite number is.,"According to this definition, is consistency about uniform behavior over time?",yes,yes,yes,True
+180,Abstract Properties,Consistency,Define what pressure is.,"According to this definition, is contradiction consistency?",no,no.,no,True
+181,Abstract Properties,Resilience,Define responsibility by stating a necessary condition that makes an agent responsible for an outcome.,"According to this definition, is resilience about recovery after disruption?",yes,yes.,yes,True
+182,Abstract Properties,Resilience,Define what usability is.,"According to this definition, is permanent breakdown resilience?",no,no,no,True
+183,Abstract Properties,Maintainability,Define legitimacy by stating a necessary condition that must be satisfied for authority to be legitimate.,"According to this definition, is ease of maintenance maintainability?",yes,yes.,yes,True
+184,Abstract Properties,Maintainability,Define human rights by stating a necessary condition that must be satisfied for a right to be considered a human right.,"According to this definition, is difficulty of repair maintainability?",no,no.,no,True
+185,Abstract Properties,Usability,Define compliance by stating a condition that must be met for behavior or systems to be compliant.,"According to this definition, is usability about ease of use?",yes,yes,yes,True
+186,Abstract Properties,Usability,Define what condensation is.,"According to this definition, is confusion usability?",no,yes.,yes,False
+187,Abstract Properties,Performance,Define civility by stating a necessary condition that must be satisfied for behavior to be considered civil.,"According to this definition, is performance about how well something functions?",yes,yes,yes,True
+188,Abstract Properties,Performance,Define legitimacy by stating a necessary condition that must be satisfied for authority to be legitimate.,"According to this definition, is malfunction performance?",no,no.,no,True
+189,Abstract Properties,Adaptability,Define what availability is.,"According to this definition, is adaptability about adjusting to change?",yes,yes.,yes,True
+190,Abstract Properties,Adaptability,Define what an equation is.,"According to this definition, is inability to adjust adaptability?",no,yes.,yes,False
+191,Abstract Properties,Durability,Define what an odd number is.,"According to this definition, is durability about long-lasting use?",yes,yes.,yes,True
+192,Abstract Properties,Durability,Define what encryption is.,"According to this definition, is fragility durability?",no,no.,no,True
+193,Abstract Properties,Precision,Define what a mineral is.,"According to this definition, is precision about exactness?",yes,yes.,yes,True
+194,Abstract Properties,Precision,Define what food is.,"According to this definition, is vagueness precision?",no,no.,no,True
+195,Abstract Properties,Availability,Define what a plan is.,"According to this definition, is availability about being accessible when needed?",yes,yes.,yes,True
+196,Abstract Properties,Availability,Define what encryption is.,"According to this definition, is constant unavailability availability?",no,no.,no,True
+197,Abstract Properties,Responsiveness,Define what a triangle is.,"According to this definition, is responsiveness about quick reaction?",yes,yes,yes,True
+198,Abstract Properties,Responsiveness,Define what a cutting tool is.,"According to this definition, is slow reaction responsiveness?",no,no,no,True
+199,Abstract Properties,Efficiency (Process),Define what a decimal number is.,"According to this definition, is reducing wasted steps process efficiency?",yes,yes,yes,True
+200,Abstract Properties,Efficiency (Process),Define what evaporation is.,"According to this definition, is adding unnecessary steps process efficiency?",no,no,no,True
+201,Mathematics & Logic,Prime Number,Define cooperation by stating a necessary condition that must be satisfied for cooperation to occur.,"According to this definition, is 7 a prime number?",yes,yes.,yes,True
+202,Mathematics & Logic,Prime Number,Define what a vehicle engine is.,"According to this definition, is 9 a prime number?",no,no.,no,True
+203,Mathematics & Logic,Even Number,Define what an angle is.,"According to this definition, is 10 an even number?",yes,yes,yes,True
+204,Mathematics & Logic,Even Number,Define what a reptile is.,"According to this definition, is 7 an even number?",no,no.,no,True
+205,Mathematics & Logic,Odd Number,Define portability by stating a condition that must be met for a system to be considered portable.,"According to this definition, is 5 an odd number?",yes,yes.,yes,True
+206,Mathematics & Logic,Odd Number,Define exploitation by stating a necessary condition that must be satisfied for an action to count as exploitation.,"According to this definition, is 8 an odd number?",no,no,no,True
+207,Mathematics & Logic,Integer,Define what validation is.,"According to this definition, is -3 an integer?",yes,yes.,yes,True
+208,Mathematics & Logic,Integer,Define what workflow automation is.,"According to this definition, is 2.5 an integer?",no,no,no,True
+209,Mathematics & Logic,Rational Number,Define what scalability is.,"According to this definition, is 1/2 a rational number?",yes,yes.,yes,True
+210,Mathematics & Logic,Rational Number,Define what usability is.,"According to this definition, is √2 a rational number?",no,no,no,True
+211,Mathematics & Logic,Triangle,Define what a tool is.,"According to this definition, does a triangle have three sides?",yes,yes.,yes,True
+212,Mathematics & Logic,Triangle,Define fault tolerance by stating a condition that must be met for a system to be fault tolerant.,"According to this definition, does a triangle have four sides?",no,no.,no,True
+213,Mathematics & Logic,Square,Define compassion by stating a necessary condition that must be satisfied for an action to be compassionate.,"According to this definition, does a square have four equal sides?",yes,yes.,yes,True
+214,Mathematics & Logic,Square,Define fairness by stating at least one necessary condition that must be satisfied for something to be fair.,"According to this definition, does a square have three sides?",no,no,no,True
+215,Mathematics & Logic,Factor,Define what an animal is.,"According to this definition, is 3 a factor of 12?",yes,yes,yes,True
+216,Mathematics & Logic,Factor,Define what testing is.,"According to this definition, is 5 a factor of 12?",no,yes,yes,False
+217,Mathematics & Logic,Multiple,Define what stability is.,"According to this definition, is 12 a multiple of 3?",yes,yes,yes,True
+218,Mathematics & Logic,Multiple,Define what a reptile is.,"According to this definition, is 7 a multiple of 3?",no,no,no,True
+219,Mathematics & Logic,Set,Define what a plant is.,"According to this definition, is a collection of distinct elements a set?",yes,yes.,yes,True
+220,Mathematics & Logic,Set,Define what process efficiency is.,"According to this definition, is an ordered pair necessarily a set?",no,no.,no,True
+221,Mathematics & Logic,Subset,Define what a modern weapon is.,"According to this definition, is {1,2} a subset of {1,2,3}?",yes,yes.,yes,True
+222,Mathematics & Logic,Subset,Define what a derivative is.,"According to this definition, is {1,4} a subset of {1,2,3}?",no,yes,yes,False
+223,Mathematics & Logic,Equation,Define what an inequality is.,"According to this definition, is x + 2 = 5 an equation?",yes,yes.,yes,True
+224,Mathematics & Logic,Equation,Define what availability is.,"According to this definition, is x + 2 an equation?",no,yes.,yes,False
+225,Mathematics & Logic,Inequality,Define empathy by stating a necessary condition that must be satisfied for someone to be considered empathetic.,"According to this definition, is x > 3 an inequality?",yes,yes.,yes,True
+226,Mathematics & Logic,Inequality,Define what an instruction is.,"According to this definition, is x = 3 an inequality?",no,no,no,True
+227,Mathematics & Logic,Function,Define what reliability is.,"According to this definition, is a rule assigning one output to each input a function?",yes,yes.,yes,True
+228,Mathematics & Logic,Function,Define what acceleration is.,"According to this definition, is a relation with multiple outputs for one input a function?",no,no,no,True
+229,Mathematics & Logic,Derivative,Define what an instruction is.,"According to this definition, is a derivative a measure of rate of change?",yes,yes,yes,True
+230,Mathematics & Logic,Derivative,Define what a bird is.,"According to this definition, is a derivative a fixed constant always?",no,no.,no,True
+231,Mathematics & Logic,Probability,Define trust by stating a necessary condition that must be satisfied for trust to exist.,"According to this definition, does probability measure likelihood?",yes,yes.,yes,True
+232,Mathematics & Logic,Probability,Define what simulation is.,"According to this definition, does probability measure physical weight?",no,no,no,True
+233,Mathematics & Logic,Mean,Define what an acid is.,"According to this definition, is the mean the average of values?",yes,yes.,yes,True
+234,Mathematics & Logic,Mean,Define what a building material is.,"According to this definition, is the mean the maximum value?",no,no,no,True
+235,Mathematics & Logic,Median,Define what a protocol is.,"According to this definition, is the median the middle value of ordered data?",yes,yes,yes,True
+236,Mathematics & Logic,Median,Define what an audit is.,"According to this definition, is the median always the largest value?",no,no.,no,True
+237,Mathematics & Logic,Angle,Define privacy by stating a condition that must be met for information to be considered private.,"According to this definition, is an angle formed by two intersecting lines?",yes,yes,yes,True
+238,Mathematics & Logic,Angle,Define what a process is.,"According to this definition, is an angle a three-dimensional object?",no,no.,no,True
+239,Mathematics & Logic,Parallel Lines,Define what configuration is.,"According to this definition, do parallel lines never intersect?",yes,yes.,yes,True
+240,Mathematics & Logic,Parallel Lines,Define what monitoring is.,"According to this definition, do parallel lines intersect at a point?",no,no.,no,True
+241,Mathematics & Logic,Proof,Define inclusion by stating a necessary condition that must be satisfied for inclusion to occur.,"According to this definition, is a proof a logical argument establishing truth?",yes,yes.,yes,True
+242,Mathematics & Logic,Proof,Define privacy by stating a condition that must be met for information to be considered private.,"According to this definition, is a proof a random guess?",no,no,no,True
+243,Mathematics & Logic,Theorem,Define what plate tectonics is.,"According to this definition, is a theorem a statement proven true?",yes,yes.,yes,True
+244,Mathematics & Logic,Theorem,Define what an acid is.,"According to this definition, is a theorem an unverified opinion?",no,no,no,True
+245,Mathematics & Logic,Axiom,Define what clothing is.,"According to this definition, is an axiom accepted without proof?",yes,yes.,yes,True
+246,Mathematics & Logic,Axiom,Define what food is.,"According to this definition, is an axiom derived from experiments?",no,no,no,True
+247,Mathematics & Logic,Contradiction,Define what a guideline is.,"According to this definition, is a contradiction a statement that cannot be true?",yes,yes.,yes,True
+248,Mathematics & Logic,Contradiction,Define what a protocol is.,"According to this definition, is a contradiction always true?",no,no.,no,True
+249,Mathematics & Logic,Implication,Define what maintainability is.,"According to this definition, does implication mean one statement follows from another?",yes,yes.,yes,True
+250,Mathematics & Logic,Implication,Define what an even number is.,"According to this definition, does implication mean statements are unrelated?",no,no,no,True
+251,Common Nouns,Amphibian,Define what maintainability is.,"According to this definition, is a frog an amphibian?",yes,yes,yes,True
+252,Common Nouns,Amphibian,Define what an orbit is.,"According to this definition, is a snake an amphibian?",no,no,no,True
+253,Common Nouns,Mineral,Define what a contradiction is.,"According to this definition, is quartz a mineral?",yes,yes.,yes,True
+254,Common Nouns,Mineral,Define what a continent is.,"According to this definition, is wood a mineral?",no,no,no,True
+255,Common Nouns,Continent,Define what a neuron is.,"According to this definition, is Asia a continent?",yes,yes.,yes,True
+256,Common Nouns,Continent,Define what a rule is.,"According to this definition, is Greenland a continent?",no,no.,no,True
+257,Common Nouns,Ocean,Define risk by stating a condition that makes an action or situation risky.,"According to this definition, is the Pacific an ocean?",yes,yes,yes,True
+258,Common Nouns,Ocean,Define what condensation is.,"According to this definition, is the Nile an ocean?",no,no,no,True
+259,Common Nouns,Planetary Moon,Define what optimization is.,"According to this definition, is Europa a planetary moon?",yes,yes.,yes,True
+260,Common Nouns,Planetary Moon,Define what a vertebrate is.,"According to this definition, is Earth a planetary moon?",no,no,no,True
+261,Common Nouns,Vehicle Engine,Define what a procedure is.,"According to this definition, is a car engine a vehicle engine?",yes,yes.,yes,True
+262,Common Nouns,Vehicle Engine,Define what execution is.,"According to this definition, is a bicycle pedal a vehicle engine?",no,no,no,True
+263,Common Nouns,Muscle,Define what an equation is.,"According to this definition, is the biceps a muscle?",yes,yes.,yes,True
+264,Common Nouns,Muscle,Define system scalability by stating a condition that must be met for a system to be considered scalable.,"According to this definition, is bone a muscle?",no,no.,no,True
+265,Common Nouns,Vertebrate,Define what a set is.,"According to this definition, is a dog a vertebrate?",yes,yes,yes,True
+266,Common Nouns,Vertebrate,Define what a method is.,"According to this definition, is a jellyfish a vertebrate?",no,no,no,True
+267,Common Nouns,Tool (Cutting),Define system availability by stating a condition that must be met for a system to be considered available.,"According to this definition, is a knife a cutting tool?",yes,yes.,yes,True
+268,Common Nouns,Tool (Cutting),Define resource efficiency by stating a condition that must be met for resource use to be considered efficient.,"According to this definition, is a spoon a cutting tool?",no,no,no,True
+269,Common Nouns,Building Material,Define throughput by stating a condition that must be met for throughput to be measured.,"According to this definition, is concrete a building material?",yes,yes.,yes,True
+270,Common Nouns,Building Material,Define what compilation is.,"According to this definition, is paper a building material?",no,no,no,True
+271,Common Nouns,Electronic Device,Define what a household appliance is.,"According to this definition, is a smartphone an electronic device?",yes,yes,yes,True
+272,Common Nouns,Electronic Device,Define obligation by stating a necessary condition that must be satisfied for a duty to count as an obligation.,"According to this definition, is a notebook paper an electronic device?",no,no,no,True
+273,Common Nouns,Household Appliance,Define what a plant is.,"According to this definition, is a washing machine a household appliance?",yes,yes.,yes,True
+274,Common Nouns,Household Appliance,Define what a composite number is.,"According to this definition, is a sofa a household appliance?",no,no,no,True
+275,Common Nouns,Plant,Define coercion by stating a necessary condition that must be satisfied for an action to count as coercion.,"According to this definition, is a rose a plant?",yes,yes,yes,True
+276,Common Nouns,Plant,Define transparency by stating a necessary condition that must be satisfied for a process to be transparent.,"According to this definition, is a mushroom a plant?",no,no,no,True
+277,Common Nouns,Transport Infrastructure,Define what consistency is.,"According to this definition, is a railway transport infrastructure?",yes,yes.,yes,True
+278,Common Nouns,Transport Infrastructure,Define what classification is.,"According to this definition, is a bookshelf transport infrastructure?",no,no,no,True
+279,Common Nouns,Weapon (Modern),Define what a series is.,"According to this definition, is a firearm a modern weapon?",yes,yes,yes,True
+280,Common Nouns,Weapon (Modern),Define what wave frequency is.,"According to this definition, is a pillow a modern weapon?",no,no,no,True
+281,Scientific Concepts,Condensation,Define honesty by stating a necessary condition that must be satisfied for a person to be considered honest.,"According to this definition, does condensation involve gas turning into liquid?",yes,yes,yes,True
+282,Scientific Concepts,Condensation,Define moral responsibility by stating a necessary condition that must be satisfied for an agent to be morally responsible.,"According to this definition, does condensation involve solid turning into gas?",no,no,no,True
+283,Scientific Concepts,Oxidation,Define what the mean is.,"According to this definition, does oxidation involve loss of electrons?",yes,yes.,yes,True
+284,Scientific Concepts,Oxidation,Define a social norm by stating a necessary condition that must be satisfied for a rule to count as a social norm.,"According to this definition, does oxidation involve gaining neutrons?",no,no,no,True
+285,Scientific Concepts,Enzyme,Define what accuracy is.,"According to this definition, is an enzyme a biological catalyst?",yes,yes.,yes,True
+286,Scientific Concepts,Enzyme,Define what a checklist is.,"According to this definition, is an enzyme a type of bone?",no,no,no,True
+287,Scientific Concepts,Neuron,Define what responsiveness is.,"According to this definition, is a neuron a nerve cell?",yes,yes.,yes,True
+288,Scientific Concepts,Neuron,Define what a planetary moon is.,"According to this definition, is a neuron a muscle fiber?",no,no.,no,True
+289,Scientific Concepts,Plate Tectonics,Define what the mean is.,"According to this definition, does plate tectonics describe movement of Earth’s plates?",yes,yes,yes,True
+290,Scientific Concepts,Plate Tectonics,Define ethical behavior by stating a necessary condition that must be satisfied for behavior to be considered ethical.,"According to this definition, does plate tectonics describe ocean tides?",no,no,no,True
+291,Scientific Concepts,Acceleration,Define what an algorithm is.,"According to this definition, is acceleration the rate of change of velocity?",yes,yes.,yes,True
+292,Scientific Concepts,Acceleration,Define what a ratio is.,"According to this definition, is acceleration the same as distance traveled?",no,no.,no,True
+293,Scientific Concepts,Diffusion,Define what an inequality is.,"According to this definition, does diffusion involve movement from high to low concentration?",yes,yes,yes,True
+294,Scientific Concepts,Diffusion,Define effectiveness by stating a condition that must be met for a system or action to be considered effective.,"According to this definition, does diffusion require mechanical stirring?",no,no.,no,True
+295,Scientific Concepts,Reflection,Define charity by stating a necessary condition that must be satisfied for an action to count as charity.,"According to this definition, does reflection involve light bouncing off a surface?",yes,no.,no,False
+296,Scientific Concepts,Reflection,Define what a workflow is.,"According to this definition, does reflection involve absorption of light only?",no,no,no,True
+297,Scientific Concepts,Isotope,Define what an enzyme is.,"According to this definition, do isotopes have the same number of protons?",yes,yes.,yes,True
+298,Scientific Concepts,Isotope,Define system availability by stating a condition that must be met for a system to be considered available.,"According to this definition, do isotopes have different atomic numbers?",no,no.,no,True
+299,Scientific Concepts,Velocity,Define altruism by stating a necessary condition that must be satisfied for an action to be altruistic.,"According to this definition, is velocity speed with direction?",yes,yes.,yes,True
+300,Scientific Concepts,Velocity,Define what a backup is.,"According to this definition, is velocity independent of direction?",no,no.,no,True
+301,Scientific Concepts,Sound Wave,Define what a sequence is.,"According to this definition, is a sound wave a vibration traveling through a medium?",yes,yes.,yes,True
+302,Scientific Concepts,Sound Wave,Define what a policy is.,"According to this definition, is a sound wave a visible object?",no,no.,no,True
+303,Scientific Concepts,Heat Transfer,Define tolerance by stating a necessary condition that must be satisfied for tolerance to occur.,"According to this definition, does heat transfer involve movement of thermal energy?",yes,yes,yes,True
+304,Scientific Concepts,Heat Transfer,Define what photosynthesis is.,"According to this definition, does heat transfer involve movement of matter only?",no,no.,no,True
+305,Scientific Concepts,Density,Define what a limit is.,"According to this definition, is density mass per unit volume?",yes,yes,yes,True
+306,Scientific Concepts,Density,Define what a mutation is.,"According to this definition, is density measured in seconds?",no,no,no,True
+307,Scientific Concepts,Chromosome,Define what oxidation is.,"According to this definition, is a chromosome a structure containing DNA?",yes,yes.,yes,True
+308,Scientific Concepts,Chromosome,Define honesty by stating a necessary condition that must be satisfied for a person to be considered honest.,"According to this definition, is a chromosome a type of protein?",no,no,no,True
+309,Scientific Concepts,Catalyst,Define what a theorem is.,"According to this definition, does a catalyst speed up a chemical reaction?",yes,yes,yes,True
+310,Scientific Concepts,Catalyst,Define what performance is.,"According to this definition, is a catalyst consumed permanently in a reaction?",no,no.,no,True
+311,Scientific Concepts,Wave Frequency,Define what validation is.,"According to this definition, is frequency the number of cycles per second?",yes,yes.,yes,True
+312,Scientific Concepts,Wave Frequency,Define what furniture is.,"According to this definition, is frequency the height of a wave?",no,no,no,True
+313,Social & Ethical Concepts,Accountability,Define what a game is.,"According to this definition, is being answerable for one’s actions accountability?",yes,yes.,yes,True
+314,Social & Ethical Concepts,Accountability,Define what an appliance is.,"According to this definition, is avoiding responsibility accountability?",no,no.,no,True
+315,Social & Ethical Concepts,Autonomy,Define what robustness is.,"According to this definition, is the ability to make independent decisions autonomy?",yes,yes,yes,True
+316,Social & Ethical Concepts,Autonomy,Define what a process is.,"According to this definition, is complete external control autonomy?",no,no,no,True
+317,Social & Ethical Concepts,Charity,Define what simulation is.,"According to this definition, is donating to help others charity?",yes,yes,yes,True
+318,Social & Ethical Concepts,Charity,Define dignity by stating a necessary condition that must be satisfied for a person to be treated with dignity.,"According to this definition, is taking resources from others charity?",no,no.,no,True
+319,Social & Ethical Concepts,Civility,Define what a subset is.,"According to this definition, is polite behavior civility?",yes,yes.,yes,True
+320,Social & Ethical Concepts,Civility,Define freedom by stating a condition that must be met for an agent to be considered free.,"According to this definition, is deliberate rudeness civility?",no,no.,no,True
+321,Social & Ethical Concepts,Coercion,Define what a cell is.,"According to this definition, is forcing someone through threats coercion?",yes,yes.,yes,True
+322,Social & Ethical Concepts,Coercion,Define what a proof is.,"According to this definition, is voluntary agreement coercion?",no,no,no,True
+323,Social & Ethical Concepts,Dignity,Define what calibration is.,"According to this definition, is treating people with respect dignity?",yes,yes.,yes,True
+324,Social & Ethical Concepts,Dignity,Define what configuration is.,"According to this definition, is humiliating someone dignity?",no,yes,yes,False
+325,Social & Ethical Concepts,Exploitation,Define what consistency is.,"According to this definition, is unfairly benefiting from others exploitation?",yes,yes.,yes,True
+326,Social & Ethical Concepts,Exploitation,Define what renewable energy is.,"According to this definition, is fair compensation exploitation?",no,no.,no,True
+327,Social & Ethical Concepts,Impartiality,Define what monitoring is.,"According to this definition, is unbiased judgment impartiality?",yes,yes.,yes,True
+328,Social & Ethical Concepts,Impartiality,Define what an integer is.,"According to this definition, is favoritism impartiality?",no,no,no,True
+329,Social & Ethical Concepts,Inclusion,Define what oxidation is.,"According to this definition, is ensuring participation of all groups inclusion?",yes,yes,yes,True
+330,Social & Ethical Concepts,Inclusion,Define what a continent is.,"According to this definition, is exclusion of certain groups inclusion?",no,no,no,True
+331,Social & Ethical Concepts,Justice (Distributive),Define latency by stating a condition that must be met for latency to be present.,"According to this definition, is fair allocation of resources distributive justice?",yes,yes,yes,True
+332,Social & Ethical Concepts,Justice (Distributive),Define what a vehicle is.,"According to this definition, is unequal allocation without reason distributive justice?",no,no,no,True
+333,Social & Ethical Concepts,Legitimacy,Define what an ocean is.,"According to this definition, is lawful authority legitimacy?",yes,no,no,False
+334,Social & Ethical Concepts,Legitimacy,Define what a sequence is.,"According to this definition, is authority without justification legitimacy?",no,no,no,True
+335,Social & Ethical Concepts,Obligation,Define integrity by stating a necessary condition that must be satisfied for a person to have integrity.,"According to this definition, is a duty one is bound to perform an obligation?",yes,yes.,yes,True
+336,Social & Ethical Concepts,Obligation,Define what a function is.,"According to this definition, is a casual preference an obligation?",no,no,no,True
+337,Social & Ethical Concepts,Reciprocity,Define data privacy by stating a condition that must be met for data handling to be considered private.,"According to this definition, is mutual exchange reciprocity?",yes,yes.,yes,True
+338,Social & Ethical Concepts,Reciprocity,Define what a square is.,"According to this definition, is one-sided benefit reciprocity?",no,no.,no,True
+339,Social & Ethical Concepts,Responsibility (Moral),Define what robustness is.,"According to this definition, is being blameworthy for an action moral responsibility?",yes,yes.,yes,True
+340,Social & Ethical Concepts,Responsibility (Moral),Define respect by stating a necessary condition that must be satisfied for someone to be treated with respect.,"According to this definition, is lack of agency moral responsibility?",no,yes,yes,False
+351,Social & Ethical Concepts,Social Norm,Define what diffusion is.,"According to this definition, is an accepted rule of behavior a social norm?",yes,yes.,yes,True
+352,Social & Ethical Concepts,Social Norm,Define what a factor is.,"According to this definition, is a private habit a social norm?",no,no,no,True
+353,Social & Ethical Concepts,Tolerance,Define what magnetism is.,"According to this definition, is accepting differing views tolerance?",yes,yes,yes,True
+354,Social & Ethical Concepts,Tolerance,Define what an ecosystem is.,"According to this definition, is suppressing differences tolerance?",no,no.,no,True
+355,Social & Ethical Concepts,Trustworthiness,Define what a language is.,"According to this definition, is being reliable trustworthiness?",yes,yes.,yes,True
+356,Social & Ethical Concepts,Trustworthiness,Define what a cutting tool is.,"According to this definition, is repeated betrayal trustworthiness?",no,no,no,True
+357,Procedural Concepts,Audit,Define impartiality by stating a necessary condition that must be satisfied for judgment to be impartial.,"According to this definition, is an audit a systematic examination of records?",yes,yes.,yes,True
+358,Procedural Concepts,Audit,Define what a prime number is.,"According to this definition, is an audit a casual conversation?",no,no,no,True
+359,Procedural Concepts,Backup,Define what a proportion is.,"According to this definition, is creating a copy of data a backup?",yes,yes.,yes,True
+360,Procedural Concepts,Backup,Define what an emotion is.,"According to this definition, is deleting original data a backup?",no,no,no,True
+361,Procedural Concepts,Calibration,Define what iteration is.,"According to this definition, is adjusting instruments to ensure accuracy calibration?",yes,yes,yes,True
+362,Procedural Concepts,Calibration,Define what probability is.,"According to this definition, is random adjustment calibration?",no,no,no,True
+363,Procedural Concepts,Classification,Define what a vehicle engine is.,"According to this definition, is grouping items by shared properties classification?",yes,yes.,yes,True
+364,Procedural Concepts,Classification,Define what plate tectonics is.,"According to this definition, is mixing items without criteria classification?",no,no,no,True
+365,Procedural Concepts,Compilation,Define what reliability is.,"According to this definition, is translating source code into executable form compilation?",yes,yes.,yes,True
+366,Procedural Concepts,Compilation,Define security by stating a condition that must be met for a system to be considered secure.,"According to this definition, is running a program without translation compilation?",no,no,no,True
+367,Procedural Concepts,Configuration,Define what a plan is.,"According to this definition, is setting parameters for a system configuration?",yes,yes.,yes,True
+368,Procedural Concepts,Configuration,Define what voltage is.,"According to this definition, is ignoring system settings configuration?",no,yes,yes,False
+369,Procedural Concepts,Debugging,Define what a standard is.,"According to this definition, is identifying and fixing errors debugging?",yes,yes,yes,True
+370,Procedural Concepts,Debugging,Define what a method is.,"According to this definition, is introducing new errors debugging?",no,no,no,True
+371,Procedural Concepts,Encryption,Define what a fossil fuel is.,"According to this definition, is converting data into a secure encoded form encryption?",yes,yes.,yes,True
+372,Procedural Concepts,Encryption,Define what a fruit is.,"According to this definition, is storing data in plain text encryption?",no,no,no,True
+373,Procedural Concepts,Evaluation,Define impartiality by stating a necessary condition that must be satisfied for judgment to be impartial.,"According to this definition, is assessing performance evaluation?",yes,yes.,yes,True
+374,Procedural Concepts,Evaluation,Define what logical AND is.,"According to this definition, is making a random guess evaluation?",no,no,no,True
+375,Procedural Concepts,Execution,Define what a mutation is.,"According to this definition, is carrying out a set of instructions execution?",yes,yes.,yes,True
+376,Procedural Concepts,Execution,Define what a sound wave is.,"According to this definition, is planning without action execution?",no,yes.,yes,False
+377,Procedural Concepts,Inspection,Define what a planet is.,"According to this definition, is careful examination inspection?",yes,yes.,yes,True
+378,Procedural Concepts,Inspection,Define what verification is.,"According to this definition, is ignoring details inspection?",no,no,no,True
+379,Procedural Concepts,Iteration,Define what renewable energy is.,"According to this definition, is repeating a process iteration?",yes,yes.,yes,True
+380,Procedural Concepts,Iteration,Define what a limit is.,"According to this definition, is performing a task once iteration?",no,no,no,True
+381,Procedural Concepts,Logging,Define effectiveness by stating a condition that must be met for a system or action to be considered effective.,"According to this definition, is recording system events logging?",yes,yes,yes,True
+382,Procedural Concepts,Logging,Define what a multiple is.,"According to this definition, is deleting event records logging?",no,no,no,True
+383,Procedural Concepts,Optimization,Define what a modern weapon is.,"According to this definition, is improving efficiency optimization?",yes,yes.,yes,True
+384,Procedural Concepts,Optimization,Define system maintainability by stating a condition that must be met for a system to be maintainable.,"According to this definition, is reducing performance optimization?",no,yes.,yes,False
+385,Procedural Concepts,Monitoring,Define compliance by stating a condition that must be met for behavior or systems to be compliant.,"According to this definition, is observing system behavior monitoring?",yes,yes.,yes,True
+386,Procedural Concepts,Monitoring,Define reciprocity by stating a necessary condition that must be satisfied for reciprocity to occur.,"According to this definition, is ignoring system behavior monitoring?",no,no,no,True
+387,Procedural Concepts,Simulation,Define what an angle is.,"According to this definition, is modeling a system’s behavior simulation?",yes,yes.,yes,True
+388,Procedural Concepts,Simulation,Define what an integer is.,"According to this definition, is direct physical execution simulation?",no,no.,no,True
+389,Procedural Concepts,Testing,Define what a square is.,"According to this definition, is checking functionality testing?",yes,yes,yes,True
+390,Procedural Concepts,Testing,Define what reflection is.,"According to this definition, is skipping checks testing?",no,no,no,True
+391,Abstract Properties,Effectiveness,Define what a scalar is.,"According to this definition, is effectiveness about achieving intended outcomes?",yes,yes,yes,True
+392,Abstract Properties,Effectiveness,Define what an amphibian is.,"According to this definition, is failure to achieve goals effectiveness?",no,no.,no,True
+393,Abstract Properties,Efficiency (Resource),Define risk by stating a condition that makes an action or situation risky.,"According to this definition, is using fewer resources for the same output resource efficiency?",yes,yes.,yes,True
+394,Abstract Properties,Efficiency (Resource),Define what a scalar is.,"According to this definition, is wasting resources resource efficiency?",no,no,no,True
+395,Abstract Properties,Consistency (Behavioral),Define what heat transfer is.,"According to this definition, is repeating the same behavior over time consistency?",yes,yes,yes,True
+396,Abstract Properties,Consistency (Behavioral),Define what calibration is.,"According to this definition, is unpredictable behavior consistency?",no,no,no,True
+397,Abstract Properties,Clarity,Define what a building material is.,"According to this definition, is clarity about being easy to understand?",yes,yes,yes,True
+398,Abstract Properties,Clarity,Define what a prime number is.,"According to this definition, is confusion clarity?",no,no,no,True
+399,Abstract Properties,Redundancy,Define what efficiency is.,"According to this definition, is duplication of components redundancy?",yes,yes.,yes,True
+400,Abstract Properties,Redundancy,Define what gravity is.,"According to this definition, is having a single component redundancy?",no,no,no,True
+401,Abstract Properties,Latency,Define what a multiple is.,"According to this definition, is latency the delay before a response?",yes,yes.,yes,True
+402,Abstract Properties,Latency,Define what durability is.,"According to this definition, is latency the speed of response?",no,no.,no,True
+403,Abstract Properties,Throughput,Define what a catalyst is.,"According to this definition, is throughput the amount of work done per unit time?",yes,yes,yes,True
+404,Abstract Properties,Throughput,Define what a planetary moon is.,"According to this definition, is throughput the total time taken for one task?",no,no,no,True
+405,Abstract Properties,Scalability (System),Define accountability by stating a necessary condition that must be satisfied for an agent to be accountable.,"According to this definition, is handling increased demand system scalability?",yes,yes.,yes,True
+406,Abstract Properties,Scalability (System),Define what electric current is.,"According to this definition, is failure under load system scalability?",no,no.,no,True
+407,Abstract Properties,Availability (System),Define redundancy by stating a condition that must be met for redundancy to be present.,"According to this definition, is being operational when needed availability?",yes,yes.,yes,True
+408,Abstract Properties,Availability (System),Define what a mammal is.,"According to this definition, is frequent downtime availability?",no,no,no,True
+409,Abstract Properties,Fault Tolerance,Define what a decimal number is.,"According to this definition, is continued operation despite faults fault tolerance?",yes,yes.,yes,True
+410,Abstract Properties,Fault Tolerance,Define what an algorithm is.,"According to this definition, is crashing after a fault fault tolerance?",no,no.,no,True
+411,Abstract Properties,Security,Define what an atom is.,"According to this definition, is protection against unauthorized access security?",yes,yes.,yes,True
+412,Abstract Properties,Security,Define fairness by stating at least one necessary condition that must be satisfied for something to be fair.,"According to this definition, is unrestricted access security?",no,no.,no,True
+413,Abstract Properties,Privacy (Data),Define what an odd number is.,"According to this definition, is protecting personal data data privacy?",yes,yes,yes,True
+414,Abstract Properties,Privacy (Data),Define what a game is.,"According to this definition, is exposing personal data data privacy?",no,no,no,True
+415,Abstract Properties,Compliance,Define what a muscle is.,"According to this definition, is adherence to rules compliance?",yes,yes,yes,True
+416,Abstract Properties,Compliance,Define what inspection is.,"According to this definition, is violation of rules compliance?",no,no,no,True
+417,Abstract Properties,Portability,Define equality by stating a necessary condition that must be satisfied for people to be treated equally.,"According to this definition, is ability to move between systems portability?",yes,no.,no,False
+418,Abstract Properties,Portability,Define moral responsibility by stating a necessary condition that must be satisfied for an agent to be morally responsible.,"According to this definition, is dependence on one system portability?",no,no.,no,True
+419,Abstract Properties,Maintainability (System),Define what a planet is.,"According to this definition, is ease of repair maintainability?",yes,yes.,yes,True
+420,Abstract Properties,Maintainability (System),Define what electric current is.,"According to this definition, is difficulty of repair maintainability?",no,no,no,True
+421,Mathematics & Logic,Composite Number,Define trustworthiness by stating a necessary condition that must be satisfied for an agent to be trustworthy.,"According to this definition, is 8 a composite number?",yes,yes,yes,True
+422,Mathematics & Logic,Composite Number,Define what a vertebrate is.,"According to this definition, is 7 a composite number?",no,no,no,True
+423,Mathematics & Logic,Natural Number,Define what a proof is.,"According to this definition, is 5 a natural number?",yes,yes.,yes,True
+424,Mathematics & Logic,Natural Number,Define what furniture is.,"According to this definition, is -3 a natural number?",no,no.,no,True
+425,Mathematics & Logic,Whole Number,Define autonomy by stating a necessary condition that must be satisfied for an agent to be autonomous.,"According to this definition, is 0 a whole number?",yes,yes.,yes,True
+426,Mathematics & Logic,Whole Number,Define empathy by stating a necessary condition that must be satisfied for someone to be considered empathetic.,"According to this definition, is -1 a whole number?",no,yes.,yes,False
+427,Mathematics & Logic,Decimal Number,Define clarity by stating a condition that must be met for communication to be considered clear.,"According to this definition, is 2.75 a decimal number?",yes,yes,yes,True
+428,Mathematics & Logic,Decimal Number,Define what a household appliance is.,"According to this definition, is √2 an integer decimal representation?",no,no,no,True
+429,Mathematics & Logic,Ratio,Define what stability is.,"According to this definition, is 2:3 a ratio?",yes,yes.,yes,True
+430,Mathematics & Logic,Ratio,Define inclusion by stating a necessary condition that must be satisfied for inclusion to occur.,"According to this definition, is a single number without comparison a ratio?",no,no.,no,True
+431,Mathematics & Logic,Proportion,Define what a profession is.,"According to this definition, is equality of two ratios a proportion?",yes,yes,yes,True
+432,Mathematics & Logic,Proportion,Define what a standard is.,"According to this definition, is an unequal comparison a proportion?",no,no.,no,True
+433,Mathematics & Logic,Sequence,Define what a chromosome is.,"According to this definition, is an ordered list of numbers a sequence?",yes,yes.,yes,True
+434,Mathematics & Logic,Sequence,Define honesty by stating a necessary condition that must be satisfied for a person to be considered honest.,"According to this definition, is a random unordered set a sequence?",no,no.,no,True
+435,Mathematics & Logic,Series,Define civility by stating a necessary condition that must be satisfied for behavior to be considered civil.,"According to this definition, is the sum of sequence terms a series?",yes,yes.,yes,True
+436,Mathematics & Logic,Series,Define what a theorem is.,"According to this definition, is a list without summation a series?",no,yes,yes,False
+437,Mathematics & Logic,Matrix,Define what a force is.,"According to this definition, is a rectangular array of numbers a matrix?",yes,yes.,yes,True
+438,Mathematics & Logic,Matrix,Define what evaluation is.,"According to this definition, is a single scalar value a matrix?",no,no.,no,True
+439,Mathematics & Logic,Vector,Define what a cell is.,"According to this definition, is a quantity with magnitude and direction a vector?",yes,yes.,yes,True
+440,Mathematics & Logic,Vector,Define what transparency is.,"According to this definition, is a scalar without direction a vector?",no,no.,no,True
+441,Mathematics & Logic,Scalar,Define what adaptability is.,"According to this definition, is temperature a scalar quantity?",yes,yes.,yes,True
+442,Mathematics & Logic,Scalar,Define freedom by stating a condition that must be met for an agent to be considered free.,"According to this definition, is velocity a scalar quantity?",no,no,no,True
+443,Mathematics & Logic,Limit,Define what performance is.,"According to this definition, does a limit describe behavior near a point?",yes,yes,yes,True
+444,Mathematics & Logic,Limit,Define what flexibility is.,"According to this definition, is a limit always the value at a point?",no,no.,no,True
+445,Mathematics & Logic,Integral,Define what evaporation is.,"According to this definition, is an integral related to area under a curve?",yes,yes.,yes,True
+446,Mathematics & Logic,Integral,Define what an atom is.,"According to this definition, is an integral a discrete count only?",no,no,no,True
+447,Mathematics & Logic,Logical AND,Define trustworthiness by stating a necessary condition that must be satisfied for an agent to be trustworthy.,"According to this definition, is logical AND true only when both inputs are true?",yes,yes.,yes,True
+448,Mathematics & Logic,Logical AND,Define what the median is.,"According to this definition, is logical AND true when either input is true?",no,no.,no,True
+449,Mathematics & Logic,Logical OR,Define what a mineral is.,"According to this definition, is logical OR true when at least one input is true?",yes,yes.,yes,True
+450,Mathematics & Logic,Logical OR,Define what a building is.,"According to this definition, is logical OR true only when both inputs are true?",no,no.,no,True
+451,Common Nouns,Reptile,Define accountability by stating a necessary condition that must be satisfied for an agent to be accountable.,"According to this definition, is a snake a reptile?",yes,yes.,yes,True
+452,Common Nouns,Reptile,Define what efficiency is.,"According to this definition, is a frog a reptile?",no,no,no,True
+453,Common Nouns,Vehicle,Define what transport infrastructure is.,"According to this definition, is a bicycle a vehicle?",yes,yes,yes,True
+454,Common Nouns,Vehicle,Define what a vehicle is.,"According to this definition, is a chair a vehicle?",no,no,no,True
+455,Science,Planet,Define what durability is.,"According to this definition, is Earth a planet?",yes,yes,yes,True
+456,Science,Planet,Define behavioral consistency by stating a condition that must be met for behavior to be considered consistent.,"According to this definition, is the Moon a planet?",no,no,no,True
+457,Science,Acid,Define what diffusion is.,"According to this definition, is vinegar an acid?",yes,yes,yes,True
+458,Science,Acid,Define what a natural number is.,"According to this definition, is salt an acid?",no,no,no,True
+459,Energy,Fossil Fuel,Define tolerance by stating a necessary condition that must be satisfied for tolerance to occur.,"According to this definition, is coal a fossil fuel?",yes,yes,yes,True
+460,Energy,Fossil Fuel,Define what an ocean is.,"According to this definition, is solar energy a fossil fuel?",no,no.,no,True
+461,Ethics,Responsibility,Define what a catalyst is.,"According to this definition, does responsibility involve accountability?",yes,no,no,False
+462,Ethics,Responsibility,Define what a manual is.,"According to this definition, does responsibility exclude accountability?",no,no,no,True
+463,Ethics,Honesty,Define what a rule is.,"According to this definition, does honesty involve telling the truth?",yes,yes.,yes,True
+464,Ethics,Honesty,Define what workflow automation is.,"According to this definition, does honesty involve deliberate deception?",no,no,no,True
+465,Procedural,Algorithm,Define what debugging is.,"According to this definition, is a step-by-step procedure an algorithm?",yes,yes.,yes,True
+466,Procedural,Algorithm,Define respect by stating a necessary condition that must be satisfied for someone to be treated with respect.,"According to this definition, is random guessing an algorithm?",no,no.,no,True
+467,Procedural,Rule,Define what optimization is.,"According to this definition, does a rule guide behavior?",yes,yes,yes,True
+468,Procedural,Rule,Define responsibility by stating a necessary condition that makes an agent responsible for an outcome.,"According to this definition, does a rule prohibit all behavior?",no,no.,no,True
+469,Abstract,Risk,Define distributive justice by stating a necessary condition that must be satisfied for resource allocation to be distributively just.,"According to this definition, does risk involve uncertainty?",yes,yes,yes,True
+470,Abstract,Risk,Define what a factor is.,"According to this definition, does risk imply guaranteed outcomes?",no,no,no,True
+471,Abstract,Efficiency,Define what an algorithm is.,"According to this definition, does efficiency involve minimizing waste?",yes,yes.,yes,True
+472,Abstract,Efficiency,Define what an instruction is.,"According to this definition, does efficiency require maximum effort regardless of outcome?",no,no.,no,True
+473,Everyday,Profession,Define what a building is.,"According to this definition, is medicine a profession?",yes,yes,yes,True
+474,Everyday,Profession,Define what adaptability is.,"According to this definition, is a hobby a profession?",no,no,no,True
+475,Everyday,Exercise,Define what bacteria are.,"According to this definition, does exercise involve physical activity?",yes,yes.,yes,True
+476,Everyday,Exercise,Define altruism by stating a necessary condition that must be satisfied for an action to be altruistic.,"According to this definition, does exercise involve no bodily movement?",no,no,no,True
+477,Abstract,Freedom,Define what an electronic device is.,"According to this definition, does freedom involve the absence of constraints?",yes,no,no,False
+478,Abstract,Freedom,Define what a backup is.,"According to this definition, does freedom require complete control over others?",no,no,no,True
+479,Procedural,Instruction,Define what an integral is.,"According to this definition, does an instruction provide guidance?",yes,yes,yes,True
+480,Procedural,Instruction,Define compassion by stating a necessary condition that must be satisfied for an action to be compassionate.,"According to this definition, does an instruction prohibit understanding?",no,no,no,True

@@ -1,0 +1,888 @@
+id,domain,concept,definition,model_answer,expected_answer,normalized_answer,consistent
+1,Common Nouns,Mammal,"A **mammal** is a vertebrate animal characterized by the presence of mammary glands in females (for producing milk to feed their young), the possession of hair or fur, and being warm-blooded (endothermic).",yes,yes,yes,True
+2,Common Nouns,Mammal,"**Mammal:** A class of vertebrate animals characterized by the presence of hair or fur, endothermy (being warm-blooded), and the ability of females to nourish their young with milk produced by mammary glands. Most mammals give birth to live young, though a few species lay eggs.",no,no,no,True
+3,Common Nouns,Bird,"A bird is a vertebrate animal distinguished by the presence of feathers, wings, a toothless beak, and the laying of hard-shelled eggs. They are endothermic (warm-blooded).",no,yes,no,False
+4,Common Nouns,Bird,"A bird is a warm-blooded vertebrate animal characterized by the presence of feathers, wings, a beak, and the laying of hard-shelled eggs.",no,no,no,True
+5,Common Nouns,Vehicle,"A machine or device used for transporting people or goods from one place to another, typically operating on land, in the air, or on water.",yes,yes,yes,True
+6,Common Nouns,Vehicle,"A machine or device used for transporting people or goods, typically over land, water, or through the air.",no,no,no,True
+7,Common Nouns,Reptile,"A reptile is an **ectothermic vertebrate** characterized by **dry, scaly skin**, breathing air with **lungs**, and typically reproducing by laying **shelled eggs** on land.",yes,yes,yes,True
+8,Common Nouns,Reptile,"**Reptile:**
+A reptile is a diverse group of **ectothermic vertebrates** (commonly called cold-blooded) characterized by having **dry skin covered in scales or scutes**. They **breathe exclusively with lungs** throughout their lives and typically **reproduce by laying amniotic eggs** (often leathery-shelled) on land, though some species give live birth. Most have four limbs, but some, like snakes, are limbless. Key examples include snakes, lizards, turtles, tortoises, crocodiles, and alligators.",no,no,no,True
+9,Common Nouns,Fruit,"A fruit is the mature, ripened ovary of a flowering plant, typically containing seeds. It develops from the flower after fertilization and serves to protect the seeds and aid in their dispersal.
+
+While many fruits are sweet and commonly consumed as part of a meal (e.g., apples, oranges, berries), botanically, items like tomatoes, cucumbers, and avocados are also classified as fruits due to their origin and seed-bearing function, despite often being used culinarily as vegetables.",yes,yes,yes,True
+10,Common Nouns,Fruit,"**Fruit:**
+
+Botanically, a fruit is the mature ovary of a flowering plant, typically enclosing the seeds. Its primary function is to protect the seeds and aid in their dispersal.
+
+Commonly, however, the term refers to the sweet, fleshy, edible produce of a plant, often consumed raw or as a dessert, distinguishing it from vegetables. Many items considered vegetables in culinary contexts (e.g., tomatoes, cucumbers, peppers, avocados) are botanically fruits.",no,no,no,True
+11,Common Nouns,Tool,"An item, device, or method used to perform a task or achieve a goal, typically by aiding, extending, or simplifying a specific action or process.",yes,yes,yes,True
+12,Common Nouns,Tool,"A tool is any physical object, method, or system used to perform a task, accomplish a goal, or facilitate work.",yes,no,yes,False
+13,Common Nouns,Furniture,"**Definition:**
+
+Furniture refers to movable objects designed to support various human activities (such as sitting, sleeping, working, and dining) and to hold or store items. It is used to equip a room or building, enhancing its comfort, utility, and aesthetic appeal.",no,yes,no,False
+14,Common Nouns,Furniture,"**Definition:**
+Furniture refers to movable objects designed to support various human activities such as sitting, sleeping, eating, working, and storing items, thereby enhancing the comfort, utility, or aesthetic of an indoor or outdoor space. Examples include chairs, tables, beds, desks, and cabinets.",no,no,no,True
+15,Common Nouns,Planet,"A planet is a celestial body that:
+
+1.  **Orbits a star** (and is not itself a star).
+2.  Is **massive enough for its own gravity to pull it into a nearly round shape** (achieving hydrostatic equilibrium).
+3.  **Has cleared the neighborhood around its orbit**, meaning it has gravitationally dominated its orbital path by absorbing or ejecting most other objects of comparable size.",yes,yes,yes,True
+16,Common Nouns,Planet,"A planet is an astronomical body that:
+1.  Orbits a star.
+2.  Has sufficient mass for its own gravity to pull it into a nearly round shape.
+3.  Has cleared the neighborhood around its orbit of other significant objects.",no,no,no,True
+17,Common Nouns,Insect,"**Insect:** A class of invertebrates within the phylum Arthropoda, characterized by a segmented body divided into three distinct regions: a head (bearing a pair of antennae, compound eyes, and mouthparts), a thorax (which carries three pairs of legs and, typically, one or two pairs of wings), and an abdomen. All insects possess an external exoskeleton and are the most diverse group of animals on Earth.",yes,yes,yes,True
+18,Common Nouns,Insect,"**Insect:** A class of arthropod characterized by a body divided into three distinct segments—a head, a thorax, and an abdomen—three pairs of jointed legs attached to the thorax, a pair of antennae, and typically one or two pairs of wings.",no,no,no,True
+19,Common Nouns,Musical Instrument,**Musical Instrument:** An object or device specifically designed or adapted to be played or manipulated by a performer to produce controlled and organized sounds for musical expression or performance.,yes,yes,yes,True
+20,Common Nouns,Musical Instrument,"An object or device specifically designed or adapted to produce controlled sounds for musical expression, performance, or composition.",no,no,no,True
+21,Common Nouns,Building,"A constructed structure, typically with a roof and walls, designed to enclose space for human occupancy or various purposes.",yes,yes,yes,True
+22,Common Nouns,Building,"A **building** is an erected, usually permanent structure, typically fixed to the ground, that has a roof and walls, enclosing an interior space designed for human occupancy, shelter, work, storage, or other specific purposes.",no,no,no,True
+23,Common Nouns,Clothing,"Clothing refers to items worn on the human body, typically made of textiles or other materials, for purposes such as protection from the elements, modesty, adornment, and comfort.",yes,yes,yes,True
+24,Common Nouns,Clothing,"**Clothing** refers to articles, typically made from fabric or other materials, worn on the body primarily for protection from the elements, warmth, modesty, adornment, or to signify social status.",no,no,no,True
+25,Common Nouns,Metal,"**Metal:** An element characterized by its high electrical and thermal conductivity, lustrous appearance, and its malleability (can be hammered into sheets) and ductility (can be drawn into wires). Chemically, metals tend to form positive ions (cations) by readily losing electrons.",yes,yes,yes,True
+26,Common Nouns,Metal,"A metal is a class of chemical elements typically characterized by specific physical and chemical properties:
+
+*   **Physical Properties:** They are generally lustrous (shiny), good conductors of heat and electricity, malleable (can be hammered into sheets), and ductile (can be drawn into wires). Most are solid at room temperature.
+*   **Chemical Properties:** They tend to lose electrons easily to form positive ions (cations).",no,no,no,True
+27,Common Nouns,Emotion,"**Emotion** is a complex psychological and physiological state that arises as a natural, often spontaneous, response to an event, thought, or situation. It is characterized by subjective feelings, physiological changes (e.g., altered heart rate or hormone release), cognitive appraisals, and often a tendency to motivate specific behaviors or expressions.",yes,yes,yes,True
+28,Common Nouns,Emotion,"**Emotion:** A complex psychological and physiological state that arises as a response to internal or external stimuli. It is characterized by a subjective feeling (e.g., joy, sadness, anger), physiological changes (e.g., increased heart rate, altered facial expressions), cognitive appraisal of the situation, and often associated behavioral tendencies. Emotions are fundamental to motivation, decision-making, and social communication.",yes,no,yes,False
+29,Common Nouns,Appliance,"A device or machine, typically powered (often electrically), designed to perform a specific function, especially a domestic or office task.",yes,yes,yes,True
+30,Common Nouns,Appliance,"An appliance is a device, typically powered by electricity or gas, designed to perform a specific practical function, especially within a household or office setting, to facilitate everyday tasks.",no,no,no,True
+31,Common Nouns,Weapon,"A weapon is any object or device used or designed to inflict harm, injury, or death upon living beings, or to cause damage to property or structures. It can also be employed to threaten such outcomes. This definition includes items specifically manufactured for hostile purposes, as well as ordinary objects repurposed for such use.",yes,yes,yes,True
+32,Common Nouns,Weapon,"A weapon is any item, device, substance, or force primarily designed or used to inflict physical harm, injury, or death on living beings, or to cause damage or destruction to property.",no,no,no,True
+33,Common Nouns,Language,"Language is a structured system of communication, typically human, that uses shared symbols (such as sounds, gestures, or written characters) and rules to express and exchange thoughts, ideas, and feelings.",yes,yes,yes,True
+34,Common Nouns,Language,"**Language** is a structured system of communication, utilizing sounds, symbols, and grammatical rules, employed by humans to express and transmit thoughts, ideas, and feelings. It is shared and understood within a community, enabling effective interaction and the transmission of culture.",no,no,no,True
+35,Common Nouns,Game,"A game is a structured activity, involving one or more players, who interact within a defined set of rules to achieve a specific objective or outcome.",yes,yes,yes,True
+36,Common Nouns,Game,"A game is a structured form of play with defined rules, participants (players), and clear objectives, often involving competition, challenge, or the pursuit of a specific outcome.",no,no,no,True
+37,Common Nouns,Food,"Food is any substance consumed by an organism for nourishment, providing energy, promoting growth, and maintaining vital bodily processes.",yes,yes,yes,True
+38,Common Nouns,Food,"Food is any substance, typically organic, that is consumed by an organism to provide nutritional support, energy, and material for growth, repair, and the maintenance of life.",no,no,no,True
+39,Common Nouns,Animal,"**Definition:** An animal is a multicellular, eukaryotic organism belonging to the Kingdom Animalia, characterized by lacking cell walls, being heterotrophic (obtaining nutrition by consuming other organisms), and generally being motile at some stage of its life.",yes,yes,yes,True
+40,Common Nouns,Animal,"An animal is a multicellular organism that is heterotrophic, meaning it obtains nutrition by ingesting other organisms. It is typically motile (capable of self-movement) at some point in its life cycle, and its cells lack rigid cell walls.",no,no,no,True
+41,Scientific Concepts,Renewable Energy,"**Renewable energy** is energy derived from natural sources that replenish themselves on a human timescale, making them virtually inexhaustible.
+
+Common sources include solar, wind, hydro (water), geothermal (earth's heat), and biomass.",yes,yes,yes,True
+42,Scientific Concepts,Renewable Energy,"**Renewable energy** is energy derived from natural sources that replenish themselves on a human timescale, making them virtually inexhaustible. These sources include sunlight, wind, hydropower (from moving water), geothermal heat, and biomass.",no,no,no,True
+43,Scientific Concepts,Gravity,"Gravity is a fundamental natural force that causes any two objects possessing mass or energy to attract each other. Its strength depends directly on their masses and inversely on the square of the distance between them. It is responsible for phenomena like objects falling to Earth, planets orbiting stars, and the large-scale structure of the universe.",yes,yes,yes,True
+44,Scientific Concepts,Gravity,"Gravity is a fundamental natural phenomenon, or force, that causes any two objects possessing mass or energy to attract each other. It is responsible for weight, tides, and the formation and orbits of celestial bodies.",no,no,no,True
+45,Scientific Concepts,Photosynthesis,"Photosynthesis is a biochemical process by which plants, algae, and cyanobacteria convert light energy into chemical energy. This occurs by synthesizing organic compounds (sugars) from carbon dioxide and water, with oxygen released as a byproduct.",no,yes,no,False
+46,Scientific Concepts,Photosynthesis,"Photosynthesis is the biochemical process by which green plants, algae, and some bacteria convert light energy into chemical energy. This is achieved by using carbon dioxide and water to produce glucose (sugars) as food, while releasing oxygen as a byproduct.",no,no,no,True
+47,Scientific Concepts,Ecosystem,"An ecosystem is a community of living organisms interacting with each other and their non-living physical environment, forming a functional unit linked by the flow of energy and nutrients.",yes,yes,yes,True
+48,Scientific Concepts,Ecosystem,"An **ecosystem** is a biological community of interacting organisms (biotic components) and their physical environment (abiotic components), functioning as a unified system through the exchange of energy and nutrients.",no,no,no,True
+49,Scientific Concepts,Atom,"An atom is the fundamental building block of all matter, defined as the smallest unit of a chemical element that retains its chemical identity. It consists of a dense central nucleus (containing positively charged protons and neutral neutrons) surrounded by a cloud of negatively charged electrons.",yes,yes,yes,True
+50,Scientific Concepts,Atom,An **atom** is the smallest unit of an ordinary chemical element that retains the chemical properties of that element. It consists of a dense central nucleus (containing protons and neutrons) surrounded by a cloud of orbiting electrons.,no,no,no,True
+51,Scientific Concepts,Cell,"A cell is the fundamental structural and functional unit of all known living organisms. It is the smallest unit of life capable of independent existence and carrying out the processes essential for life. It typically consists of cytoplasm enclosed within a membrane, and contains genetic material.",yes,yes,yes,True
+52,Scientific Concepts,Cell,A cell is the basic structural and functional unit of all known living organisms. It is the smallest unit that can perform all the processes necessary for life.,no,no,no,True
+53,Scientific Concepts,Electric Current,"**Electric current** is the rate at which electric charge flows past a point in a circuit or conductor.
+
+It is conventionally defined as the direction in which positive charges would move, and its SI unit is the Ampere (A).",yes,yes,yes,True
+54,Scientific Concepts,Electric Current,"**Electric current** is the **rate of flow of electric charge** through a conductor or space.
+
+**Key points:**
+*   It quantifies how much charge passes a given point per unit of time.
+*   It is typically carried by moving electrons in solids, but can also be carried by ions in liquids or gases.
+*   The standard unit of electric current is the **ampere (A)**, which is defined as one coulomb of charge per second (C/s).
+*   It is conventionally represented by the symbol **I**.",no,no,no,True
+55,Scientific Concepts,Force,"**Force** is a push or a pull that acts on an object, capable of causing it to accelerate (change its speed or direction) or to deform.",yes,yes,yes,True
+56,Scientific Concepts,Force,"A force is a push or a pull that can change the motion of an object (cause it to accelerate), or deform it. It is a vector quantity, meaning it has both magnitude and direction.",no,no,no,True
+57,Scientific Concepts,Temperature,**Temperature** is a physical quantity that measures the average kinetic energy of the particles (atoms and molecules) within a substance or system. It quantifies the degree of hotness or coldness and determines the direction of heat transfer between objects.,yes,yes,yes,True
+58,Scientific Concepts,Temperature,**Temperature** is a physical quantity that quantifies the average kinetic energy of the particles (atoms and molecules) within a substance or system. It determines the direction of heat transfer between systems.,no,no,no,True
+59,Scientific Concepts,Evaporation,"Evaporation is the process by which a liquid transforms into a gas or vapor, occurring at the surface of the liquid at temperatures below its boiling point, as molecules gain sufficient thermal energy to escape into the surrounding atmosphere.",yes,yes,yes,True
+60,Scientific Concepts,Evaporation,"Evaporation is the process by which a liquid changes into a gas (vapor) at its surface, typically occurring below the liquid's boiling point, as molecules with sufficient kinetic energy escape into the surrounding atmosphere.",no,no,no,True
+61,Scientific Concepts,Magnetism,"**Magnetism** is a fundamental physical phenomenon where objects exert attractive or repulsive forces on one another, mediated by invisible magnetic fields. These fields are generated by moving electric charges (electric currents) and the intrinsic magnetic properties of elementary particles, particularly electrons within atoms.",yes,yes,yes,True
+62,Scientific Concepts,Magnetism,"**Magnetism** is a fundamental physical phenomenon produced by the motion of electric charge, resulting in attractive and repulsive forces between certain materials, mediated by magnetic fields.",no,no,no,True
+63,Scientific Concepts,Voltage,"Voltage is the **electric potential difference** between two points, representing the energy per unit charge available to drive an electric current. It is measured in **volts (V)**.",yes,yes,yes,True
+64,Scientific Concepts,Voltage,**Voltage** is the **electrical potential difference** between two points in an electrical circuit. It represents the **amount of energy per unit of electric charge** available to move electrons and create an electric current. It is measured in **Volts (V)**.,no,no,no,True
+65,Scientific Concepts,Mutation,"A mutation is a **permanent alteration** in the **nucleotide sequence** of an organism's **genetic material** (DNA or, in some viruses, RNA).",yes,yes,yes,True
+66,Scientific Concepts,Mutation,"**Mutation:** A random change in the DNA or RNA sequence of an organism. It can arise from errors during replication, repair, or recombination, or from environmental factors, and is the fundamental source of genetic variation.",no,no,no,True
+67,Scientific Concepts,Orbit,"An **orbit** is the repeating, curved path in space that one object (such as a planet, moon, or satellite) follows around another, more massive object (the central body), primarily due to the force of gravity.",yes,yes,yes,True
+68,Scientific Concepts,Orbit,"An **orbit** is the regular, repeating, curved path that one celestial body (such as a planet or satellite) follows around another, more massive body (such as a star or planet), primarily due to the force of gravity.",no,no,no,True
+69,Scientific Concepts,Acid,"An acid is a chemical substance that, in aqueous solution, releases hydrogen ions (H+) or hydronium ions (H3O+) (Arrhenius definition). More broadly, according to the Brønsted-Lowry theory, an acid is a proton (H+) donor in a chemical reaction.
+
+Key characteristics typically include:
+*   A sour taste.
+*   Reaction with bases to form a salt and water.
+*   A pH value less than 7.",yes,yes,yes,True
+70,Scientific Concepts,Acid,"An acid is a chemical species that donates a proton (H⁺) to another substance. In an aqueous solution, this action typically results in an increased concentration of hydronium ions (H₃O⁺).",no,no,no,True
+71,Scientific Concepts,Bacteria,"**Bacteria** are microscopic, single-celled organisms characterized by their prokaryotic cell structure, meaning they lack a membrane-bound nucleus and other specialized organelles. Found in nearly every environment on Earth, they exhibit diverse shapes (e.g., spheres, rods, spirals) and play crucial roles in ecosystems, though some can cause disease.",yes,yes,yes,True
+72,Scientific Concepts,Bacteria,"**Bacteria** are microscopic, single-celled organisms that are prokaryotic, meaning they lack a true nucleus and other membrane-bound organelles, with their genetic material (DNA) located in the cytoplasm. They possess a cell wall and typically reproduce by binary fission, existing ubiquitously in diverse environments and playing varied roles, both beneficial and harmful, in ecosystems and other life forms.",no,no,no,True
+73,Scientific Concepts,Energy,"**Energy** is the capacity to do work or cause change. It exists in various forms, such as kinetic (motion), potential (stored), thermal (heat), chemical, electrical, and electromagnetic (light). While it can be transferred between these forms, energy cannot be created or destroyed, only transformed.",yes,yes,yes,True
+74,Scientific Concepts,Energy,"**Energy** is the capacity to do work or cause change. It is a fundamental physical quantity that exists in various forms, such as kinetic (of motion), potential (stored), thermal (heat), chemical, electrical, nuclear, and radiant (light). While it can be converted from one form to another, it cannot be created or destroyed, a principle known as the law of conservation of energy.",no,no,no,True
+75,Scientific Concepts,Pressure,"**Pressure** is defined as the force applied perpendicular to a surface per unit area.
+
+Mathematically, it is expressed as:
+
+$P = F/A$
+
+Where:
+*   **P** is pressure
+*   **F** is the normal (perpendicular) force
+*   **A** is the area over which the force is distributed
+
+It is a scalar quantity, and its SI unit is the Pascal (Pa), which is equal to one Newton per square meter (N/m²). Pressure applies to solids, liquids, and gases.",yes,yes,yes,True
+76,Scientific Concepts,Pressure,"Pressure is the amount of force exerted perpendicular to a surface per unit area.
+
+It is calculated by the formula: **Pressure (P) = Force (F) / Area (A)**.
+
+The standard international (SI) unit for pressure is the Pascal (Pa), which is equivalent to one Newton per square meter (N/m²).",no,no,no,True
+77,Scientific Concepts,Refraction,"Refraction is the **bending** or **change in direction** of a wave (such as light, sound, or water waves) as it passes from one medium to another, due to a **change in its speed**. This phenomenon occurs when the wave strikes the boundary between the two media at an angle.",yes,yes,yes,True
+78,Scientific Concepts,Refraction,"Refraction is the change in direction (or bending) of a wave, such as light or sound, as it passes from one medium into another, due to a change in its speed.",no,no,no,True
+79,Scientific Concepts,Carbon Cycle,"The **Carbon Cycle** is the natural biogeochemical cycle by which carbon is exchanged among the atmosphere, oceans, land (including living organisms and soil), and Earth's crust. It involves continuous movement through processes like photosynthesis, respiration, decomposition, geological activity, and human activities such as the burning of fossil fuels, playing a critical role in regulating Earth's climate and supporting life.",yes,yes,yes,True
+80,Scientific Concepts,Carbon Cycle,"The Carbon Cycle is the natural biogeochemical cycle that describes the continuous movement of carbon atoms among Earth's major reservoirs: the atmosphere, oceans, land (including living organisms and soils), and sediments/rocks. This circulation occurs through a variety of biological processes (like photosynthesis and respiration), chemical reactions, physical transfers, and human activities (like burning fossil fuels), and is essential for supporting life and regulating Earth's climate.",no,no,no,True
+81,Social & Ethical Concepts,Fairness,"**Fairness** is the quality or principle of treating people, situations, or decisions in an impartial and just manner, free from favoritism, discrimination, or prejudice, ensuring that actions, allocations, and outcomes are appropriate and equitable relative to relevant factors such as merit, need, or circumstance.",no,yes,no,False
+82,Social & Ethical Concepts,Fairness,"Fairness is the principle of treating individuals and groups impartially and without prejudice, ensuring that decisions and actions are based on established rules, merit, or need, rather than arbitrary preference or bias. It aims to provide equitable opportunities and outcomes.",no,no,no,True
+83,Social & Ethical Concepts,Justice,"**Definition:**
+
+Justice is the moral and philosophical principle of fairness and righteousness, applied to the treatment of individuals and the distribution of resources, opportunities, and consequences. It aims to ensure that individuals receive what is due to them based on ethical principles, reason, and law.",yes,yes,yes,True
+84,Social & Ethical Concepts,Justice,"**Justice** is the principle or ideal of fairness and righteousness in the treatment of individuals and groups. It involves upholding rights, assigning deserved rewards or punishments, and rectifying wrongs, based on ethical principles, reason, and law.",no,no,no,True
+85,Social & Ethical Concepts,Honesty,"**Honesty** is the quality of being truthful and sincere in one's words and actions, free from deceit or deliberate falsehood. It reflects integrity and fosters trust.",yes,yes,yes,True
+86,Social & Ethical Concepts,Honesty,"**Honesty** is the quality of being truthful, sincere, and free from deceit. It involves consistently speaking the truth, acting authentically, and adhering to moral and ethical principles in one's words and actions.",no,no,no,True
+87,Social & Ethical Concepts,Responsibility,"**Responsibility** is the duty or obligation to complete a task, fulfill a role, or manage a situation, along with the accountability for one's actions, decisions, and their resulting outcomes or consequences.",yes,yes,yes,True
+88,Social & Ethical Concepts,Responsibility,"**Responsibility:** The state or fact of having a duty or obligation to perform a task, care for someone, or achieve an outcome, coupled with accountability for one's actions, decisions, and their resulting consequences.",no,no,no,True
+89,Social & Ethical Concepts,Empathy,"**Empathy** is the ability to understand and share the feelings, thoughts, or experiences of another person, often by imagining oneself in their situation.",yes,yes,yes,True
+90,Social & Ethical Concepts,Empathy,"**Empathy** is the ability to understand and share the feelings of another person, often by imagining oneself in their situation or from their perspective.",no,no,no,True
+91,Social & Ethical Concepts,Equality,"**Equality** is the state or principle of being equal, especially in status, rights, and opportunities. It advocates for fair treatment and access for all individuals, asserting that everyone should be considered of equal worth and value, regardless of their differences.",yes,yes,yes,True
+92,Social & Ethical Concepts,Equality,"**Equality** is the state where all individuals possess the same fundamental rights, opportunities, and are treated with the same dignity and respect, regardless of their background, characteristics, or circumstances.",no,no,no,True
+93,Social & Ethical Concepts,Trust,"**Trust** is a firm belief in the reliability, truth, ability, or strength of someone or something, leading to a confident reliance and often a willingness to be vulnerable based on the expectation of positive or predictable outcomes.",yes,yes,yes,True
+94,Social & Ethical Concepts,Trust,"**Trust** is a firm belief in the reliability, truth, ability, or strength of someone or something, leading to a willingness to rely on them, often despite vulnerability.",no,no,no,True
+95,Social & Ethical Concepts,Freedom,"**Freedom:** The ability to act, speak, or think without undue external constraint or coercion. It encompasses the power to make choices and determine one's own actions, typically within a framework that respects the equal rights and freedoms of others.",yes,yes,yes,True
+96,Social & Ethical Concepts,Freedom,"**Freedom** is the state of being able to act, speak, or think without undue external restraint or coercion. It encompasses the power to make choices and exercise one's own will, typically within the bounds of not infringing upon the rights or freedoms of others.",no,no,no,True
+97,Social & Ethical Concepts,Privacy,"**Privacy** is the right or capacity of individuals to control access to their personal information, space, and choices, and to determine the extent to which these are shared or observed by others. It encompasses the ability to maintain a sphere of personal autonomy free from unwarranted intrusion.",yes,yes,yes,True
+98,Social & Ethical Concepts,Privacy,"**Privacy** is the ability and right of individuals to control access to, and the collection, use, and disclosure of their personal information, private affairs, and physical space, thereby enabling their autonomy, choice, and freedom from undue intrusion.",no,no,no,True
+99,Social & Ethical Concepts,Respect,"**Respect** is a positive regard and admiration shown towards someone or something that is considered valuable, important, or worthy of honor. It involves recognizing their inherent worth, dignity, or rights, and demonstrating this through thoughtful, considerate, and appropriate behavior.",yes,yes,yes,True
+100,Social & Ethical Concepts,Respect,"**Respect** is a feeling of deep admiration or high regard for someone or something, based on their qualities, achievements, or inherent worth. It is demonstrated through considerate actions, courteous behavior, and by honoring boundaries.",no,no,no,True
+101,Social & Ethical Concepts,Integrity,"**Integrity** is the quality of being honest and having strong moral principles, demonstrating consistency between one's values, words, and actions, especially when faced with challenges or when unobserved.",yes,yes,yes,True
+102,Social & Ethical Concepts,Integrity,"**Integrity** is the quality of being honest and having strong moral principles. It involves consistently adhering to one's values and ethical standards, demonstrating uprightness and an undivided moral character.",no,no,no,True
+103,Social & Ethical Concepts,Compassion,"**Compassion** is a deep feeling of sympathy and sorrow for others who are experiencing distress or suffering, coupled with a strong desire to alleviate that suffering.",no,yes,no,False
+104,Social & Ethical Concepts,Compassion,"Compassion is a deep feeling of sympathetic concern for the suffering of others, accompanied by a strong desire to alleviate or reduce that suffering.",no,no,no,True
+105,Social & Ethical Concepts,Accountability,"**Accountability** is the obligation of an individual or organization to accept responsibility for its actions, decisions, and their resulting outcomes, and to be answerable for them, including the obligation to report and be subject to consequences (positive or negative).",yes,yes,yes,True
+106,Social & Ethical Concepts,Accountability,"**Accountability** is the obligation of an individual or organization to be answerable for its actions and decisions, to explain and justify them, and to accept credit or blame for the resulting outcomes.",no,no,no,True
+107,Social & Ethical Concepts,Altruism,"**Altruism** is the selfless concern for the well-being of others, without expectation of personal benefit or reward, often involving actions that may come at a cost to the altruist.",yes,yes,yes,True
+108,Social & Ethical Concepts,Altruism,"**Altruism is behavior motivated by selfless concern for the well-being of others, where an individual acts to benefit another without expectation of personal gain or reward, often at a cost or risk to themselves.**",no,no,no,True
+109,Social & Ethical Concepts,Discrimination,"**Discrimination** is the unjust or prejudicial treatment of different categories of people, especially on the grounds of characteristics such as race, ethnicity, gender, sexual orientation, religion, disability, or age. It often leads to the disadvantage, denial of opportunities, or harm of the targeted individuals or groups.",yes,yes,yes,True
+110,Social & Ethical Concepts,Discrimination,"**Discrimination** is the unjust or prejudicial treatment of different categories of people, especially on the grounds of race, age, sex, religion, or disability. It involves treating individuals or groups differently and less favorably based on their actual or perceived membership in a social category, rather than on their individual qualities or merits, often resulting in disadvantage, exclusion, or the denial of rights and opportunities.",no,no,no,True
+111,Social & Ethical Concepts,Cooperation,**Cooperation** is the act or process of individuals or groups working together towards a shared goal or for mutual benefit.,yes,yes,yes,True
+112,Social & Ethical Concepts,Cooperation,"**Cooperation** is the act or process of individuals or groups working together, combining their efforts, resources, or skills, to achieve a common goal or mutual benefit.",no,no,no,True
+113,Social & Ethical Concepts,Transparency,"**Transparency** is the principle or practice of operating openly, honestly, and clearly, by making information, processes, and decisions visible and accessible to relevant parties. Its purpose is to foster trust, enable scrutiny, and promote accountability.",yes,yes,yes,True
+114,Social & Ethical Concepts,Transparency,"**Transparency** is the quality of being open, honest, and clear in communicating information, decisions, and processes, making them accessible and understandable to those affected or interested. It fosters trust, accountability, and informed decision-making.",no,no,no,True
+115,Social & Ethical Concepts,Ethical Behavior,"**Ethical behavior** is conduct guided by moral principles and values, demonstrating an understanding of right from wrong, and characterized by actions that are fair, honest, respectful, and responsible towards oneself, others, and the broader community.",yes,yes,yes,True
+116,Social & Ethical Concepts,Ethical Behavior,"**Ethical behavior** refers to actions, choices, and conduct that are guided by moral principles and values, distinguishing between right and wrong, and aiming to promote fairness, respect, integrity, and well-being for all stakeholders.",no,no,no,True
+117,Social & Ethical Concepts,Consent,"**Consent** is a voluntary, informed, and clear agreement given by a person with the capacity to make that decision, to engage in a specific activity or action.
+
+It must be freely given, without coercion, pressure, or manipulation, and can be withdrawn at any time, even if previously given.",no,yes,no,False
+118,Social & Ethical Concepts,Consent,"**Consent** is voluntary, informed, and enthusiastic permission for an action or activity, given by a person with the capacity to make that decision. It must be freely and actively given, free from coercion, manipulation, or fraud, and can be withdrawn at any time.",no,no,no,True
+119,Social & Ethical Concepts,Human Rights,"**Human Rights** are fundamental rights and freedoms inherent to all individuals, universal, inalienable, and essential for ensuring dignity, equality, and freedom.",yes,yes,yes,True
+120,Social & Ethical Concepts,Human Rights,"Human Rights are fundamental rights and freedoms inherent to all individuals, simply by virtue of being human. They are universal, inalienable, and non-discriminatory, ensuring dignity, equality, and protection from abuse, and placing obligations primarily on states to respect, protect, and fulfill them.",no,no,no,True
+121,Procedural Concepts,Algorithm,"An algorithm is a finite, unambiguous set of well-defined instructions for solving a problem or accomplishing a specific task. It takes zero or more inputs, performs a sequence of operations, and produces one or more outputs, always terminating in a finite number of steps.",no,yes,no,False
+122,Procedural Concepts,Algorithm,"An **algorithm** is a finite sequence of well-defined, unambiguous instructions or steps for solving a problem or performing a computation. It takes one or more inputs, produces one or more outputs, and is guaranteed to terminate in a finite amount of time.",no,no,no,True
+123,Procedural Concepts,Protocol,"A protocol is a **set of established rules and standards** that dictate how different entities (e.g., computers, systems, or individuals) communicate, interact, and exchange data or information.
+
+These rules cover the format, timing, sequencing, and error handling of messages, ensuring clear, orderly, and mutually understood interactions.",yes,yes,yes,True
+124,Procedural Concepts,Protocol,"A **protocol** is a set of formal rules, procedures, or conventions that govern how interactions or communications are conducted between two or more parties or systems. Its purpose is to ensure consistent, predictable, and effective outcomes.
+
+**In computing and networking**, a protocol specifically defines the format, timing, sequencing, and error-checking methods for exchanging data between devices, enabling them to communicate and understand each other.",no,no,no,True
+125,Procedural Concepts,Procedure,"**Definition:**
+A procedure is a sequence of actions or steps performed in a specific, established, or prescribed order to achieve a particular outcome, complete a task, or solve a problem.",no,yes,no,False
+126,Procedural Concepts,Procedure,"A procedure is a **series of established or prescribed actions or steps performed in a specific order** to accomplish a task, achieve a particular outcome, or ensure consistency.",no,no,no,True
+127,Procedural Concepts,Workflow,"A workflow is a sequence of tasks, steps, or activities that are followed to complete a specific process or achieve a particular outcome. It outlines the progression of work, defining who does what, when, and with what information or tools, from initiation to completion.",no,yes,no,False
+128,Procedural Concepts,Workflow,A workflow is a sequence of tasks or activities performed in a defined order by people or systems to achieve a specific goal or outcome.,no,no,no,True
+129,Procedural Concepts,Method,"A systematic or established way of doing something, often following a specific procedure or technique, to achieve a particular goal or objective.",no,yes,no,False
+130,Procedural Concepts,Method,"A **systematic and often established way, procedure, or process** for accomplishing a task, achieving a goal, or conducting an inquiry.",no,no,no,True
+131,Procedural Concepts,Rule,"**Definition:** An established principle, instruction, or guideline that dictates or regulates behavior, actions, or procedures within a specific context.",yes,yes,yes,True
+132,Procedural Concepts,Rule,"A **rule** is an established principle, instruction, or guideline that governs behavior, procedure, or operation within a particular system, game, or context. It defines what is permissible, required, or forbidden, and often outlines how something should be done or how a system functions.",no,no,no,True
+133,Procedural Concepts,Policy,"**Policy:** A set of principles, rules, or guidelines adopted by an organization or government to systematically guide decisions and actions in order to achieve specific outcomes or address particular issues.",yes,yes,yes,True
+134,Procedural Concepts,Policy,"A **policy** is a set of principles, rules, guidelines, or a course of action adopted by an organization, government, or individual to guide decisions and achieve specific outcomes or goals.",no,no,no,True
+135,Procedural Concepts,Standard,"A **standard** is an established criterion, model, or level of quality or achievement against which something can be measured, judged, or compared.
+
+It represents an agreed-upon norm, a required specification, or a minimum acceptable benchmark, often aimed at ensuring consistency, uniformity, or a desired level of performance.",yes,yes,yes,True
+136,Procedural Concepts,Standard,"A standard is an authoritative or generally accepted rule, measure, or model used for comparison, assessment, or as a basis for action. It often defines a required or desired level of quality, performance, or practice.",no,no,no,True
+137,Procedural Concepts,Checklist,"A checklist is a list of items, tasks, or actions to be systematically verified, completed, or marked off, typically used to ensure consistency, completeness, or adherence to a standard.",yes,yes,yes,True
+138,Procedural Concepts,Checklist,"A checklist is a list of items, tasks, steps, or criteria designed to be verified, completed, or ensured. It serves as a memory aid and a tool to ensure completeness, consistency, and accuracy in a process or activity by allowing each point to be marked off once addressed.",no,no,no,True
+139,Procedural Concepts,Plan,**Plan:** An intended course of action designed to achieve a specific goal or objective.,no,yes,no,False
+140,Procedural Concepts,Plan,A plan is a predetermined course of action or a structured set of steps designed to achieve a specific goal or objective.,no,no,no,True
+141,Procedural Concepts,Schedule,"A schedule is a **plan** that details a sequence of tasks, events, or activities and specifies the times or dates at which they are intended to occur.",yes,yes,yes,True
+142,Procedural Concepts,Schedule,"A schedule is an organized plan that lists a sequence of intended events, tasks, or activities, specifying the times (and often durations or locations) at which they are planned to occur.",no,no,no,True
+143,Procedural Concepts,Process,"A **process** is a series of actions or steps performed in a systematic way to achieve a particular outcome, goal, or transformation.",no,yes,no,False
+144,Procedural Concepts,Process,"A series of interconnected actions or steps taken to achieve a specific goal or outcome, typically by transforming inputs into outputs.",no,no,no,True
+145,Procedural Concepts,Guideline,"A guideline is a principle or recommendation that offers direction or advice on how to act, proceed, or perform a task, typically without being a strictly mandatory rule or policy.",yes,yes,yes,True
+146,Procedural Concepts,Guideline,"A guideline is a **recommended instruction or principle** intended to advise on a course of action or to specify a preferred way of achieving an objective.
+
+Unlike a rule or policy, a guideline is typically **not mandatory** but serves as a guide for best practice, consistency, or effective conduct.",no,no,no,True
+147,Procedural Concepts,Instruction,"**Instruction:**
+
+An instruction is a command, directive, or piece of information that guides a person or system to perform a specific action, task, or process, often detailing what to do or how to do it.",yes,yes,yes,True
+148,Procedural Concepts,Instruction,"**Instruction:** A statement, command, or directive that specifies an action to be performed, provides guidance on how to do something, or explains a procedure.
+
+It typically aims to achieve a particular result or goal, often as part of a sequence of steps.",no,no,no,True
+149,Procedural Concepts,Manual,"Here are the two primary definitions for ""Manual"":
+
+1.  **(Adjective)** Pertaining to or performed with the hands or by human physical effort, as opposed to automatic or mechanical.
+2.  **(Noun)** A book or document providing instructions, information, or guidance, especially for operating something or performing a task.",yes,yes,yes,True
+150,Procedural Concepts,Manual,"**Manual** can be defined in two primary ways:
+
+1.  **As an Adjective:** Pertaining to or performed with the hands, often in contrast to automatic, mechanical, or digital operation.
+    *   *Example:* Manual labor, a manual transmission.
+
+2.  **As a Noun:** A book or document providing instructions, guidance, or information, especially for operating, maintaining, or understanding a device, system, or process; an instructional guide.
+    *   *Example:* A car manual, a software user manual.",no,no,no,True
+151,Procedural Concepts,Workflow Automation,"**Workflow Automation** is the use of technology to automatically execute a series of defined tasks or steps in a business process.
+
+Its primary goal is to streamline operations, reduce manual effort, minimize errors, and improve efficiency, consistency, and speed by setting up rules, triggers, and integrations that enable tasks to flow from one step to the next without human intervention or with minimal oversight.",no,yes,no,False
+152,Procedural Concepts,Workflow Automation,"**Workflow Automation** is the use of software and technology to automatically execute a sequence of tasks or steps within a business process, minimizing manual intervention. It typically applies to repetitive, rule-based activities, often triggered by specific events, to improve efficiency, accuracy, speed, and consistency across operations.",no,no,no,True
+153,Procedural Concepts,Quality Control,**Quality Control (QC)** is a process involving a set of operational techniques and activities used to ensure products or services meet specified quality standards and requirements by identifying and correcting defects or deviations.,yes,yes,yes,True
+154,Procedural Concepts,Quality Control,"**Quality Control (QC)** is a systematic process that involves inspecting, testing, and monitoring products, services, or processes to ensure they meet specified quality criteria or standards. Its primary goal is to identify and correct defects, thereby preventing non-conforming items from reaching the customer.",no,no,no,True
+155,Procedural Concepts,Decision Procedure,"A **decision procedure** is an algorithm that takes an instance of a problem as input and, in a finite number of steps, always terminates with a definitive ""yes"" or ""no"" answer. This answer correctly determines whether the input possesses a particular property or satisfies a given condition.
+
+Essentially, it's a guaranteed-to-halt algorithm for solving ""decision problems"" – questions that have a simple true/false or yes/no answer.",no,yes,no,False
+156,Procedural Concepts,Decision Procedure,"A **decision procedure** is a computational procedure (or algorithm) that takes an instance of a problem as input and definitively outputs either ""yes"" or ""no"" (or ""true"" or ""false"").
+
+Crucially, it is **guaranteed to terminate** for every possible input, always providing the correct binary answer. A problem for which a decision procedure exists is called a **decidable problem**.",no,no,no,True
+157,Procedural Concepts,Verification,"**Verification** is the act or process of confirming that something is true, accurate, valid, or conforms to specified requirements or standards. It typically involves examination, testing, comparison with evidence, or review to establish confidence in its correctness or authenticity.",yes,yes,yes,True
+158,Procedural Concepts,Verification,"**Verification** is the process of confirming that something is true, accurate, or compliant with specified requirements. This is typically achieved through examination, evidence, or testing.",no,no,no,True
+159,Procedural Concepts,Validation,"**Validation** is the process of establishing the accuracy, correctness, soundness, or legitimacy of something by checking it against a set of criteria, requirements, or accepted standards.",yes,yes,yes,True
+160,Procedural Concepts,Validation,"**Validation** is the process of confirming that something is accurate, true, legitimate, or compliant with a set of requirements, standards, or expectations.",no,no,no,True
+161,Abstract Properties,Efficiency,"Efficiency is the quality of achieving the desired output or result with the minimum amount of input, resources, effort, or waste.",yes,yes,yes,True
+162,Abstract Properties,Efficiency,"**Efficiency** is the ability to achieve a desired output or result with the **minimum expenditure of resources** (such as time, money, energy, or materials) and the **least amount of waste**.",no,no,no,True
+163,Abstract Properties,Reliability,"**Reliability** is the ability of a system, product, or measure to perform its intended function consistently and dependably over time, under specified conditions, and without failure.",yes,yes,yes,True
+164,Abstract Properties,Reliability,"**Reliability** is the consistency with which a system, product, person, or measurement performs its intended function, delivers expected results, or maintains its characteristic without failure over time and under specified conditions.",no,no,no,True
+165,Abstract Properties,Accuracy,"The degree to which information, a measurement, a calculation, or a statement is correct or true, and free from error.",yes,yes,yes,True
+166,Abstract Properties,Accuracy,"**Accuracy** is the degree of closeness between a measured, calculated, or stated value and the true or accepted value. It reflects correctness and freedom from error.",no,no,no,True
+167,Abstract Properties,Stability,"**Stability:** The quality or state of being resistant to change, disturbance, or breakdown, enabling something to maintain a consistent or equilibrium state.",yes,yes,yes,True
+168,Abstract Properties,Stability,"**Stability** is the property of a system or state to resist significant change or disruption, and to maintain or return to a state of equilibrium following a disturbance.",no,no,no,True
+169,Abstract Properties,Flexibility,"Flexibility is the ability to adapt or change readily in response to new or changing circumstances, demands, or conditions, without undue difficulty or resistance.",yes,yes,yes,True
+170,Abstract Properties,Flexibility,"**Flexibility** is the quality of being able to bend, adapt, or change in response to new conditions, circumstances, or demands.",no,no,no,True
+171,Abstract Properties,Robustness,"**Robustness** is the ability of a system, process, or entity to maintain its performance, stability, or intended function despite variations, disturbances, errors, or adverse conditions.",yes,yes,yes,True
+172,Abstract Properties,Robustness,"**Robustness** is the ability of a system, process, or entity to maintain its intended performance, functionality, or stability despite the presence of variations, disturbances, errors, or adverse conditions (e.g., internal faults, external changes, unexpected inputs).",no,no,no,True
+173,Abstract Properties,Complexity,"**Complexity** is the state or quality of having numerous interconnected parts or factors, making it difficult to fully comprehend, analyze, predict, or manage the overall system or concept.",yes,yes,yes,True
+174,Abstract Properties,Complexity,"**Complexity** refers to the characteristic of a system or concept having numerous interconnected elements or components, whose intricate relationships and interactions make it difficult to fully understand, predict, or manage its behavior.",no,no,no,True
+175,Abstract Properties,Transparency,"**Transparency** is the principle of openness and clarity, ensuring that information about processes, decisions, and actions is accessible, understandable, and verifiable by relevant stakeholders.",yes,yes,yes,True
+176,Abstract Properties,Transparency,"**Transparency** is the principle or practice of operating in such a way that information, processes, and decisions are open, clear, and readily accessible to relevant stakeholders or the public. It aims to foster trust, accountability, and understanding by removing hidden agendas or obscured actions.",no,no,no,True
+177,Abstract Properties,Scalability,"**Scalability** is the ability of a system, network, or process to handle a growing amount of work, demand, or users by adding resources or adapting its design, while maintaining performance, efficiency, and stability.",yes,yes,yes,True
+178,Abstract Properties,Scalability,"**Scalability** is the ability of a system, process, or organization to handle and perform effectively under an increased or expanding workload, demand, or scope, without significant degradation in performance, efficiency, or cost-effectiveness.",no,no,no,True
+179,Abstract Properties,Consistency,"**Consistency** is the quality of maintaining a uniform standard, behavior, or character over time, or the state of being free from contradiction or variation.",yes,yes,yes,True
+180,Abstract Properties,Consistency,"Consistency is the quality of maintaining uniformity, regularity, or logical coherence over time or across different instances, without variation or contradiction.",no,no,no,True
+181,Abstract Properties,Resilience,"**Resilience:** The ability or capacity to recover and adapt effectively in the face of stress, adversity, trauma, or significant change, thereby maintaining well-being and function.",yes,yes,yes,True
+182,Abstract Properties,Resilience,"Resilience is the ability to recover and adapt well to stress, adversity, trauma, or significant change, maintaining or regaining a state of well-being and positive functioning.",no,no,no,True
+183,Abstract Properties,Maintainability,"**Maintainability** is the ease with which a system, product, or asset can be modified, repaired, or updated to correct defects, improve performance or other attributes, or adapt to a changed environment or new requirements.
+
+In essence, it measures how easy it is to keep something functional, relevant, and effective over its lifespan.",yes,yes,yes,True
+184,Abstract Properties,Maintainability,"**Maintainability** is the ease with which a system, software, or product can be modified to correct defects, improve performance or functionality, or adapt to changes in its environment or requirements.",no,no,no,True
+185,Abstract Properties,Usability,"**Usability** refers to the ease with which users can achieve their goals when interacting with a product, system, or service.
+
+More specifically, it measures how effectively, efficiently, and satisfactorily specified users can achieve specific goals in a particular context of use. It encompasses aspects like learnability, efficiency, memorability, error prevention, and user satisfaction.",yes,yes,yes,True
+186,Abstract Properties,Usability,"**Usability** is the ease with which users can learn, operate, and be satisfied with a product, system, or interface to achieve their goals effectively and efficiently.",no,no,no,True
+187,Abstract Properties,Performance,"**Performance** is the execution of an action, task, or function, typically evaluated by its effectiveness, efficiency, or quality. It can refer to the process itself or the resulting outcome.",yes,yes,yes,True
+188,Abstract Properties,Performance,"**Performance** is the execution of a task, action, or function, encompassing both the act itself and the quality, effectiveness, or outcome of that execution.",yes,no,yes,False
+189,Abstract Properties,Adaptability,"**Definition:**
+The ability to adjust effectively to new or changing conditions, situations, or environments.",yes,yes,yes,True
+190,Abstract Properties,Adaptability,"**Definition:**
+Adaptability is the ability to adjust and thrive in new or changing environments. It involves flexibility, learning, and effectively modifying responses to suit altered conditions or unexpected challenges.",no,no,no,True
+191,Abstract Properties,Durability,"**Durability** is the ability of an object, material, or system to withstand wear, damage, or deterioration from use, stress, or environmental factors over an extended period, while maintaining its intended function and integrity.",yes,yes,yes,True
+192,Abstract Properties,Durability,"**Durability** is the ability of a product, material, or system to resist wear, tear, damage, or degradation, and maintain its intended function, integrity, and performance over an extended period or under adverse conditions.",no,no,no,True
+193,Abstract Properties,Precision,"**Precision** is the degree to which repeated measurements or calculations under unchanged conditions show the same or very similar results. It reflects the consistency and reproducibility of a set of data, indicating how closely individual measurements cluster together, independent of their proximity to the true or accepted value.",no,yes,no,False
+194,Abstract Properties,Precision,"**Precision** refers to the degree to which repeated measurements or calculations under unchanged conditions show the same or similar results. It reflects the **reproducibility and consistency** of a measurement process, regardless of whether the results are close to the true value (which relates to accuracy).",no,no,no,True
+195,Abstract Properties,Availability,"**Availability** is the ability of a system, service, or resource to be accessible and functional to authorized users when needed or expected.",yes,yes,yes,True
+196,Abstract Properties,Availability,"**Availability** is the characteristic of a system, service, or resource being accessible and fully operational for authorized users or processes when required, ensuring it can perform its intended function.",no,no,no,True
+197,Abstract Properties,Responsiveness,"**Responsiveness** is the quality or state of reacting promptly and appropriately to a stimulus, request, or change. It reflects the readiness and ability to acknowledge and act upon input, often characterized by attentiveness, timeliness, and effectiveness.",yes,yes,yes,True
+198,Abstract Properties,Responsiveness,"**Responsiveness** is the quality or ability to react quickly and effectively to a stimulus, request, or change.",no,no,no,True
+199,Abstract Properties,Efficiency (Process),"**Definition:**
+
+The measure of how effectively a process converts inputs into desired outputs, specifically by maximizing output relative to the resources consumed (e.g., time, money, effort, materials) and minimizing waste.",yes,yes,yes,True
+200,Abstract Properties,Efficiency (Process),"**Efficiency (Process):** The measure of how effectively a process transforms inputs (such as time, resources, or effort) into desired outputs or results, with minimal waste.",no,no,no,True
+201,Mathematics & Logic,Prime Number,"A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+In other words, it is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and the number itself.",yes,yes,yes,True
+202,Mathematics & Logic,Prime Number,"A **prime number** is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+In simpler terms, it's a whole number greater than 1 that can only be divided evenly by 1 and itself.",no,no,no,True
+203,Mathematics & Logic,Even Number,"An even number is an integer that is divisible by 2 with no remainder.
+
+**Key Points:**
+*   It can be expressed in the form $2k$, where $k$ is an integer.
+*   This includes positive numbers (e.g., 2, 4), negative numbers (e.g., -2, -4), and zero.",yes,yes,yes,True
+204,Mathematics & Logic,Even Number,**Definition:** An integer that is a multiple of 2.,no,no,no,True
+205,Mathematics & Logic,Odd Number,"**Definition:**
+
+An **odd number** is a whole number that is not divisible by 2. When divided by 2, it always leaves a remainder of 1.
+
+It can be expressed in the form **2n + 1**, where n is any integer. Examples include 1, 3, 5, 7, -1, -3.",yes,yes,yes,True
+206,Mathematics & Logic,Odd Number,"**Definition:**
+An odd number is an integer that, when divided by 2, leaves a remainder of 1. Equivalently, it is an integer that cannot be exactly divided by 2, or an integer that can be expressed in the form $2n + 1$, where $n$ is any integer.",no,no,no,True
+207,Mathematics & Logic,Integer,"An integer is a number that can be positive, negative, or zero, and does not have any fractional or decimal parts.
+
+**Examples:** -3, -2, -1, 0, 1, 2, 3
+**(Non-examples):** 1.5, -0.7, 2/3, π",yes,yes,yes,True
+208,Mathematics & Logic,Integer,"An integer is a whole number that can be positive, negative, or zero, without any fractional or decimal part.",no,no,no,True
+209,Mathematics & Logic,Rational Number,"A rational number is any number that can be expressed as a fraction $p/q$, where $p$ and $q$ are integers and $q$ is not equal to zero.
+
+**Key characteristics:**
+
+*   It can always be written as a ratio of two integers.
+*   Its decimal expansion either terminates (e.g., $0.5 = 1/2$) or repeats infinitely (e.g., $0.333... = 1/3$).
+*   The set of rational numbers is denoted by $\mathbb{Q}$.",yes,yes,yes,True
+210,Mathematics & Logic,Rational Number,"A rational number is any number that can be expressed as a fraction $p/q$, where $p$ and $q$ are both integers and $q$ is not equal to zero.
+
+This means rational numbers include all integers, as well as terminating and repeating decimals.",no,no,no,True
+211,Mathematics & Logic,Triangle,A **triangle** is a **polygon** defined by **three straight sides** (or edges) and **three vertices** (corners). It is a **two-dimensional** (2D) closed figure.,yes,yes,yes,True
+212,Mathematics & Logic,Triangle,A triangle is a two-dimensional polygon with three straight sides and three vertices (corners).,no,no,no,True
+213,Mathematics & Logic,Square,A square is a quadrilateral with four equal sides and four right angles.,yes,yes,yes,True
+214,Mathematics & Logic,Square,"Definition:
+A **square** is a regular quadrilateral, meaning it is a four-sided polygon that has all four sides of equal length and all four interior angles equal to 90 degrees (right angles).",no,no,no,True
+215,Mathematics & Logic,Factor,"**Factor:** An integer that divides another integer (its product) evenly, leaving no remainder.
+
+Alternatively, a factor is one of two or more integers that, when multiplied together, produce a given integer.
+
+**Example:** In the equation $3 \times 4 = 12$, both 3 and 4 are factors of 12. The complete set of factors for 12 is 1, 2, 3, 4, 6, and 12.",yes,yes,yes,True
+216,Mathematics & Logic,Factor,"A **factor** is a number or algebraic expression that divides another number or expression exactly (without a remainder). Equivalently, it is one of the quantities that are multiplied together to form a product.
+
+**Example:** 2 and 3 are factors of 6 because 2 * 3 = 6.",no,no,no,True
+217,Mathematics & Logic,Multiple,"A **multiple** of an integer is the result of multiplying that integer by another integer.
+
+*Alternatively, a number 'A' is a multiple of a number 'B' if 'A' can be divided by 'B' with no remainder.*
+
+**Example:** The multiples of 5 are ..., -10, -5, 0, 5, 10, 15, 20, ... (obtained by multiplying 5 by integers like -2, -1, 0, 1, 2, 3, 4, etc.).",yes,yes,yes,True
+218,Mathematics & Logic,Multiple,"**Definition:**
+In mathematics, a **multiple** of an integer is a number that can be obtained by multiplying that integer by another integer.
+
+This means that a multiple is perfectly divisible by the original integer without leaving a remainder.
+
+**Example:**
+10 is a multiple of 5 because 5 × 2 = 10.
+Other multiples of 5 include 0, 5, 15, -5, -10, etc. (since 5 × 0 = 0, 5 × 3 = 15, 5 × -1 = -5).",no,no,no,True
+219,Mathematics & Logic,Set,"**Definition:** A set is a well-defined collection of distinct objects or elements.
+
+**Explanation:**
+*   **Well-defined:** It must be clear whether any given object belongs to the set or not.
+*   **Distinct:** Each object in the collection is unique; there are no duplicate elements.
+*   The order of elements within a set does not matter.",no,yes,no,False
+220,Mathematics & Logic,Set,"A set is a **well-defined collection of distinct objects (called elements or members)**, where the **order of the elements does not affect the set itself**.
+
+This means:
+1.  It is unambiguously clear what belongs to the set and what does not.
+2.  Each item in the collection is unique; duplicates are not considered.
+3.  The arrangement of the items does not change the set itself.
+
+**Example:** The set `{1, 2, 3}` is the same as `{3, 1, 2}` and contains the same elements as `{1, 1, 2, 3}` (as duplicates are ignored).",no,no,no,True
+221,Mathematics & Logic,Subset,"A set A is a **subset** of a set B if and only if every element of A is also an element of B.
+
+It is denoted as A ⊆ B.
+
+This means that A can be smaller than B, or A and B can be the same set. (If A is strictly smaller than B, it's called a ""proper subset""). The empty set (∅) is considered a subset of every set.",yes,yes,yes,True
+222,Mathematics & Logic,Subset,"A **subset** is a set whose elements are all contained within another set.
+
+More formally: Set A is a subset of Set B (denoted as $A \subseteq B$) if every element of A is also an element of B.
+
+**Key point:** A set is always considered a subset of itself. If $A \subseteq B$ and $A \neq B$, then A is called a **proper subset** of B (denoted $A \subset B$).",no,no,no,True
+223,Mathematics & Logic,Equation,"An equation is a mathematical statement that asserts the equality of two expressions, joined by an equals sign (=).
+
+**Key characteristics:**
+
+*   It states that the value of the expression on one side of the equals sign is the same as the value of the expression on the other side.
+*   It often contains one or more variables (unknowns) and constants.
+*   The primary goal in solving an equation is typically to find the value(s) of the variable(s) that make the statement true.
+
+**Example:**
+$2x + 5 = 11$ (Here, $2x+5$ is one expression, $11$ is the other, and they are stated to be equal.)",yes,yes,yes,True
+224,Mathematics & Logic,Equation,"An equation is a mathematical statement that shows two expressions are equal, separated by an equals sign (=).",no,no,no,True
+225,Mathematics & Logic,Inequality,"**Inequality** is the state of not being equal, signifying a disparity or difference in condition, quantity, status, or opportunity. It represents an imbalance where elements are not equivalent, often implying an unfair distribution, particularly in social or economic contexts.",yes,yes,yes,True
+226,Mathematics & Logic,Inequality,"**Inequality** is a state or condition of not being equal, especially in terms of size, quantity, value, status, or opportunity.
+
+*   **In mathematics**, it refers to a relation indicating that two values or expressions are different (e.g., using symbols like <, >, ≤, ≥, ≠).
+*   **More broadly**, particularly in social and economic contexts, it denotes disparities in wealth, income, treatment, or power among individuals or groups within a society.",no,no,no,True
+227,Mathematics & Logic,Function,A function is a **relation** or a **rule** that assigns to each element of one set (called the **domain**) **exactly one** element of another set (called the **codomain**).,yes,yes,yes,True
+228,Mathematics & Logic,Function,A function is a relation or rule that maps each element of a given set (the domain) to exactly one element of another set (the codomain or range).,no,no,no,True
+229,Mathematics & Logic,Derivative,"The **derivative** of a function measures the instantaneous rate at which the function's value changes with respect to a change in its input variable at a given point. Geometrically, it represents the slope of the tangent line to the function's graph at that specific point, and it is formally defined as the limit of the average rate of change as the interval approaches zero.",yes,yes,yes,True
+230,Mathematics & Logic,Derivative,"The **derivative** is a fundamental concept in calculus that measures the instantaneous rate of change of a function's output (dependent variable) with respect to its input (independent variable).
+
+Geometrically, at any given point, it represents the slope of the tangent line to the graph of the function at that point, indicating the function's steepness and direction of change.",no,no,no,True
+231,Mathematics & Logic,Probability,Probability is a quantitative measure of the likelihood that a specific event will occur in a random experiment or process. It is expressed as a number between 0 (representing impossibility) and 1 (representing certainty).,yes,yes,yes,True
+232,Mathematics & Logic,Probability,"**Probability** is a numerical measure of the likelihood that an event will occur, expressed as a number between 0 and 1.
+
+*   A probability of 0 indicates the event is impossible.
+*   A probability of 1 indicates the event is certain.
+*   Values between 0 and 1 represent varying degrees of likelihood.",no,no,no,True
+233,Mathematics & Logic,Mean,"The **mean**, also known as the **arithmetic mean** or **average**, is a measure of central tendency calculated by summing all values in a dataset and then dividing by the total number of values.",yes,yes,yes,True
+234,Mathematics & Logic,Mean,"**Definition:**
+
+The **mean**, also known as the arithmetic average, is a measure of central tendency calculated by summing all values in a dataset and then dividing that sum by the total count of values. It represents a single, representative value for the entire set.",no,no,no,True
+235,Mathematics & Logic,Median,"The median is the **middle value** in a dataset when the values are arranged in ascending or descending order.
+
+*   If there is an **odd** number of data points, the median is the single middle value.
+*   If there is an **even** number of data points, the median is the average (mean) of the two middle values.",yes,yes,yes,True
+236,Mathematics & Logic,Median,"The **Median** is a measure of central tendency that represents the middle value of a dataset when it is ordered from least to greatest (or greatest to least).
+
+It effectively divides the dataset into two equal halves, with half the values falling below it and half above.
+
+**Specifically:**
+*   If there is an **odd** number of data points, the Median is the single middle value.
+*   If there is an **even** number of data points, the Median is the average of the two middle values.",no,no,no,True
+237,Mathematics & Logic,Angle,"An angle is a geometric figure formed by two rays (or line segments or lines) that share a common endpoint.
+
+*   The common endpoint is called the **vertex**.
+*   The two rays are called the **sides** (or arms) of the angle.
+*   It represents the measure of the rotation or the opening between the two rays.",yes,yes,yes,True
+238,Mathematics & Logic,Angle,"**Definition:**
+
+An angle is a geometric figure formed by two rays that share a common endpoint. This endpoint is known as the **vertex**, and the two rays are called the **sides** (or arms) of the angle. It represents the amount of rotation needed to bring one ray into coincidence with the other, or the measure of the divergence between them.",no,no,no,True
+239,Mathematics & Logic,Parallel Lines,"**Definition:**
+
+Parallel lines are two or more straight lines that lie in the same plane and never intersect, maintaining a constant distance from each other.",yes,yes,yes,True
+240,Mathematics & Logic,Parallel Lines,"Parallel lines are two distinct lines that lie in the same plane and never intersect each other, no matter how far they are extended.",no,no,no,True
+241,Mathematics & Logic,Proof,"A proof is a **logical argument** or **sequence of inferences** that **establishes the truth of a statement** (a theorem, proposition, or claim).
+
+It typically proceeds by **deducing the statement from a set of accepted premises**, such as axioms, definitions, or previously proven theorems, using **valid rules of reasoning**.",yes,yes,yes,True
+242,Mathematics & Logic,Proof,"**Definition:**
+A proof is a deductive argument that establishes the truth of a statement (a theorem or proposition) by logically deriving it from a set of accepted axioms, definitions, and previously established theorems, using valid rules of inference. Each step in a proof must follow necessarily from the preceding steps or initial assumptions, demonstrating that the conclusion is irrefutably true within its system.",no,no,no,True
+243,Mathematics & Logic,Theorem,"A theorem is a statement or proposition in mathematics or logic that has been rigorously proven to be true using a series of logical deductions, based on previously established axioms, postulates, definitions, or other theorems.",yes,yes,yes,True
+244,Mathematics & Logic,Theorem,"A theorem is a statement, typically in mathematics, that has been rigorously proven true through logical deduction from a set of axioms (fundamental assumptions) and previously established results or definitions.",no,no,no,True
+245,Mathematics & Logic,Axiom,"**Axiom:** A fundamental statement or proposition that is accepted as true without proof within a specific deductive system (e.g., mathematics, logic). It serves as a foundational premise from which other statements (theorems, propositions) are logically derived.",yes,yes,yes,True
+246,Mathematics & Logic,Axiom,"An axiom is a fundamental statement or proposition that is accepted as true without proof, serving as a basic premise from which other statements are logically derived within a specific system (such as mathematics or logic).",no,no,no,True
+247,Mathematics & Logic,Contradiction,"A direct opposition between two or more statements, ideas, or actions that makes it impossible for them all to be true or valid simultaneously.",no,yes,no,False
+248,Mathematics & Logic,Contradiction,"**Contradiction:** A situation, statement, or set of statements in which two or more elements are in direct opposition and cannot logically coexist or both be true at the same time.",no,no,no,True
+249,Mathematics & Logic,Implication,"**Implication** refers to a conclusion or consequence that is suggested or necessarily follows from something, even if not explicitly stated. It represents a logical relationship, often in the form of ""if P, then Q,"" where the truth of P necessitates the truth of Q.",yes,yes,yes,True
+250,Mathematics & Logic,Implication,"**Implication** primarily refers to a logical relationship where the truth of one statement (the antecedent) guarantees the truth of another (the consequent), often expressed as 'if P, then Q'. More broadly, it also signifies a likely consequence or an unstated meaning suggested by something.",no,no,no,True
+251,Common Nouns,Amphibian,"An **amphibian** is a cold-blooded vertebrate animal that typically lives both on land and in water. They are characterized by moist, glandular skin and usually undergo a metamorphosis from an aquatic larval stage (with gills) to a terrestrial or semi-aquatic adult stage (with lungs).",yes,yes,yes,True
+252,Common Nouns,Amphibian,"Amphibians are ectothermic (cold-blooded) vertebrates characterized by their ""double life,"" typically living both in water and on land. They generally lay eggs in water, from which aquatic larvae hatch that undergo metamorphosis into their adult, often more terrestrial, form. They possess moist, permeable skin often used for respiration.",no,no,no,True
+253,Common Nouns,Mineral,"A mineral is a **naturally occurring**, **inorganic solid** with a **definite chemical composition** and an **ordered internal atomic structure (crystalline structure)**.",no,yes,no,False
+254,Common Nouns,Mineral,"A mineral is a naturally occurring, inorganic solid with a definite chemical composition and an ordered internal atomic structure (crystalline structure).",no,no,no,True
+255,Common Nouns,Continent,"A continent is one of Earth's principal, very large landmasses, distinctly separated from others by oceans or extensive bodies of water, and typically including its adjacent islands.",no,yes,no,False
+256,Common Nouns,Continent,"A continent is a large, continuous landmass on Earth, constituting one of the planet's principal divisions. It encompasses not only the dry land above sea level but also its submerged continental shelf, and is generally defined by oceans or significant geographical features.",no,no,no,True
+257,Common Nouns,Ocean,"**Ocean:** A vast, continuous body of saltwater that covers most of the Earth's surface, typically divided into several large named regions such as the Pacific, Atlantic, Indian, Southern, and Arctic Oceans.",yes,yes,yes,True
+258,Common Nouns,Ocean,"An ocean is a vast, continuous body of saltwater that covers the majority of Earth's surface, forming a single global interconnected system.",no,no,no,True
+259,Common Nouns,Planetary Moon,A **planetary moon** is a natural satellite that orbits a planet or dwarf planet.,yes,yes,yes,True
+260,Common Nouns,Planetary Moon,A planetary moon is a natural celestial body that orbits a planet. It is also known as a natural satellite.,no,no,no,True
+261,Common Nouns,Vehicle Engine,"A vehicle engine is a machine designed to convert an energy source (typically the chemical energy of fuel through combustion) into mechanical power, which generates motion to propel a vehicle.",yes,yes,yes,True
+262,Common Nouns,Vehicle Engine,"A vehicle engine is a machine, typically housed within a vehicle, that converts energy (most commonly from fuel combustion) into mechanical power to propel the vehicle.",no,no,no,True
+263,Common Nouns,Muscle,"**Muscle:** A specialized contractile tissue found in animals, composed of cells (muscle fibers) that shorten to generate force. This force is essential for movement, maintaining posture, and the pumping of blood or the movement of substances within the body. It is categorized into three main types: skeletal, smooth, and cardiac.",yes,yes,yes,True
+264,Common Nouns,Muscle,"**Muscle:** A type of biological tissue characterized by its ability to contract powerfully to generate force and produce movement. Composed of specialized cells called muscle fibers, it is essential for functions such as locomotion, maintaining posture, pumping blood, and moving substances within the body. The three main types are skeletal, smooth, and cardiac muscle.",no,no,no,True
+265,Common Nouns,Vertebrate,"An animal characterized by the presence of a **vertebral column** (backbone) composed of segmented bones or cartilage called **vertebrae**. This column encloses and protects the **spinal cord**, and vertebrates typically possess an internal skeleton (endoskeleton).",yes,yes,yes,True
+266,Common Nouns,Vertebrate,An animal characterized by the presence of a backbone (or spinal column) composed of individual bony or cartilaginous segments called vertebrae.,no,no,no,True
+267,Common Nouns,Tool (Cutting),"An implement designed with a sharp edge, blade, or abrasive surface to sever, shape, or remove material from a workpiece.",yes,yes,yes,True
+268,Common Nouns,Tool (Cutting),"A **cutting tool** is an implement or device designed to remove material from a workpiece, or to divide it into separate parts, typically by means of a sharp edge or abrasive surface that applies concentrated force to sever or abrade the material.",no,no,no,True
+269,Common Nouns,Building Material,"A building material is any substance or composite used for the construction, repair, or finishing of buildings and other structures. These materials can be natural (e.g., wood, stone, sand) or manufactured (e.g., concrete, steel, brick, glass, plastic).",yes,yes,yes,True
+270,Common Nouns,Building Material,"**Building Material:**
+
+A building material is any material, product, or component used in the construction, erection, repair, or finishing of buildings and other structures. These materials form the physical fabric and functional elements of the built environment.",yes,no,yes,False
+271,Common Nouns,Electronic Device,"**Electronic Device:** A device that utilizes electronic components (such as transistors, resistors, and integrated circuits) to control, process, or transmit electrical signals or energy in order to perform a specific function.",yes,yes,yes,True
+272,Common Nouns,Electronic Device,"An electronic device is an apparatus that utilizes the controlled flow of electrons, typically through semiconductor components (like transistors and integrated circuits), to perform specific functions. These functions often involve processing, storing, transmitting, or receiving information, or converting energy.",no,no,no,True
+273,Common Nouns,Household Appliance,"A **household appliance** is a device or piece of equipment designed to perform a specific function within a home, typically powered by electricity or gas, to aid in daily tasks, comfort, or convenience.",yes,yes,yes,True
+274,Common Nouns,Household Appliance,"A **household appliance** is a device or machine, typically electrically powered, designed to perform routine domestic functions to simplify daily life within a household. These functions commonly include cooking, cleaning, food preservation, and climate control.",no,no,no,True
+275,Common Nouns,Plant,"A **plant** is a multicellular eukaryotic organism that produces its own food through photosynthesis, utilizing chlorophyll to convert sunlight into energy. Plants are typically sessile (non-motile) and possess rigid cell walls made of cellulose, often developing specialized structures such as roots, stems, and leaves.",yes,yes,yes,True
+276,Common Nouns,Plant,"A plant is a multicellular organism that performs photosynthesis to produce its own food, primarily using sunlight and chlorophyll. They are typically stationary, have rigid cell walls composed of cellulose, and often develop specialized structures like roots, stems, and leaves.",no,no,no,True
+277,Common Nouns,Transport Infrastructure,"**Transport Infrastructure** refers to the foundational physical facilities, structures, and systems essential for the movement of people and goods.
+
+This includes networks like roads, railways, waterways, and air routes, along with their associated terminals and support structures such as bridges, tunnels, airports, seaports, train stations, and bus depots, all designed to facilitate efficient, safe, and reliable transportation across various modes.",yes,yes,yes,True
+278,Common Nouns,Transport Infrastructure,"**Transport Infrastructure** refers to the fundamental physical facilities and networks, along with their associated operational and logistical systems, that enable the movement of people and goods.
+
+It encompasses:
+*   **Networks:** Roads, railways, waterways (canals, navigable rivers), air routes, and pipelines.
+*   **Terminals and Hubs:** Airports, seaports, train stations, bus stations, intermodal freight terminals, and logistics centers.
+*   **Connecting Structures:** Bridges, tunnels, and interchanges.
+*   **Support Systems:** Signaling, communication networks, power supplies, and maintenance facilities necessary for their operation.
+
+Essentially, it's the underlying framework that facilitates transportation activities.",no,no,no,True
+279,Common Nouns,Weapon (Modern),"**Weapon (Modern):**
+
+A modern weapon is any device, system, or technology designed or intended to inflict harm, injury, death, or destruction upon individuals, groups, structures, or systems, utilizing contemporary technology. This broad category includes everything from advanced firearms and explosives to complex systems like guided missiles, drones, cyber weapons, and chemical or biological agents, often characterized by increased lethality, precision, and strategic capability.",yes,yes,yes,True
+280,Common Nouns,Weapon (Modern),"A modern weapon is a device or system leveraging contemporary technology and engineering, designed to inflict harm, damage, incapacitate, or destroy.
+
+This encompasses a wide range, from firearms and explosives to guided munitions, directed energy systems, advanced military platforms, and increasingly, cyber warfare tools, primarily employed for attack, defense, deterrence, or enforcement in military, security, or law enforcement contexts.",no,no,no,True
+281,Scientific Concepts,Condensation,"**Condensation** is the physical process by which a gas or vapor transforms into a liquid, typically due to cooling or an increase in pressure.",yes,yes,yes,True
+282,Scientific Concepts,Condensation,"**Condensation** is the physical process by which a gas or vapor changes into a liquid state. This typically occurs when the gas cools, causing its molecules to lose energy, slow down, and come together to form liquid.",no,no,no,True
+283,Scientific Concepts,Oxidation,"**Oxidation** is the **loss of electrons** by a molecule, atom, or ion, resulting in an **increase in its oxidation state**. It is one half of a redox (reduction-oxidation) reaction. Historically, the term referred specifically to reactions involving oxygen.",yes,yes,yes,True
+284,Scientific Concepts,Oxidation,"**Oxidation** is the **loss of electrons** by an atom, molecule, or ion during a chemical reaction.
+
+This process results in an **increase in the oxidation state** (or oxidation number) of the substance.
+
+Historically, and especially in organic chemistry, oxidation was also defined as the **gain of oxygen** or the **loss of hydrogen**. It is one half of a redox (reduction-oxidation) reaction, always occurring alongside reduction.",no,no,no,True
+285,Scientific Concepts,Enzyme,"**Enzyme:** An enzyme is primarily a protein (or, less commonly, an RNA molecule called a ribozyme) that acts as a biological catalyst. It speeds up the rate of specific biochemical reactions in living organisms by lowering the activation energy required for the reaction to occur, without being consumed or permanently altered in the process.",yes,yes,yes,True
+286,Scientific Concepts,Enzyme,"**Enzyme:** A biological catalyst, typically a protein, that accelerates the rate of specific biochemical reactions by lowering the activation energy, without being consumed or permanently altered in the process.",no,no,no,True
+287,Scientific Concepts,Neuron,"A neuron is a specialized nerve cell that serves as the fundamental unit of the nervous system, responsible for transmitting and processing information through electrical and chemical signals.",yes,yes,yes,True
+288,Scientific Concepts,Neuron,"**Definition:**
+
+A neuron is the fundamental structural and functional unit of the nervous system, specialized to transmit electrical and chemical signals (nerve impulses) throughout the body, allowing for communication and information processing.",no,no,no,True
+289,Scientific Concepts,Plate Tectonics,"**Plate Tectonics** is the scientific theory that describes the large-scale motion of Earth's lithosphere, its rigid outer shell. This lithosphere is broken into several large and small segments called tectonic plates, which are in constant, slow motion, driven by convection currents within the underlying mantle. The interactions of these plates at their boundaries—colliding, separating, or sliding past each other—are responsible for most major geological phenomena, including earthquakes, volcanic activity, mountain building, and the formation of ocean trenches, thereby explaining continental drift and the continuous reshaping of Earth's surface over geological time.",yes,yes,yes,True
+290,Scientific Concepts,Plate Tectonics,"**Plate Tectonics** is a scientific theory that explains how the Earth's **lithosphere** (its rigid outer layer, comprising the crust and uppermost mantle) is broken into large, rigid slabs called **tectonic plates**. These plates are in constant, slow motion, driven by convection currents in the underlying molten **mantle**. Their interactions—colliding, pulling apart, or sliding past each other—are responsible for most of Earth's major geological phenomena, including earthquakes, volcanic activity, and the formation of mountain ranges, ocean trenches, and continental drift.",no,no,no,True
+291,Scientific Concepts,Acceleration,"**Acceleration** is the rate at which an object's velocity changes.
+
+This change can be:
+*   An increase in speed.
+*   A decrease in speed (often called deceleration or negative acceleration).
+*   A change in the direction of motion, even if the speed remains constant.
+
+It is a vector quantity, meaning it has both magnitude and direction, and its standard unit is meters per second squared (m/s²).",yes,yes,yes,True
+292,Scientific Concepts,Acceleration,"**Acceleration** is the rate at which an object's velocity changes.
+
+This change can involve:
+*   An increase in speed (speeding up)
+*   A decrease in speed (slowing down, also called deceleration)
+*   A change in direction, even if the speed remains constant.",no,no,no,True
+293,Scientific Concepts,Diffusion,"**Diffusion** is the net movement of molecules or particles from an area of higher concentration to an area of lower concentration (down a concentration gradient), driven by their random thermal motion, until an even distribution (equilibrium) is reached.",yes,yes,yes,True
+294,Scientific Concepts,Diffusion,"**Diffusion:** The net movement of particles from a region of higher concentration to a region of lower concentration, driven by their random thermal motion, until they are evenly distributed.",no,no,no,True
+295,Scientific Concepts,Reflection,"Reflection primarily refers to:
+
+1.  **Physical:** The **bouncing back** of a wave (such as light, sound, or heat) from a surface, or the resulting **image** produced (as seen in a mirror).
+2.  **Mental:** **Serious thought or contemplation**, especially about past experiences, ideas, or one's own actions and feelings.",yes,yes,yes,True
+296,Scientific Concepts,Reflection,"**Reflection** refers primarily to two distinct concepts:
+
+1.  **Physical:** The bouncing back of light, sound, or heat waves from a surface, often resulting in the formation of an image (as in a mirror) or an echo.
+2.  **Cognitive:** The act of deep thought, careful consideration, or introspection about past experiences, ideas, or feelings.",no,no,no,True
+297,Scientific Concepts,Isotope,"Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons, resulting in different mass numbers.",yes,yes,yes,True
+298,Scientific Concepts,Isotope,"**Isotope:** Atoms of the same chemical element that have the same number of protons (atomic number) but a different number of neutrons. This variation in neutron count results in different mass numbers (and thus different atomic masses) for each isotope, while their chemical properties remain largely the same.",no,no,no,True
+299,Scientific Concepts,Velocity,"Velocity is the rate at which an object changes its position, specified by both its speed and its direction. It is a vector quantity.",yes,yes,yes,True
+300,Scientific Concepts,Velocity,"Velocity is the rate at which an object changes its position in a specified direction. It is a vector quantity, meaning it has both magnitude (speed) and direction.",no,no,no,True
+301,Scientific Concepts,Sound Wave,"A sound wave is a **longitudinal wave** that propagates through a **medium** (like air, water, or solids) by creating alternating regions of **compression** (higher pressure/density) and **rarefaction** (lower pressure/density). It **transfers energy** without transferring matter, allowing us to perceive sound.",yes,yes,yes,True
+302,Scientific Concepts,Sound Wave,"A **sound wave** is a mechanical, longitudinal wave that propagates through a medium (solid, liquid, or gas) as oscillating compressions (regions of higher pressure/density) and rarefactions (regions of lower pressure/density). It is created by vibrating sources, transfers energy without transferring matter, and is perceived by the ear as sound.",no,no,no,True
+303,Scientific Concepts,Heat Transfer,"**Heat Transfer** is the process of thermal energy exchange or flow between systems or objects due to a temperature difference. It occurs from a region of higher temperature to one of lower temperature and takes place through three primary modes: conduction, convection, and radiation.",yes,yes,yes,True
+304,Scientific Concepts,Heat Transfer,"**Heat Transfer** is the process of thermal energy movement (or exchange) driven by a temperature difference, occurring spontaneously from a region of higher temperature to a region of lower temperature. It occurs through three primary modes: conduction, convection, and radiation.",no,no,no,True
+305,Scientific Concepts,Density,"Density is a fundamental physical property that measures the amount of mass contained in a given volume.
+
+It describes how tightly packed the matter is within a substance.
+
+**Formula:**
+$$ \text{Density} = \frac{\text{Mass}}{\text{Volume}} \quad \text{or} \quad \rho = \frac{m}{V} $$
+
+**Common Units:** grams per cubic centimeter (g/cm³) or kilograms per cubic meter (kg/m³).",yes,yes,yes,True
+306,Scientific Concepts,Density,"**Density** is a measure of how much mass is contained in a given volume. It quantifies the compactness of a substance.
+
+**Formula:**
+Density ($\rho$) = Mass (m) / Volume (V)
+
+**Common Units:**
+Grams per cubic centimeter (g/cm³) or kilograms per cubic meter (kg/m³)",no,no,no,True
+307,Scientific Concepts,Chromosome,"A chromosome is a thread-like structure found in the nucleus of eukaryotic cells (or within the nucleoid region of prokaryotic cells). It is composed of DNA tightly coiled around proteins (primarily histones) and carries an organism's genetic information in the form of genes, ensuring its accurate transmission to daughter cells during cell division.",yes,yes,yes,True
+308,Scientific Concepts,Chromosome,"A chromosome is a thread-like structure made of DNA tightly coiled around proteins (histones), found in the nucleus of eukaryotic cells (and as a circular structure in prokaryotes). It carries the genetic information (genes) of an organism and is essential for heredity and the accurate transmission of genetic material during cell division.",no,no,no,True
+309,Scientific Concepts,Catalyst,"**Catalyst:** A substance that increases the rate of a chemical reaction by lowering its activation energy, without being consumed or permanently altered in the process.",yes,yes,yes,True
+310,Scientific Concepts,Catalyst,"**Catalyst:**
+A substance that increases the rate of a chemical reaction without itself being consumed or permanently altered in the process. The term is also used more broadly to describe anything that causes or accelerates a significant change, event, or process.",no,no,no,True
+311,Scientific Concepts,Wave Frequency,"**Wave Frequency** is the number of complete oscillations or cycles a wave completes or passes a fixed point per unit of time. Its standard unit is the Hertz (Hz), which represents one cycle per second.",yes,yes,yes,True
+312,Scientific Concepts,Wave Frequency,"**Wave frequency** is the number of complete wave cycles (or oscillations) that pass a fixed point in one second. It quantifies how rapidly a wave oscillates.
+
+*   **Symbol:** f
+*   **Unit:** Hertz (Hz), where 1 Hz means one cycle per second.",no,no,no,True
+313,Social & Ethical Concepts,Accountability,"**Accountability** is the obligation to answer for one's actions, decisions, and performance, including the outcomes, and to accept the associated consequences, whether positive or negative.",yes,yes,yes,True
+314,Social & Ethical Concepts,Accountability,"**Accountability** is the obligation to be answerable for one's actions and decisions, and to accept responsibility for the resulting outcomes, whether positive or negative.",no,no,no,True
+315,Social & Ethical Concepts,Autonomy,"**Autonomy** is the state or condition of self-governance, allowing an individual, group, or entity to make independent decisions and act freely without external control or undue influence.",no,yes,no,False
+316,Social & Ethical Concepts,Autonomy,"**Autonomy** is the capacity of an individual or entity to make independent decisions and govern themselves, free from external control or undue influence.
+
+It signifies self-governance, self-determination, and the ability to act according to one's own will and values. This concept applies to individuals (e.g., patient autonomy), groups, or sovereign states.",no,no,no,True
+317,Social & Ethical Concepts,Charity,"Charity is the voluntary act of providing help or resources (such as money, goods, or time) to those in need, driven by compassion and goodwill, and without expectation of personal gain.",yes,yes,yes,True
+318,Social & Ethical Concepts,Charity,"**Charity** refers to the voluntary giving of help, typically in the form of money, goods, or time, to those in need or to support a cause, motivated by compassion and goodwill. It also commonly refers to an organization established for such philanthropic purposes, often registered as a non-profit entity to provide aid.",no,no,no,True
+319,Social & Ethical Concepts,Civility,"Civility is respectful and courteous behavior in social interactions and discourse. It involves politeness, consideration for others, and a commitment to engaging constructively and reasonably, even when differing views are present, to foster mutual understanding rather than antagonism.",no,yes,no,False
+320,Social & Ethical Concepts,Civility,"**Civility** is respectful and polite behavior in social interactions and public discourse, characterized by consideration for others, an avoidance of personal attacks or undue aggression, even when expressing disagreement.",no,no,no,True
+321,Social & Ethical Concepts,Coercion,"**Coercion** is the act of compelling someone to do something against their free will or judgment by using threats, force, intimidation, undue pressure, or the abuse of authority.",yes,yes,yes,True
+322,Social & Ethical Concepts,Coercion,"**Coercion** is the act of compelling an individual to perform an action or make a decision against their will, through the use of force, threats, intimidation, or other forms of undue pressure, thereby depriving them of genuine choice or autonomy.",no,no,no,True
+323,Social & Ethical Concepts,Dignity,"Dignity is the inherent value and worth of every human being, entitling them to be treated with respect and to possess a sense of self-worth.",no,yes,no,False
+324,Social & Ethical Concepts,Dignity,"Dignity is the inherent worth and value of every human being, which entitles them to respect, ethical treatment, and a fundamental recognition of their humanity.",no,no,no,True
+325,Social & Ethical Concepts,Exploitation,"**Exploitation** is the act of using another person, group, or resource unjustly or selfishly for one's own gain, often by taking advantage of their vulnerability, weakness, or lack of power.",yes,yes,yes,True
+326,Social & Ethical Concepts,Exploitation,"Exploitation is the act of treating someone or something unfairly in order to benefit from their work, resources, or vulnerability. It involves taking advantage of a person, group, or situation for one's own gain, often to the detriment of the exploited party.",no,no,no,True
+327,Social & Ethical Concepts,Impartiality,"**Definition:** Impartiality is the principle of being objective and unbiased, making judgments or decisions without favoritism, prejudice, or personal interest. It involves treating all parties equally and fairly, based on facts, evidence, and established rules, rather than personal feelings or connections.",yes,yes,yes,True
+328,Social & Ethical Concepts,Impartiality,"**Impartiality** is the principle of making decisions and judgments objectively, free from bias, favoritism, or prejudice. It involves treating all individuals or parties equally and basing assessments solely on objective criteria, facts, or merits.",no,no,no,True
+329,Social & Ethical Concepts,Inclusion,"**Inclusion** is the proactive practice of ensuring all individuals, regardless of their background, identity, or differences, feel valued, respected, and supported, with equitable opportunities to participate and contribute fully.",yes,yes,yes,True
+330,Social & Ethical Concepts,Inclusion,"**Inclusion** is the practice of creating an environment where all individuals, particularly those from diverse backgrounds or historically marginalized groups, feel welcome, respected, supported, and have equal opportunities to participate, contribute, and thrive.",no,no,no,True
+331,Social & Ethical Concepts,Justice (Distributive),"Distributive justice refers to the fair allocation of resources, opportunities, rights, and burdens among individuals and groups within a society. It addresses the moral principles and criteria by which these should be distributed to ensure equity and social well-being.",yes,yes,yes,True
+332,Social & Ethical Concepts,Justice (Distributive),"**Distributive Justice** refers to the fair allocation of resources, wealth, opportunities, benefits, and burdens among individuals or groups within a society. It addresses the principles that should govern how these are distributed to achieve a just societal outcome.",no,no,no,True
+333,Social & Ethical Concepts,Legitimacy,"**Legitimacy** is the widespread belief and acceptance by the governed that a power, authority, or government's exercise of rule is rightful, just, and proper. This acceptance is typically rooted in adherence to established laws, moral principles, traditional customs, or the consent of the governed, leading to voluntary compliance and political stability.",no,yes,no,False
+334,Social & Ethical Concepts,Legitimacy,"**Legitimacy** is the widespread belief and acceptance by the governed that an authority, government, or system of rule is rightful, just, and therefore entitled to exercise power. This acceptance is typically rooted in adherence to laws, custom, consent of the people, or shared moral principles.",no,no,no,True
+335,Social & Ethical Concepts,Obligation,"**Obligation:** A binding requirement to do or refrain from doing something, typically imposed by law, contract, promise, moral principle, or social custom.",yes,yes,yes,True
+336,Social & Ethical Concepts,Obligation,"**Definition:**
+An obligation is a duty, commitment, or responsibility that legally, morally, or socially binds an individual or entity to perform or refrain from a particular act.",no,no,no,True
+337,Social & Ethical Concepts,Reciprocity,"**Reciprocity** is the mutual exchange of benefits, favors, or concessions between individuals, groups, or entities. It involves responding to an action, whether positive or negative, with a similar or equivalent action.",yes,yes,yes,True
+338,Social & Ethical Concepts,Reciprocity,"**Reciprocity** is the mutual exchange of something, typically actions, feelings, benefits, or obligations, often implying a return in kind or a corresponding response.",no,no,no,True
+339,Social & Ethical Concepts,Responsibility (Moral),"**Moral responsibility** is the capacity of an agent to be held accountable for their actions, choices, or omissions, based on their adherence to or violation of moral principles.
+
+This accountability typically applies when an individual acts with sufficient freedom (free will) and knowledge of the moral implications of their conduct. When morally responsible, an individual is considered deserving of moral praise or blame for their conduct.",yes,yes,yes,True
+340,Social & Ethical Concepts,Responsibility (Moral),"**Moral responsibility** is the status of deserving praise, blame, credit, or fault for one's actions or inactions, based on having freely chosen them and understood their moral implications. It signifies accountability for voluntary conduct within an ethical framework.",no,no,no,True
+351,Social & Ethical Concepts,Social Norm,"**Social Norm:**
+Social norms are the **unwritten rules and shared expectations** within a group or society that **guide the behavior** of its members. They define what is considered appropriate, acceptable, or expected conduct, and are **maintained through social approval or disapproval**.",yes,yes,yes,True
+352,Social & Ethical Concepts,Social Norm,"**Social Norm:** Unwritten rules or shared expectations within a specific group or society that guide individual behavior. They define what is considered appropriate, acceptable, or typical, and adherence often leads to social approval, while violations can result in disapproval or other informal consequences.",no,no,no,True
+353,Social & Ethical Concepts,Tolerance,"**Tolerance** is the ability or willingness to accept the existence of opinions, beliefs, behaviors, or characteristics that differ from one's own, especially when one disapproves of or disagrees with them, without prejudice or persecution.
+
+In other contexts:
+*   **Technical/Engineering:** The permissible variation in a measurement, dimension, or quantity.
+*   **Medical/Biological:** The capacity to endure or adapt to a substance or condition, or a diminished response to a drug after repeated exposure.",yes,yes,yes,True
+354,Social & Ethical Concepts,Tolerance,"**Tolerance** has several key meanings depending on the context:
+
+1.  **In a social or ethical context:** The ability or willingness to accept the existence of opinions, beliefs, practices, or characteristics that one dislikes or disagrees with, without prejudice, discrimination, or persecution. It embodies respect for the rights and differences of others.
+2.  **In medical or biological contexts:** The capacity of the body to endure or resist the effects of a substance (e.g., a drug) or environmental factor, often with a diminished response over time requiring higher doses for the same effect.
+3.  **In technical or engineering contexts:** The permissible variation from a standard or specification, indicating an acceptable range of deviation in a measurement, quantity, or quality.",no,no,no,True
+355,Social & Ethical Concepts,Trustworthiness,"**Trustworthiness** is the quality of being worthy of trust. It is demonstrated by consistently acting with reliability, honesty, integrity, and competence.",no,yes,no,False
+356,Social & Ethical Concepts,Trustworthiness,"**Trustworthiness** is the quality of being deserving of confidence and reliance due to one's demonstrated reliability, integrity, and competence.",no,no,no,True
+357,Procedural Concepts,Audit,"An audit is an independent, systematic examination of information, records, or processes to evaluate their conformity with established criteria, providing an objective assessment or opinion.",yes,yes,yes,True
+358,Procedural Concepts,Audit,"An audit is a systematic and independent examination of information, processes, or systems to determine their accuracy, validity, and compliance with established criteria. The primary purpose is to provide an objective assessment or assurance, often communicated in a formal report.",no,no,no,True
+359,Procedural Concepts,Backup,"A **backup** is a copy of data, files, or an entire system, stored independently from the original, with the primary purpose of enabling restoration in the event of loss, corruption, accidental deletion, hardware failure, or disaster.",no,yes,no,False
+360,Procedural Concepts,Backup,"**Backup:**
+
+A backup is a copy of data, files, or an entire system, created and stored separately from the original source. Its primary purpose is to enable the restoration of information in the event of data loss, corruption, hardware failure, or other disasters.",no,no,no,True
+361,Procedural Concepts,Calibration,"Calibration is the process of comparing a device or system's measurements or outputs against a known standard to identify and correct any deviations or inaccuracies, thereby ensuring it provides accurate, reliable, and consistent results within specified tolerances.",yes,yes,yes,True
+362,Procedural Concepts,Calibration,"**Calibration** is the process of comparing a measuring instrument, system, or model against a known standard or reference. Its purpose is to verify accuracy and consistency, and to make any necessary adjustments or corrections to bring it within specified operational limits or to improve its performance.",no,no,no,True
+363,Procedural Concepts,Classification,"Classification is the process of categorizing or grouping items, data, or observations into distinct classes or categories based on their shared characteristics, attributes, or features. The goal is often to organize information, identify patterns, or enable prediction.",yes,yes,yes,True
+364,Procedural Concepts,Classification,"**Classification** is the process of organizing items, observations, or data points into specific, predefined categories or classes based on shared characteristics, features, or properties.
+
+Its purpose is to structure information, identify patterns, and enable identification or prediction.",no,no,no,True
+365,Procedural Concepts,Compilation,"**Compilation** is the process of converting source code, written in a high-level programming language, into executable code (such as machine code or bytecode) that a computer can directly understand and run. This transformation is performed by a program called a compiler.",yes,yes,yes,True
+366,Procedural Concepts,Compilation,"**Compilation** is the process of translating human-readable source code, written in a high-level programming language, into low-level machine code or object code that a computer's processor can directly understand and execute. Performed by a program called a compiler, this transformation also includes checking the code for syntactic and semantic errors, ultimately producing an executable program.",no,no,no,True
+367,Procedural Concepts,Configuration,"**Definition:** The specific arrangement or layout of interdependent elements, components, or parameters within a system, device, or setup, which defines its structure, form, or functional behavior.",yes,yes,yes,True
+368,Procedural Concepts,Configuration,"**Configuration:** The specific arrangement or setup of components, elements, or parameters within a system, object, or environment, which defines its structure, state, function, or appearance.",no,no,no,True
+369,Procedural Concepts,Debugging,"**Debugging** is the systematic process of identifying, analyzing, and resolving defects or errors (commonly known as bugs) in software, hardware, or a system, to ensure it operates correctly and as intended.",yes,yes,yes,True
+370,Procedural Concepts,Debugging,"Debugging is the systematic process of identifying, analyzing, and removing errors (often called 'bugs') from computer programs or systems. Its goal is to ensure the software or system functions correctly and as intended, resolving unexpected behavior or incorrect results.",no,no,no,True
+371,Procedural Concepts,Encryption,"**Encryption** is the process of converting readable information (plaintext) into an unreadable, coded form (ciphertext) using an algorithm and a specific key. The primary goal is to protect the confidentiality of the data, ensuring that only authorized parties possessing the correct key can decrypt it back into its original, intelligible format.",yes,yes,yes,True
+372,Procedural Concepts,Encryption,"Encryption is the process of transforming readable information (plaintext) into an unreadable format (ciphertext) using an algorithm and a secret key. Its primary purpose is to protect the confidentiality of the data, ensuring that only authorized parties possessing the correct key can decrypt and access the original content.",no,no,no,True
+373,Procedural Concepts,Evaluation,"**Evaluation:** The systematic assessment of the worth, quality, significance, or effectiveness of a subject (e.g., a program, project, policy, person, or product) against a set of criteria or standards, with the aim of making informed judgments, improving understanding, or guiding decisions.",yes,yes,yes,True
+374,Procedural Concepts,Evaluation,"Evaluation is the systematic process of collecting and analyzing information to determine the worth, quality, significance, or effectiveness of something. Its purpose is to make informed judgments that guide decision-making, foster improvement, or ensure accountability.",no,no,no,True
+375,Procedural Concepts,Execution,"The process or act of carrying out or putting into effect a plan, instruction, or task.",yes,yes,yes,True
+376,Procedural Concepts,Execution,"**Execution** is the act or process of carrying out a plan, task, instruction, or strategy to achieve a desired outcome.",no,no,no,True
+377,Procedural Concepts,Inspection,"**Inspection:**
+
+A systematic and often formal examination of an item, process, system, or service to determine its conformity to specified requirements, standards, or criteria, or to assess its quality, condition, or suitability.",no,yes,no,False
+378,Procedural Concepts,Inspection,"**Inspection:** A systematic examination of an item, process, service, or facility to verify its conformance to specified requirements, standards, or acceptable conditions, and to identify any defects, deviations, or non-compliance.",no,no,no,True
+379,Procedural Concepts,Iteration,"**Iteration** refers to:
+
+1.  **The act of repeating a process or sequence of operations.**
+2.  **A single instance or pass through such a repeated process.** (e.g., one run of a loop in programming, one cycle of a design-build-test process).",yes,yes,yes,True
+380,Procedural Concepts,Iteration,"**Iteration** refers to:
+
+1.  **The act of repeating** a process, sequence of operations, or set of steps.
+2.  **A single instance or cycle** within that repetition, often performed to refine a solution, achieve a goal, or make progress.",no,no,no,True
+381,Procedural Concepts,Logging,"**Logging** is the process by which a system, application, or software component records events, messages, and data points that occur during its operation.
+
+These records, known as logs, are stored in a designated location (e.g., a file, database, console, or remote service) for later analysis. The primary purposes of logging include debugging, troubleshooting, monitoring performance, auditing security, and tracking user activity. Each log entry typically includes a timestamp, a severity level (e.g., info, warning, error), the source of the event, and a descriptive message.",yes,yes,yes,True
+382,Procedural Concepts,Logging,"**Definition:**
+Logging is the process of recording events and data about the execution and behavior of a software system, application, or process during its operation. This information is typically written to a persistent storage medium (such as a file, database, or console) for later analysis, monitoring, debugging, auditing, and troubleshooting.",no,no,no,True
+383,Procedural Concepts,Optimization,"**Optimization** is the systematic process of finding the most effective or favorable solution to a problem or system, typically by maximizing a desired objective (e.g., profit, efficiency) or minimizing an undesired one (e.g., cost, error), while adhering to a set of specified constraints.",yes,yes,yes,True
+384,Procedural Concepts,Optimization,"**Optimization** is the process of finding the best possible solution or outcome for a given problem. This involves systematically adjusting inputs or variables to either maximize a desired objective (e.g., profit, performance, efficiency) or minimize an undesired objective (e.g., cost, time, error), all while adhering to a given set of constraints or limitations. It aims to achieve peak functionality or efficiency within a system, process, or design.",no,no,no,True
+385,Procedural Concepts,Monitoring,"**Monitoring** is the systematic and ongoing process of observing, collecting, and analyzing data or information on a system, process, activity, or condition, for the purpose of tracking performance, detecting changes or deviations, assessing progress, identifying potential issues, or ensuring compliance to inform decision-making.",yes,yes,yes,True
+386,Procedural Concepts,Monitoring,"**Monitoring** is the systematic and continuous process of observing, collecting data from, and analyzing the progress, status, performance, or health of a system, process, activity, or environment over time.
+
+Its primary purpose is to detect changes, identify issues or deviations from expected norms, measure against objectives, and provide information for decision-making or timely intervention.",no,no,no,True
+387,Procedural Concepts,Simulation,"**Simulation** is the imitation or representation of a real-world or hypothetical system, process, or phenomenon over time, typically using a model (often computational). Its purpose is to study, analyze, predict, or understand the system's behavior and outcomes without directly interacting with or disrupting the actual system.",no,yes,no,False
+388,Procedural Concepts,Simulation,"**Simulation:** The process of imitating the operation of a real-world (or hypothetical) system, process, or phenomenon over time, often through the use of a computer model. Its primary goal is to understand, analyze, predict behavior, or test scenarios without directly manipulating the actual system, which might be impractical, dangerous, or impossible.",no,no,no,True
+389,Procedural Concepts,Testing,"**Testing** is the systematic process of evaluating a system, component, or product to verify it meets specified requirements, identify defects or errors, and assess its overall quality and fitness for purpose.",yes,yes,yes,True
+390,Procedural Concepts,Testing,"**Testing** is the process of evaluating a system, component, or product to identify whether it meets specified requirements, functions as expected, and to discover defects or errors.",no,no,no,True
+391,Abstract Properties,Effectiveness,"Effectiveness is the degree to which an intended result or goal is achieved. It measures whether the right actions were taken to produce the desired outcome, focusing on *what* was accomplished rather than the resources consumed (efficiency).",yes,yes,yes,True
+392,Abstract Properties,Effectiveness,**Effectiveness** is the degree to which something successfully produces a desired result or achieves an intended goal.,no,no,no,True
+393,Abstract Properties,Efficiency (Resource),"**Efficiency (Resource)** is the optimal utilization of resources (such as time, money, labor, materials, or energy) to achieve a desired output or result, typically by maximizing productivity while minimizing waste.",yes,yes,yes,True
+394,Abstract Properties,Efficiency (Resource),"**Efficiency (Resource)** refers to the optimal utilization of available resources (such as time, money, materials, energy, or labor) to achieve a desired outcome or output. It is typically measured by the ratio of output to input, aiming to maximize the output for a given input, or achieve a desired output with the least possible input, thereby minimizing waste.",no,no,no,True
+395,Abstract Properties,Consistency (Behavioral),"**Consistency (Behavioral)** refers to the degree to which an individual's actions, choices, or responses are stable, predictable, and coherent over time and across similar situations. It signifies a reliable pattern of conduct that aligns with their past behavior, stated intentions, or established habits.",yes,yes,yes,True
+396,Abstract Properties,Consistency (Behavioral),"**Consistency (Behavioral):** The quality of an individual's actions, decisions, and communication remaining aligned with their past behavior, stated principles, or established expectations over time and across various situations. This predictability fosters reliability and trustworthiness.",no,no,no,True
+397,Abstract Properties,Clarity,"**Clarity** is the quality of being easily understood or perceived. It is characterized by a lack of ambiguity, vagueness, or confusion, enabling precise comprehension.",yes,yes,yes,True
+398,Abstract Properties,Clarity,"Clarity is the quality of being easily understood, free from ambiguity, and distinct or sharp in form or meaning.",no,no,no,True
+399,Abstract Properties,Redundancy,"**Redundancy** refers to the state or characteristic of having something in excess of what is strictly necessary.
+
+This can imply:
+
+1.  **Superfluousness:** Unnecessary repetition, duplication, or additional elements that do not add value and may be inefficient.
+2.  **Intentional Duplication (for reliability):** The deliberate inclusion of extra components, information, or functions to provide a backup, enhance reliability, ensure fault tolerance, or improve clarity (e.g., backup systems, error-correcting codes, or reiterating information for emphasis).",yes,yes,yes,True
+400,Abstract Properties,Redundancy,"Redundancy refers to the state of having more than what is strictly necessary or required.
+
+This can manifest in two primary ways:
+
+1.  **Superfluous Elements:** Unnecessary repetition or surplus components, information, or actions that do not add value or efficiency.
+2.  **Deliberate Duplication:** The intentional duplication of systems, parts, or data specifically implemented to enhance reliability, fault tolerance, or performance, providing backup in case of failure.",no,no,no,True
+401,Abstract Properties,Latency,Latency is the time delay between the initiation of an action or request and the completion of that action or the reception of its corresponding response.,yes,yes,yes,True
+402,Abstract Properties,Latency,**Latency** is the time delay between the initiation of a request or event and the completion of the corresponding response or action. It measures the duration from a cause to its effect within a system.,no,no,no,True
+403,Abstract Properties,Throughput,"Throughput is the rate at which a system, process, or device can successfully process or complete units of work (e.g., data, items, transactions) within a specified period.
+
+It is a measure of performance, indicating how much output is generated over time.",yes,yes,yes,True
+404,Abstract Properties,Throughput,"**Throughput** is the rate at which a system, process, or device can successfully process, complete, or transmit units of work, data, or items within a defined period of time.
+
+It measures the volume of output produced over a specific duration.",no,no,no,True
+405,Abstract Properties,Scalability (System),"**Scalability (System):** The ability of a system to handle an increasing amount of work, demand, or data by adding resources, without a proportionate decrease in performance or efficiency.",yes,yes,yes,True
+406,Abstract Properties,Scalability (System),"**Scalability (System)** is the ability of a system to handle an increasing workload or demand by adding resources (e.g., hardware, software instances) without degrading performance or efficiency.",no,no,no,True
+407,Abstract Properties,Availability (System),"**Availability (System)** refers to the degree to which a system is operational and accessible to perform its intended function when required, over a specified period.
+
+It is typically expressed as a percentage of uptime, indicating the proportion of time the system is functioning correctly and available for use, versus the total observed time.",yes,yes,yes,True
+408,Abstract Properties,Availability (System),"**Availability (System)** is the degree to which a system or service is operational and accessible when required, performing its intended functions.
+
+It is typically measured as a percentage of uptime over a specified period, reflecting the proportion of time the system is functional and ready for use compared to its total operational time.",no,no,no,True
+409,Abstract Properties,Fault Tolerance,"**Fault tolerance** is the ability of a system to continue operating reliably and maintain its intended functionality, without significant interruption, even when one or more of its components fail or experience faults.",yes,yes,yes,True
+410,Abstract Properties,Fault Tolerance,"**Fault Tolerance** is the ability of a system or component to continue performing its intended function without interruption or significant degradation, even in the presence of faults or failures in some of its constituent parts.
+
+In essence, it's about a system being designed to handle and recover from errors or malfunctions, ensuring continuous operation and availability.",no,no,no,True
+411,Abstract Properties,Security,"**Security** is the state of being free from threats or dangers of harm, loss, or compromise, and the measures taken to ensure the protection and resilience of people, assets, information, or systems against such risks.",yes,yes,yes,True
+412,Abstract Properties,Security,"**Security:**
+
+The state or condition of being protected from or free from danger, threat, risk, or harm to persons, organizations, assets, or information. It encompasses the measures and precautions taken to achieve and maintain this protection.",no,no,no,True
+413,Abstract Properties,Privacy (Data),"**Privacy (Data)** refers to the rights and ability of individuals to control how their personal information is collected, used, stored, shared, and disclosed. It encompasses the principles and practices designed to safeguard personal data, ensuring individuals can determine the terms and conditions under which their data is processed, thereby preventing unauthorized access, use, or misuse.",yes,yes,yes,True
+414,Abstract Properties,Privacy (Data),"**Privacy (Data)** refers to the right of an individual to control their personal information, including how it is collected, used, stored, and disclosed by organizations and systems.
+
+It encompasses the responsible and transparent management of personal data, often requiring consent or a legitimate legal basis, to protect individuals from unauthorized access, misuse, or unwarranted disclosure.",no,no,no,True
+415,Abstract Properties,Compliance,"**Compliance** refers to the act of conforming to a rule, standard, law, policy, or requirement. It also describes the state of being in accordance with these established mandates.",yes,yes,yes,True
+416,Abstract Properties,Compliance,"**Compliance** is the act of adhering to or conforming with a rule, law, regulation, standard, or set of requirements.",no,no,no,True
+417,Abstract Properties,Portability,"**Definition:** The ability of something (e.g., a physical item, software, data, or skill) to be easily moved, transferred, or adapted for use or function in different environments, locations, or systems.",yes,yes,yes,True
+418,Abstract Properties,Portability,"**Portability** is the ability of something to be easily moved, transferred, or used across different environments, systems, or contexts, typically without requiring significant modification or losing its intended functionality.",no,no,no,True
+419,Abstract Properties,Maintainability (System),"**Maintainability (System):** The ease and efficiency with which a system can be understood, modified, updated, corrected, or enhanced after deployment to remain functional, adapt to changes, and meet evolving requirements.",yes,yes,yes,True
+420,Abstract Properties,Maintainability (System),"**Maintainability (System)** is the ease with which a system (e.g., software, hardware, or process) can be modified to correct defects, make enhancements, or adapt to new requirements or environments, while minimizing the time, effort, and resources required throughout its operational lifecycle.",no,no,no,True
+421,Mathematics & Logic,Composite Number,"A **composite number** is a positive integer greater than 1 that has at least one factor (divisor) other than 1 and itself. In other words, it has more than two distinct positive integer factors.",yes,yes,yes,True
+422,Mathematics & Logic,Composite Number,"A **composite number** is a positive integer greater than 1 that has at least one factor other than 1 and itself.
+
+In other words, it has more than two distinct positive factors.
+
+**Examples:** 4 (factors: 1, 2, 4), 6 (factors: 1, 2, 3, 6), 9 (factors: 1, 3, 9).",no,no,no,True
+423,Mathematics & Logic,Natural Number,"**Natural Numbers** are the positive whole numbers (integers greater than zero) used for counting and ordering.
+
+**Specifics:**
+
+*   **Common Definition (especially in elementary mathematics and number theory):** Natural numbers are the set of positive integers: **{1, 2, 3, 4, ...}**. This set is often denoted by $\mathbb{N}$ or $\mathbb{N}^+$.
+*   **Alternative Definition (especially in set theory, logic, and computer science):** Natural numbers include zero, making them the set of non-negative integers: **{0, 1, 2, 3, 4, ...}**. This set is often denoted by $\mathbb{N}_0$ or sometimes also simply $\mathbb{N}$.
+
+**Therefore, when encountering the term ""natural number,"" it's always good practice to clarify whether the definition being used includes zero.**",yes,yes,yes,True
+424,Mathematics & Logic,Natural Number,"**Definition:**
+
+A **natural number** is a whole number greater than zero, used for counting and ordering. It is a positive integer.
+
+**Key Points:**
+
+*   **Standard Definition:** The set of natural numbers is typically represented as $\{1, 2, 3, 4, \ldots\}$.
+*   **Alternative Definition:** In some fields (especially set theory, logic, and computer science), the set of natural numbers includes zero: $\{0, 1, 2, 3, 4, \ldots\}$.
+*   **Notation:** The set of natural numbers is commonly denoted by the symbol $\mathbb{N}$. If zero is included, it is sometimes denoted as $\mathbb{N}_0$ or $\mathbb{N} \cup \{0\}$.
+*   **Exclusions:** Natural numbers do not include negative numbers, fractions, or decimals.",no,no,no,True
+425,Mathematics & Logic,Whole Number,"**Whole Numbers** are the set of non-negative integers. They include zero (0) and all positive counting numbers (1, 2, 3, ...), but do not include fractions, decimals, or negative numbers.",yes,yes,yes,True
+426,Mathematics & Logic,Whole Number,"**Whole numbers** are the set of non-negative integers. They include zero (0) and all the positive counting numbers (1, 2, 3, ...), extending infinitely. They do not include negative numbers, fractions, or decimals.",no,no,no,True
+427,Mathematics & Logic,Decimal Number,"A **decimal number** is a number expressed in the base-10 number system, which uses a decimal point to separate the whole number part from the fractional part. Digits to the left of the decimal point represent whole units, while digits to the right represent values less than one (such as tenths, hundredths, etc.). (Whole numbers are considered decimal numbers with an implied fractional part of zero).",yes,yes,yes,True
+428,Mathematics & Logic,Decimal Number,"A **decimal number** is a number expressed in the base-10 system that uses a **decimal point** to separate the whole number part from the fractional part.
+
+Digits to the right of the decimal point represent values smaller than one, specifically fractions with denominators that are powers of 10 (tenths, hundredths, thousandths, and so on).
+
+**Example:** In 2.75, '2' is the whole number part, and '.75' represents 75/100.",no,no,no,True
+429,Mathematics & Logic,Ratio,"A ratio is a comparison of two or more quantities that indicates their relative size. It shows how many times one quantity contains another, or what fraction of one quantity the other is.
+
+Ratios can be expressed as a fraction (a/b), with a colon (a:b), or using the word 'to' (a to b). The order of the quantities in a ratio is important.",yes,yes,yes,True
+430,Mathematics & Logic,Ratio,"A **ratio** is a comparison between two numbers or quantities, indicating their relative sizes or how many times one quantity contains the other. It is often expressed as a fraction (a/b), with a colon (a:b), or using the word ""to"" (a to b).",no,no,no,True
+431,Mathematics & Logic,Proportion,"**Proportion** refers to:
+
+1.  **A part, share, or quantity considered in relation to a whole or another quantity.** (e.g., ""A large proportion of the budget was spent on salaries."")
+2.  **In mathematics, an equation stating that two ratios are equal.** (e.g., the proportion 1/2 = 2/4 indicates that the ratio of 1 to 2 is the same as the ratio of 2 to 4.)",yes,yes,yes,True
+432,Mathematics & Logic,Proportion,"**Proportion** generally refers to the relationship of a part to a whole, or the relative size, amount, or share of something compared to another quantity.
+
+In mathematics, a proportion is an equation stating that two ratios are equal.",no,no,no,True
+433,Mathematics & Logic,Sequence,"A sequence is an ordered list of elements (often called terms), where each element has a specific position. Repetition of elements is allowed, and the sequence can be finite or infinite.",yes,yes,yes,True
+434,Mathematics & Logic,Sequence,"**Definition:**
+
+A **sequence** is an ordered collection of elements, where elements can be repeated, and each element has a specific position (first, second, third, and so on).
+
+**Key characteristics:**
+
+*   **Ordered:** The order of the elements matters.
+*   **Elements can repeat:** Unlike a set, elements in a sequence can appear multiple times.
+*   **Indexed:** Each element corresponds to a natural number representing its position (e.g., the 1st term, 2nd term, $n$-th term).
+
+Sequences can be **finite** (having a limited number of terms) or **infinite** (having an unending number of terms). Mathematically, an infinite sequence is often defined as a function whose domain is the set of natural numbers.",no,no,no,True
+435,Mathematics & Logic,Series,"**Definition:**
+
+In mathematics, a **series** is the sum of the terms of a sequence. Each individual number in the sequence that is being added is called a term.
+
+Series can be broadly categorized into two types:
+
+1.  **Finite Series:** The sum of a specific, limited number of terms.
+2.  **Infinite Series:** The sum of an endless (infinitely many) number of terms. For an infinite series, the sum is defined as the limit of its partial sums. If this limit exists and is a finite number, the series is said to **converge** to that value. If the limit does not exist or is infinite, the series **diverges**.
+
+It is commonly represented using summation notation (Sigma notation): $\sum_{n=1}^{k} a_n$ for a finite series, or $\sum_{n=1}^{\infty} a_n$ for an infinite series, where $a_n$ represents the $n$-th term of the sequence.",yes,yes,yes,True
+436,Mathematics & Logic,Series,"A **series** is the sum of the terms of a sequence of numbers.
+
+It can be:
+*   **Finite:** The sum of a specific, limited number of terms.
+*   **Infinite:** The sum of all terms in an infinite sequence.
+
+It is typically represented using summation notation (e.g., $\sum_{n=1}^{N} a_n$ for a finite series, or $\sum_{n=1}^{\infty} a_n$ for an infinite series).",no,no,no,True
+437,Mathematics & Logic,Matrix,"**Definition: Matrix**
+
+A matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Its size is defined by the number of rows ($m$) and the number of columns ($n$), denoted as an $m \times n$ (read as ""m by n"") matrix.
+
+Matrices are fundamental tools in linear algebra, used to represent data, linear transformations, and systems of linear equations.",yes,yes,yes,True
+438,Mathematics & Logic,Matrix,"A matrix is a rectangular array of elements (typically numbers, symbols, or expressions) arranged in rows and columns.
+
+Its size is defined by the number of rows (m) and columns (n), often referred to as an m x n matrix.",yes,no,yes,False
+439,Mathematics & Logic,Vector,"A **vector** is a mathematical object characterized by both a **magnitude** (or length) and a **direction**.
+
+It is commonly represented geometrically as an arrow (where its length signifies magnitude and its orientation signifies direction), or algebraically as an ordered list of numbers (components) in a coordinate system. Vectors are fundamental in physics and mathematics, used to describe quantities like displacement, velocity, acceleration, and force.",yes,yes,yes,True
+440,Mathematics & Logic,Vector,"A **vector** is a mathematical entity characterized by having both a **magnitude** (size or length) and a **direction**.
+
+It is often visualized as an arrow, with its length representing the magnitude and its orientation representing the direction. In a coordinate system, it can also be represented as an ordered list of numbers (components).
+
+Examples include force, velocity, and displacement.",no,no,no,True
+441,Mathematics & Logic,Scalar,"**Scalar:** A physical quantity that is completely described by its magnitude (a numerical value and a unit) alone, without any associated direction.
+
+*Examples:* Mass, time, temperature, speed, distance, energy, volume.",yes,yes,yes,True
+442,Mathematics & Logic,Scalar,"**Definition:**
+
+A **scalar** is a quantity that is fully described by its magnitude (a numerical value) alone, without any associated direction.
+
+**Examples:** Mass, temperature, speed, time, energy, volume, density.",no,no,no,True
+443,Mathematics & Logic,Limit,"In mathematics, particularly calculus, the **limit** of a function is the value that the function's output (y-value) *approaches* and can be made *arbitrarily close to* as its input (x-value) approaches some specific point (a finite value) or infinity.
+
+It describes the *tendency* or *behavior* of the function at or near a point, rather than necessarily the function's actual value at that point.",yes,yes,yes,True
+444,Mathematics & Logic,Limit,"In mathematics, particularly calculus, a **limit** describes the value that a function or sequence 'approaches' as the input (or index) approaches some value.
+
+More formally, it is the unique value that the output of a function (or the terms of a sequence) gets arbitrarily close to as the input (or index) gets arbitrarily close to a specified point (or tends toward infinity).
+
+Crucially, the function or sequence does not necessarily have to actually *reach* this value, nor does it even have to be defined at the point being approached for the limit to exist.
+
+**Example (for a function):** If $\lim_{x \to c} f(x) = L$, it means that as $x$ gets closer and closer to $c$ (from either side), the value of $f(x)$ gets closer and closer to $L$.",no,no,no,True
+445,Mathematics & Logic,Integral,"An **integral** is a fundamental concept in calculus that generalizes the idea of summing infinitesimally small quantities. It has two primary forms:
+
+*   **Definite Integral:** Represents the total accumulation of a quantity, most commonly visualized as the signed area between the graph of a function and the x-axis over a specified interval.
+*   **Indefinite Integral (or Antiderivative):** Represents the inverse operation of differentiation, yielding a family of functions whose derivative is the original function (often denoted with a `+ C`).",yes,yes,yes,True
+446,Mathematics & Logic,Integral,"**Integral**
+
+In mathematics, specifically calculus, an **integral** is an operation that quantifies the total accumulation of a quantity. It primarily has two interpretations:
+
+1.  **Accumulation/Area:** It is used to sum an infinite number of infinitesimal parts to find a total, such as the area under a curve, volume, or the total change of a quantity over an interval.
+2.  **Antidifferentiation:** It is the inverse operation to differentiation, finding a function (called an antiderivative) whose derivative is the original function.
+
+There are two main types:
+*   **Definite Integral:** Calculates the net accumulation over a specific interval, resulting in a numerical value.
+*   **Indefinite Integral (or Antiderivative):** Represents the family of all functions whose derivative is a given function, including an arbitrary constant.",no,no,no,True
+447,Mathematics & Logic,Logical AND,"A logical operator that combines two or more propositions (statements or conditions). The resulting compound proposition is **true if, and only if, all of the individual propositions it connects are true.** If even one of the connected propositions is false, the entire combined proposition is false.
+
+**(Symbol: $\land$ or `&&`)**",yes,yes,yes,True
+448,Mathematics & Logic,Logical AND,"**Logical AND** is a binary logical operator that evaluates to `True` if and only if all of its operands (inputs) are `True`. If *any* of its operands are `False`, the result is `False`.
+
+It is fundamental in Boolean algebra, digital logic design, and programming to combine conditions.
+
+**Commonly represented by:** `∧`, `&`, or `&&` (in programming).",no,no,no,True
+449,Mathematics & Logic,Logical OR,"**Logical OR (also known as Disjunction):**
+
+A logical operator that combines two or more propositions (statements or operands). It yields a true result if at least one of its operands is true. The only condition under which a Logical OR operation yields a false result is when all of its operands are false.
+
+*Commonly represented by symbols such as ""v"" (e.g., A v B) or ""||"" (e.g., A || B) in programming.*",yes,yes,yes,True
+450,Mathematics & Logic,Logical OR,"**Logical OR** is a Boolean operator that evaluates to **TRUE** if at least one of its operands (propositions, statements, or conditions) is TRUE. It evaluates to **FALSE** only when all of its operands are FALSE.",no,no,no,True
+451,Common Nouns,Reptile,"**Reptiles are a diverse group of ectothermic (cold-blooded) vertebrates characterized by keratinized scales or scutes covering their skin, and breathing primarily with lungs. Most lay leathery-shelled amniotic eggs on land, though some species give live birth. They typically possess four limbs, though some are limbless (e.g., snakes).**",yes,yes,yes,True
+452,Common Nouns,Reptile,"A reptile is an ectothermic (cold-blooded) vertebrate with dry, scaly skin, that breathes air with lungs, and typically lays amniotic eggs with a leathery or calcareous shell.",no,no,no,True
+453,Common Nouns,Vehicle,"A **vehicle** is a device or means of transport used for carrying people or goods, typically moving across land, water, air, or space.",yes,yes,yes,True
+454,Common Nouns,Vehicle,"A **vehicle** is a device or machine designed or used for transporting people or goods by moving over land, air, water, or even space.",no,no,no,True
+455,Science,Planet,"A planet is a celestial body that meets three specific criteria established by the International Astronomical Union (IAU):
+
+1.  **It is in orbit around a star** (and is not itself a star or a moon orbiting another planet).
+2.  **It is massive enough for its own gravity to pull it into a nearly round shape** (meaning it has achieved hydrostatic equilibrium).
+3.  **It has cleared the neighborhood around its orbit** (meaning it is gravitationally dominant in its orbital zone and has removed most other smaller objects from its path).",yes,yes,yes,True
+456,Science,Planet,"A planet is a celestial body that:
+
+1.  **Orbits a star** (or stellar remnant, such as a white dwarf or neutron star).
+2.  Has **sufficient mass** for its self-gravity to overcome rigid body forces and assume a hydrostatic equilibrium (nearly round) shape.
+3.  Has **cleared the neighborhood** around its orbit of other significant objects.",no,no,no,True
+457,Science,Acid,"An acid is a chemical species that donates a proton (H$^+$) to another substance (Brønsted-Lowry definition). In aqueous solutions, this means it increases the concentration of hydrogen ions (H$_3$O$^+$), resulting in a pH value less than 7. Acids are also characterized by turning blue litmus paper red and reacting with bases in a neutralization reaction.",no,yes,no,False
+458,Science,Acid,"**Definition:**
+An acid is a chemical substance that donates a proton (H+) to another substance in a reaction. When dissolved in water, acids typically produce hydrogen ions (H+), resulting in a pH less than 7, and are characterized by properties such as a sour taste and corrosive nature.",no,no,no,True
+459,Energy,Fossil Fuel,"**Fossil Fuel:**
+A naturally occurring hydrocarbon-rich deposit (such as coal, crude oil, or natural gas) formed over millions of years from the anaerobic decomposition of ancient organic matter (dead plants and animals) under intense heat and pressure within the Earth's crust. They are extracted and combusted primarily for energy, and are considered non-renewable resources due to their extremely slow formation rate.",yes,yes,yes,True
+460,Energy,Fossil Fuel,"Fossil fuels are natural fuels, such as coal, crude oil, and natural gas, formed over millions of years from the anaerobic decomposition of ancient organic matter (plants and animals) buried under intense heat and pressure within the Earth's crust. They are extracted and burned primarily to release energy for electricity generation, heat, and transportation. As their formation process takes geological timescales, far exceeding human timescales, they are considered non-renewable resources.",no,no,no,True
+461,Ethics,Responsibility,"**Responsibility** is the state of being accountable or answerable for one's actions, decisions, and duties, including the obligation to care for someone or something.",yes,yes,yes,True
+462,Ethics,Responsibility,"**Responsibility** is the state or fact of being accountable for one's actions, decisions, and their consequences, as well as the duty or obligation to carry out a specific task or role.",no,no,no,True
+463,Ethics,Honesty,"**Honesty** is the quality of being truthful, sincere, and straightforward in one's words, actions, and intentions. It embodies integrity, fairness, and a commitment to moral principles, actively avoiding deceit, cheating, and theft.",yes,yes,yes,True
+464,Ethics,Honesty,"**Honesty** is the moral quality or virtue of being truthful in both words and actions. It involves speaking the truth, acting with integrity, fairness, and transparency, and refraining from deception, lies, or misrepresentation.",no,no,no,True
+465,Procedural,Algorithm,"An algorithm is a finite, ordered set of well-defined, unambiguous instructions or a step-by-step procedure, designed to solve a specific problem or accomplish a task. It takes zero or more inputs and reliably produces a desired output.",yes,yes,yes,True
+466,Procedural,Algorithm,"An algorithm is a finite, step-by-step sequence of well-defined, unambiguous instructions designed to solve a specific problem or accomplish a task, typically taking an input and producing an output.",yes,no,yes,False
+467,Procedural,Rule,"A rule is an explicit or understood instruction that governs behavior, defines a procedure, or establishes a standard within a specific context, often to achieve order, fairness, or a desired outcome.",yes,yes,yes,True
+468,Procedural,Rule,"A rule is an established principle, instruction, or regulation that guides or governs behavior, procedures, or the operation of a system. It typically defines what is permitted, required, or forbidden within a specific context, serving to maintain order, consistency, or fairness.",no,no,no,True
+469,Abstract,Risk,"**Risk** is the possibility of an event or action leading to an undesirable outcome or loss, often arising from uncertainty.",yes,yes,yes,True
+470,Abstract,Risk,"The potential for an event or action to cause harm, loss, or adversely affect the achievement of objectives, typically measured by the likelihood of its occurrence and the severity of its impact.",no,no,no,True
+471,Abstract,Efficiency,"**Efficiency** is the ability to achieve a desired outcome or produce a desired output with the minimum expenditure of resources (such as time, effort, energy, or materials). It is essentially a measure of how effectively resources are converted into results, often characterized by the absence of waste.",yes,yes,yes,True
+472,Abstract,Efficiency,"Efficiency is the ability to achieve a desired outcome or perform a task with the minimum amount of resources (such as time, money, energy, or materials) expended. It focuses on optimizing the ratio of output to input, thereby minimizing waste and maximizing productivity.",no,no,no,True
+473,Everyday,Profession,"A profession is an occupation requiring specialized knowledge and skills, typically acquired through extensive education and training. It is characterized by the application of this expertise to provide a service, often for the public good, while adhering to a strict code of ethics and professional standards, and frequently overseen by a self-regulating body.",yes,yes,yes,True
+474,Everyday,Profession,"A profession is an occupation or vocation that requires extensive specialized knowledge, skills, and often a prolonged formal education or training. It is typically guided by a code of ethics and a commitment to public service or societal well-being, often exhibiting a degree of self-regulation and requiring ongoing professional development.",no,no,no,True
+475,Everyday,Exercise,"**Exercise** is planned, structured, and repetitive bodily movement performed to improve or maintain one or more components of physical fitness, health, or performance.",yes,yes,yes,True
+476,Everyday,Exercise,"**Exercise** is a planned, structured, repetitive, and intentional physical activity performed with the primary goal of improving or maintaining physical fitness, health, or overall well-being.",no,no,no,True
+477,Abstract,Freedom,"**Freedom** is the power or right to act, speak, or think without undue external restraint or coercion, allowing an individual to make choices and determine their own course.",yes,yes,yes,True
+478,Abstract,Freedom,"**Freedom:** The ability to act, speak, or think as one chooses without external hindrance or coercion.",no,no,no,True
+479,Procedural,Instruction,"A command, direction, or piece of information that specifies how something is to be done, operated, or understood. It can also refer to the act or process of teaching or providing knowledge.",yes,yes,yes,True
+480,Procedural,Instruction,"An instruction is a command, direction, or piece of information intended to guide an action, teach a skill, or specify a task. It can be a single directive or part of a larger set, often given to a person, animal, or machine (e.g., in a manual or computer program).",no,no,no,True
